@@ -1,0 +1,136 @@
+# This file lists medical abbreviations in German
+#
+# Copyright (C) 2005 Tobias Toedter <t.toedter@gmx.net>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+ACE
+ACI
+ACTH
+ACh
+ADH
+ADS
+AFP
+AGS
+AHB
+AICD
+AIDS
+ALAT
+ALL
+AML
+ANF
+ANP
+APGC
+ASAT
+ASB
+ASD
+ASR
+ASV
+ATP
+BCG
+BIPAP
+BMI
+BPH
+BSR
+BWS
+CCT
+CEA
+CK
+CLL
+CML
+CMV
+CNBD
+CRP
+CSE
+CSF
+CT
+CTP
+Ca
+DCM
+DNA
+DNase
+EBV
+EDTA
+EEG
+EMBL
+EMG
+GAPDH
+GERD
+GOT
+GPT
+GTP
+HCN
+HK
+HWS
+Hb
+ICM
+INR
+IPPV
+IgA
+IgD
+IgE
+IgG
+IgM
+LDH
+LWS
+MEDLINE
+MR
+MRT
+NMR
+NYHA
+OP
+PCR
+PCV
+PDA
+PDK
+PE
+PEEP
+PTCA
+QRS
+QT
+RNA
+RNase
+RPA
+SAB
+SSW
+STD
+SpA
+TENS
+UTP
+VSD
+WHO
+ZEEP
+amol
+bp
+cAMP
+cANCA
+cDNA
+cGMP
+cRNA
+dB
+mRNA
+mV
+ml
+mmHg
+ng
+nm
+nt
+pAVK
+pH
+pg
+pmol
+rRNA
+sec
+tRNA

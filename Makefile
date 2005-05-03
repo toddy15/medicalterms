@@ -51,7 +51,16 @@ wordlist: wordlist-hash
 	$(ISPELL) -e -d wordlist-hash
 
 clean:
-	rm -f wordlist-suffix wordlist-hash wordlist
+	rm -rf wordlist-suffix wordlist-hash wordlist \
+	medicalterms-[0-9]*.tar.gz
+
+dist:
+	date +%Y%m%d > release-date
+	baz export medicalterms-dev@gna.org/medicalterms--main--1.0 \
+		medicalterms-`cat release-date`
+	tar czf medicalterms-`cat release-date`.tar.gz \
+		medicalterms-`cat release-date`
+	rm -rf medicalterms-`cat release-date` release-date
 
 
 #####################################################################
@@ -61,12 +70,14 @@ clean:
 ispell:
 	@echo Not yet implemented.
 
+
 #####################################################################
 # aspell
 #####################################################################
 
 aspell: wordlist
 	@echo Not yet implemented.
+
 
 #####################################################################
 # myspell

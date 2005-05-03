@@ -23,6 +23,7 @@ ISPELL = /usr/bin/ispell
 ASPELL = /usr/bin/aspell
 MYSPELL = /usr/bin/myspell
 BUILDHASH = /usr/bin/buildhash
+MUNCHLIST = /usr/bin/munchlist
 GREP = /bin/grep
 SORT = /bin/sort
 PERL = /usr/bin/perl
@@ -44,14 +45,23 @@ wordlist-suffix:
 	$(PERL) -pe 's/qq//g' | \
 	$(SORT) -u > $@
 
-wordlist-hash: wordlist-suffix german.aff
-	$(BUILDHASH) wordlist-suffix german.aff $@
+wordlist-munch: wordlist-suffix german.aff
+	$(MUNCHLIST) -l german.aff wordlist-suffix > $@
 
+wordlist-hash: wordlist-munch
+	$(BUILDHASH) wordlist-munch german.aff $@.hash
+
+# Generates the plain wordlist in ISO-8859-1
 wordlist: wordlist-hash
-	$(ISPELL) -e -d wordlist-hash
+	cat wordlist-suffix | \
+	$(ISPELL) -e -d ./wordlist-hash | \
+	$(PERL) -pe 's/ /\n/g' | \
+	bin/ispell_to_utf - | \
+	$(ICONV) --from-code=UTF-8 --to-code=ISO-8859-1 - | \
+	$(SORT) -u > $@
 
 clean:
-	rm -rf wordlist-suffix wordlist-hash wordlist \
+	rm -rf wordlist-* wordlist de-medical.rws \
 	medicalterms-[0-9]*.tar.gz
 
 dist:
@@ -76,7 +86,7 @@ ispell:
 #####################################################################
 
 aspell: wordlist
-	@echo Not yet implemented.
+	$(ASPELL) --lang=de create master ./de-medical.rws < wordlist
 
 
 #####################################################################

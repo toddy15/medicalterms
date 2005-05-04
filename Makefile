@@ -32,6 +32,14 @@ ICONV = /usr/bin/iconv
 # extract the library directory for ispell
 ISPELL_LIBDIR = $$($(ISPELL) -vv | $(GREP) LIBDIR | $(PERL) -pe 's/.+?"(.+)"/\1/')
 
+# define the lists to use -- the default is new orthography!
+# change this to include medizin-a.txt instead of medizin-n.txt
+LISTS = medizin.txt \
+	medizin-abkuerzungen.txt \
+	medizin-ergaenzungen.txt \
+	medizin-namen.txt \
+	medizin-n.txt
+
 
 #####################################################################
 # Targets needed for all spellcheckers
@@ -40,7 +48,7 @@ ISPELL_LIBDIR = $$($(ISPELL) -vv | $(GREP) LIBDIR | $(PERL) -pe 's/.+?"(.+)"/\1/
 # Generates a complete wordlist without TeX ligatures.
 # The list still includes the suffixes for ispell.
 wordlist-suffix:
-	bin/get_words dicts/medizin*txt | \
+	bin/get_words $(addprefix dicts/, $(LISTS)) | \
 	bin/utf_to_ispell - | \
 	$(PERL) -pe 's/qq//g' | \
 	$(SORT) -u > $@
@@ -95,3 +103,7 @@ aspell: wordlist
 
 myspell:
 	@echo Not yet implemented.
+
+
+.PHONY:
+	clean dist ispell aspell myspell

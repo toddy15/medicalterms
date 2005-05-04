@@ -335,7 +335,8 @@ Allergentest/PS
 Allergiediathese/N
 Allergiker/FN
 Allergodermie/N
-Allergologie/l
+Allergologie
+Allergologe/FN
 Allgemeinanästhesie/N
 Allgemeinbefinden/S
 Allorhythmie/N
@@ -440,7 +441,8 @@ Amyloidpolyneuropathie/N
 Amyotrophie/N
 Anämie/N
 Anästhesie/N
-Anästhesiologie/l
+Anästhesiologie
+Anästhesiologe/FN
 Anästhesist/PF
 Anästhetika
 Anästhetikum/S
@@ -480,7 +482,8 @@ Anfallsdekompensation/P
 Anfallsleiden/S
 Angiitis/t
 Angiolipom/EPS
-Angiologie/l
+Angiologie
+Angiologe/FN
 Angiom/EPS
 Angiomyolipom/EPS
 Angioödem/EPS
@@ -986,7 +989,8 @@ Depolarisationsphase/N
 Depressivität
 Deprivation/P
 Dermatitis/t
-Dermatologie/l
+Dermatologie
+Dermatologe/FN
 Dermatomykose/N
 Dermatophyt/PS
 Dermatose/N
@@ -1102,7 +1106,8 @@ Ellenbogenluxation/P
 Eluat/EPS
 Elutionspuffer/S
 Embolektomie/N
-Embryologie/Nl
+Embryologie
+Embryologe/FN
 Emesis
 Emetika
 Emetikum/S
@@ -1151,7 +1156,8 @@ Enzephalopathie/N
 Eosinophilie/N
 Epicondylalgie/N
 Epicondylitis/t
-Epidemiologie/Nl
+Epidemiologie/N
+Epidemiologe/FN
 Epididymitis/t
 Epigastralgie/N
 Epiglottis
@@ -1255,7 +1261,8 @@ Gamma
 Ganglien
 Ganglion/S
 Gastroenteritis/t
-Gastrologie/l
+Gastrologie
+Gastrologe/FN
 Gastroskopie/N
 Gaumenmandel/N
 Geburtsgewicht/EPS
@@ -1353,7 +1360,8 @@ Hirnmassenblutung/P
 Hirntod/EST
 Hirsutismus
 Histamin
-Histologie/Nl
+Histologie/N
+Histologe/FN
 Hochlagerung/P
 Hockstellung/P
 Hodgkin
@@ -1866,12 +1874,14 @@ Okklusion/P
 Oligomenorrhoe/N
 Oligonukleotid/EPS
 Oligurie/N
-Onkologie/t
+Onkologie
+Onkologe/FN
 Oophorektomie/N
 Oophoritis/t
 Operationsnarbe/N
 Operationswunde/N
-Ophthalmologie/l
+Ophthalmologie
+Ophthalmologe/FN
 Opiat/EPS
 Opioid/EPS
 Opisthotonus
@@ -1891,7 +1901,8 @@ Osteopathie/N
 Osteoporose/N
 Osteotomie/N
 Otitis/t
-Otorhinolaryngologie/l
+Otorhinolaryngologie
+Otorhinolaryngologe/FN
 Otorrhoe/N
 Otosklerose/N
 Ovar/S
@@ -2156,7 +2167,8 @@ Röhrchen
 Röntgen
 Röntgenbild/RS
 Röntgenfilm/EPS
-Röntgenologie/l
+Röntgenologie
+Röntgenologe/FN
 Röntgenveränderung/P
 Rötung/P
 Roborans
@@ -2439,7 +2451,8 @@ Urgenz
 Urikosurika
 Urikosurikum/S
 Urogenitalsystem/EPS
-Urologie/l
+Urologie
+Urologe/FN
 Urtikaria
 Uterus
 Uveitis/t

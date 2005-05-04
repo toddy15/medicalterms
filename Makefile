@@ -45,6 +45,10 @@ LISTS = medizin.txt \
 # Targets needed for all spellcheckers
 #####################################################################
 
+all: wordlist aspell
+
+install: all
+
 # Generates a complete wordlist without TeX ligatures.
 # The list still includes the suffixes for ispell.
 wordlist-suffix:
@@ -56,7 +60,7 @@ wordlist-suffix:
 wordlist-munch: wordlist-suffix german.aff
 	$(MUNCHLIST) -l german.aff wordlist-suffix > $@
 
-wordlist-hash: wordlist-munch
+wordlist-hash: wordlist-munch german.aff
 	$(BUILDHASH) wordlist-munch german.aff $@.hash
 
 # Generates the plain wordlist in ISO-8859-1

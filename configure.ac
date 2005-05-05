@@ -18,7 +18,7 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-AC_INIT(medicalterms, 1.0)
+AC_INIT(medicalterms, esyscmd(date +%Y%m%d | perl -pe "chop"))
 AM_INIT_AUTOMAKE(foreign)
 
 # Enable the selection of different orthographies

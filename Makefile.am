@@ -20,16 +20,8 @@
 
 SUBDIRS = bin dicts
 
-EXTRA_DIST = dicts/medizin.txt \
-	dicts/medizin-abkuerzungen.txt \
-	dicts/medizin-ergaenzungen.txt \
-	dicts/medizin-namen.txt \
-	dicts/medizin-n.txt \
-	dicts/medizin-a.txt \
-	bin/get_words \
-	bin/utf_to_ispell \
-	bin/ispell_to_utf \
-	bin/sort_file
+CLEANFILES = wordlist \
+	de-medical.rws
 
 LISTS = medizin.txt \
 	medizin-abkuerzungen.txt \

@@ -21,7 +21,8 @@
 SUBDIRS = bin dicts
 
 CLEANFILES = wordlist \
-	de-medical.rws
+	de-medical.rws \
+	ChangeLog
 
 LISTS = medizin.txt \
 	medizin-abkuerzungen.txt \
@@ -76,3 +77,14 @@ aspell: wordlist
 
 myspell:
 	@echo Not yet implemented.
+
+
+#####################################################################
+# The ChangeLog should be in the tarball, but doesn't need to be
+# under version control, because it's generated automatically.
+#####################################################################
+
+ChangeLog:
+       baz changelog > ChangeLog
+
+.PHONY: ChangeLog

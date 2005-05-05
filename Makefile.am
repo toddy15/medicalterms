@@ -1,4 +1,5 @@
-# The Makefile for medical terms
+# The Makefile for medicalterms
+## Process this file with automake to produce Makefile.in
 #
 # Copyright (C) 2005 Tobias Toedter <t.toedter@gmx.net>
 #
@@ -17,72 +18,48 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-# define the paths to utilities
-MAKE = /usr/bin/make
-ISPELL = /usr/bin/ispell
-ASPELL = /usr/bin/aspell
-MYSPELL = /usr/bin/myspell
-BUILDHASH = /usr/bin/buildhash
-MUNCHLIST = /usr/bin/munchlist
-GREP = /bin/grep
-SORT = /bin/sort
-PERL = /usr/bin/perl
-ICONV = /usr/bin/iconv
+SUBDIRS = bin dicts
 
-# extract the library directory for ispell
-ISPELL_LIBDIR = $$($(ISPELL) -vv | $(GREP) LIBDIR | $(PERL) -pe 's/.+?"(.+)"/\1/')
+EXTRA_DIST = dicts/medizin.txt \
+	dicts/medizin-abkuerzungen.txt \
+	dicts/medizin-ergaenzungen.txt \
+	dicts/medizin-namen.txt \
+	dicts/medizin-n.txt \
+	dicts/medizin-a.txt \
+	bin/get_words \
+	bin/utf_to_ispell \
+	bin/ispell_to_utf \
+	bin/sort_file
 
-# define the lists to use -- the default is new orthography!
-# change this to include medizin-a.txt instead of medizin-n.txt
 LISTS = medizin.txt \
 	medizin-abkuerzungen.txt \
 	medizin-ergaenzungen.txt \
-	medizin-namen.txt \
-	medizin-n.txt
+	medizin-namen.txt
 
 
 #####################################################################
-# Targets needed for all spellcheckers
+# plain wordlist
 #####################################################################
 
-all: wordlist aspell
-
-install: all
-
-# Generates a complete wordlist without TeX ligatures.
-# The list still includes the suffixes for ispell.
-wordlist-suffix:
-	bin/get_words $(addprefix dicts/, $(LISTS)) | \
+# Generates a complete wordlist without TeX ligatures in ISO-8859-1 encoding
+wordlist:
+	bin/get_words $(addprefix dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
 	bin/utf_to_ispell - | \
 	$(PERL) -pe 's/qq//g' | \
-	$(SORT) -u > $@
+	$(SORT) -u > temporary-suffix-list
 
-wordlist-munch: wordlist-suffix german.aff
-	$(MUNCHLIST) -l german.aff wordlist-suffix > $@
+	$(MUNCHLIST) -l german.aff temporary-suffix-list > temporary-munch-list
 
-wordlist-hash: wordlist-munch german.aff
-	$(BUILDHASH) wordlist-munch german.aff $@.hash
+	$(BUILDHASH) temporary-munch-list german.aff temporary-hash.hash
 
-# Generates the plain wordlist in ISO-8859-1
-wordlist: wordlist-hash
-	cat wordlist-suffix | \
-	$(ISPELL) -e -d ./wordlist-hash | \
+	cat temporary-suffix-list | \
+	$(ISPELL) -e -d ./temporary-hash | \
 	$(PERL) -pe 's/ /\n/g' | \
 	bin/ispell_to_utf - | \
 	$(ICONV) --from-code=UTF-8 --to-code=ISO-8859-1 - | \
 	$(SORT) -u > $@
 
-clean:
-	rm -rf wordlist-* wordlist de-medical.rws \
-	medicalterms-[0-9]*.tar.gz
-
-dist:
-	date +%Y%m%d > release-date
-	baz export medicalterms-dev@gna.org/medicalterms--main--1.0 \
-		medicalterms-`cat release-date`
-	tar czf medicalterms-`cat release-date`.tar.gz \
-		medicalterms-`cat release-date`
-	rm -rf medicalterms-`cat release-date` release-date
+	rm -f temporary-suffix-list temporary-munch-list* temporary-hash.hash
 
 
 #####################################################################
@@ -107,7 +84,3 @@ aspell: wordlist
 
 myspell:
 	@echo Not yet implemented.
-
-
-.PHONY:
-	clean dist ispell aspell myspell

@@ -36,19 +36,19 @@ LISTS = medizin.txt \
 
 # Generates a complete wordlist without TeX ligatures in ISO-8859-1 encoding
 wordlist:
-	bin/get_words $(addprefix dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
-	bin/utf_to_ispell - | \
+	$(srcdir)/bin/get_words $(addprefix $(srcdir)/dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
+	$(srcdir)/bin/utf_to_ispell - | \
 	$(PERL) -pe 's/qq//g' | \
 	$(SORT) -u > temporary-suffix-list
 
-	$(MUNCHLIST) -l german.aff temporary-suffix-list > temporary-munch-list
+	$(MUNCHLIST) -l $(srcdir)/dicts/german.aff temporary-suffix-list > temporary-munch-list
 
-	$(BUILDHASH) temporary-munch-list german.aff temporary-hash.hash
+	$(BUILDHASH) temporary-munch-list $(srcdir)/dicts/german.aff temporary-hash.hash
 
 	cat temporary-suffix-list | \
 	$(ISPELL) -e -d ./temporary-hash | \
 	$(PERL) -pe 's/ /\n/g' | \
-	bin/ispell_to_utf - | \
+	$(srcdir)/bin/ispell_to_utf - | \
 	$(ICONV) --from-code=UTF-8 --to-code=ISO-8859-1 - | \
 	$(SORT) -u > $@
 

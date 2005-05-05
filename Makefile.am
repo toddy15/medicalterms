@@ -85,6 +85,6 @@ myspell:
 #####################################################################
 
 ChangeLog:
-       baz changelog > ChangeLog
+	baz changelog > ChangeLog
 
 .PHONY: ChangeLog

@@ -40,11 +40,32 @@ AC_SUBST(ADDITIONAL_LISTS)
 AC_PROG_EGREP
 AC_PATH_PROG([PERL], [perl])
 AC_PATH_PROG([SORT], [sort])
+
 AC_PATH_PROG([ICONV], [iconv])
-AC_PATH_PROG([ASPELL], [aspell])
+# Fail if program is not found
+if test -z $ICONV; then
+	AC_MSG_ERROR([iconv is required for installing this package.])
+fi
+
 AC_PATH_PROG([ISPELL], [ispell])
+# Fail if program is not found
+if test -z $ISPELL; then
+	AC_MSG_ERROR([ispell is required for installing this package.])
+fi
+
 AC_PATH_PROG([BUILDHASH], [buildhash])
+# Fail if program is not found
+if test -z $BUILDHASH; then
+	AC_MSG_ERROR([buildhash (part of ispell) is required for installing this package.])
+fi
+
 AC_PATH_PROG([MUNCHLIST], [munchlist])
+# Fail if program is not found
+if test -z $MUNCHLIST; then
+	AC_MSG_ERROR([munchlist (part of ispell) is required for installing this package.])
+fi
+
+AC_PATH_PROG([ASPELL], [aspell])
 AC_PATH_PROG([MYSPELL], [myspell])
 
 # Specify the Makefiles

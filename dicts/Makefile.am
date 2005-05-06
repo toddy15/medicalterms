@@ -23,5 +23,4 @@ EXTRA_DIST = medizin.txt \
 	medizin-ergaenzungen.txt \
 	medizin-namen.txt \
 	medizin-n.txt \
-	medizin-a.txt \
-	german.aff
+	medizin-a.txt

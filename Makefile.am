@@ -30,6 +30,9 @@ LISTS = medizin.txt \
 	medizin-namen.txt
 
 
+all-local: wordlist aspell
+
+
 #####################################################################
 # plain wordlist
 #####################################################################
@@ -37,22 +40,12 @@ LISTS = medizin.txt \
 # Generates a complete wordlist without TeX ligatures in ISO-8859-1 encoding
 wordlist:
 	$(srcdir)/bin/get_words $(addprefix $(srcdir)/dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
-	$(srcdir)/bin/utf_to_ispell - | \
 	$(PERL) -pe 's/qq//g' | \
-	$(SORT) -u > temporary-suffix-list
-
-	$(MUNCHLIST) -l $(srcdir)/dicts/german.aff temporary-suffix-list > temporary-munch-list
-
-	$(BUILDHASH) temporary-munch-list $(srcdir)/dicts/german.aff temporary-hash.hash
-
-	cat temporary-suffix-list | \
-	$(ISPELL) -e -d ./temporary-hash | \
+	$(SORT) -u | \
+	$(ASPELL) expand --encoding=UTF-8 --lang=de | \
 	$(PERL) -pe 's/ /\n/g' | \
-	$(srcdir)/bin/ispell_to_utf - | \
-	$(ICONV) --from-code=UTF-8 --to-code=ISO-8859-1 - | \
+	$(ASPELL) conv UTF-8 ISO-8859-1 | \
 	$(SORT) -u > $@
-
-	rm -f temporary-suffix-list temporary-munch-list* temporary-hash.hash
 
 
 #####################################################################

@@ -37,7 +37,6 @@ fi
 AC_SUBST(ADDITIONAL_LISTS)
 
 # Check for needed programs
-AC_PROG_EGREP
 AC_PATH_PROG([PERL], [perl])
 AC_PATH_PROG([SORT], [sort])
 
@@ -45,6 +44,12 @@ AC_PATH_PROG([ICONV], [iconv])
 # Fail if program is not found
 if test -z $ICONV; then
 	AC_MSG_ERROR([iconv is required for installing this package.])
+fi
+
+AC_PATH_PROG([ASPELL], [aspell])
+# Fail if program is not found
+if test -z $ASPELL; then
+	AC_MSG_ERROR([aspell is required for installing this package.])
 fi
 
 AC_PATH_PROG([ISPELL], [ispell])

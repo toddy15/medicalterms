@@ -21,6 +21,7 @@
 AC_INIT(medicalterms, esyscmd(date +%Y%m%d | perl -pe "chop"))
 AM_INIT_AUTOMAKE(foreign)
 
+
 # Enable the selection of different orthographies
 ADDITIONAL_LISTS=medizin-n.txt
 AC_ARG_ENABLE(orthography,
@@ -36,45 +37,45 @@ if test "$ac_cv_use_orthography" = both; then
 fi
 AC_SUBST(ADDITIONAL_LISTS)
 
+
 # Check for needed programs
 AC_PATH_PROG([PERL], [perl])
-AC_PATH_PROG([SORT], [sort])
+if test -z $PERL; then
+	AC_MSG_ERROR([perl is required for building this package.])
+fi
 
-AC_PATH_PROG([ICONV], [iconv])
-# Fail if program is not found
-if test -z $ICONV; then
-	AC_MSG_ERROR([iconv is required for installing this package.])
+AC_PATH_PROG([SORT], [sort])
+if test -z $SORT; then
+	AC_MSG_ERROR([sort is required for building this package.])
 fi
 
 AC_PATH_PROG([ASPELL], [aspell])
 # Fail if program is not found
 if test -z $ASPELL; then
-	AC_MSG_ERROR([aspell is required for installing this package.])
+	AC_MSG_ERROR([aspell is required for building this package.])
+else
+	AC_MSG_CHECKING([for aspell version >= 0.60.0])
+	ac_cv_aspell_version=`$ASPELL --version | $PERL -pe "s/.+ really Aspell (.+)\)/\1/g"`
+	changequote(+)dnl
+	ac_cv_aspell_major=`$PERL -e "split /\./, '$ac_cv_aspell_version'; print @_[0]"`
+	ac_cv_aspell_minor=`$PERL -e "split /\./, '$ac_cv_aspell_version'; print @_[1]"`
+	changequote([, ])dnl
+	if test $ac_cv_aspell_major -gt 0; then
+		AC_MSG_RESULT([ok, found $ac_cv_aspell_version])
+	else
+		if test $ac_cv_aspell_minor -ge 60; then
+			AC_MSG_RESULT([ok, found $ac_cv_aspell_version])
+		else
+			AC_MSG_RESULT([found $ac_cv_aspell_version])
+			AC_MSG_ERROR([you need at least version 0.60.0 of aspell.])
+		fi
+	fi
 fi
 
-AC_PATH_PROG([ISPELL], [ispell])
-# Fail if program is not found
-if test -z $ISPELL; then
-	AC_MSG_ERROR([ispell is required for installing this package.])
-fi
-
-AC_PATH_PROG([BUILDHASH], [buildhash])
-# Fail if program is not found
-if test -z $BUILDHASH; then
-	AC_MSG_ERROR([buildhash (part of ispell) is required for installing this package.])
-fi
-
-AC_PATH_PROG([MUNCHLIST], [munchlist])
-# Fail if program is not found
-if test -z $MUNCHLIST; then
-	AC_MSG_ERROR([munchlist (part of ispell) is required for installing this package.])
-fi
-
-AC_PATH_PROG([ASPELL], [aspell])
-AC_PATH_PROG([MYSPELL], [myspell])
 
 # Specify the Makefiles
 AC_CONFIG_FILES(Makefile bin/Makefile dicts/Makefile)
+
 
 # Write the configure script
 AC_OUTPUT

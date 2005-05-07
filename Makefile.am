@@ -34,6 +34,8 @@ all-local: wordlist aspell
 
 install-data-local: install-aspell
 
+uninstall-local: uninstall-aspell
+
 
 #####################################################################
 # plain wordlist
@@ -70,6 +72,10 @@ install-aspell: aspell
 	$(INSTALL) --directory $(libdir)/aspell-0.60/
 	$(INSTALL_DATA) de-medical.rws $(srcdir)/dicts/de-medical.multi \
 		$(libdir)/aspell-0.60/
+
+uninstall-aspell:
+	rm -f $(libdir)/aspell-0.60/de-medical.rws
+	rm -f $(libdir)/aspell-0.60/de-medical.multi
 
 
 #####################################################################

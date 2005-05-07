@@ -72,6 +72,12 @@ else
 	fi
 fi
 
+# Check for the installation path of aspell
+AC_MSG_CHECKING([for aspell dictdir path])
+ASPELL_DICTDIR_PATH=`$ASPELL dump config dict-dir`
+AC_MSG_RESULT([$ASPELL_DICTDIR_PATH])
+AC_SUBST(ASPELL_DICTDIR_PATH)
+
 
 # Specify the Makefiles
 AC_CONFIG_FILES(Makefile bin/Makefile dicts/Makefile)

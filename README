@@ -9,6 +9,7 @@ As of now, German is the only supported language. If you'd like to contribute
 to the development of the package medicalterms, please contact me. You can
 find the latest version on <http://gna.org/projects/medicalterms/>.
 
+
 Configuration options
 =====================
 
@@ -22,4 +23,32 @@ August 1, 1998, and "both" will include both spellings. The configuration
 defaults to "new".
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sat, 07 May 2005 23:40:59 +0200
+Access to the source code repository
+====================================
+
+This project uses GNU arch as its revision control system. More
+specifically, the bazaar implementation is used as a frontend. You can
+check out the latest development sources with the following commands:
+
+$ baz register-archive medicalterms-dev@gna.org http://arch.gna.org/medicalterms
+$ baz get medicalterms-dev@gna.org/medicalterms--main--1.0 medicalterms
+
+As this is a signed archive, you might want to tell baz how to verify the
+signatures found in the archive. Please consult the baz manual on how to do
+this. If you don't configure baz to verify signed archives, you can still
+check out the sources -- baz will only warn you about not having verified
+the signatures.
+
+Please note that there are no automatically generated files included. This
+means that you need automake (> 1.6.3) and autoconf (> 2.59) to build those
+files yourself. You can use the following commands:
+
+$ aclocal
+$ baz changelog > ChangeLog
+$ automake --add-missing
+$ autoconf
+
+Now you can start hacking away -- don't forget to send your patches to me!
+
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun, 08 May 2005 00:12:15 +0200

@@ -1,5 +1,5 @@
-# Makefile for the dicts subdirectory
-## Process this file with automake to produce Makefile.in
+# Defines to use the common German dictionary and the specialized
+# dictionary for medical terms
 #
 # Copyright (C) 2005 Tobias Toedter <t.toedter@gmx.net>
 #
@@ -17,11 +17,5 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
-
-EXTRA_DIST = medizin.txt \
-	medizin-abkuerzungen.txt \
-	medizin-ergaenzungen.txt \
-	medizin-namen.txt \
-	medizin-n.txt \
-	medizin-a.txt \
-	de-medical.multi
+add de.multi
+add de-medical.rws

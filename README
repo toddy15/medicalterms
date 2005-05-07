@@ -1,0 +1,25 @@
+README for medicalterms
+=======================
+
+The goal of this package is to create specialized dictionaries for medical
+terms used in various languages. Those dictionaries can be used easily with
+aspell, an advanced spellchecker.
+
+As of now, German is the only supported language. If you'd like to contribute
+to the development of the package medicalterms, please contact me. You can
+find the latest version on <http://gna.org/projects/medicalterms/>.
+
+Configuration options
+=====================
+
+The configure script currently accepts the following option:
+
+--enable-orthography=<new|old|both>
+
+You can use this option to select which spelling variant should be included
+in the dictionary. "old" is the old orthography, "new" the variant as of
+August 1, 1998, and "both" will include both spellings. The configuration
+defaults to "new".
+
+
+ -- Tobias Toedter <t.toedter@gmx.net>  Sat, 07 May 2005 23:40:59 +0200

@@ -18,7 +18,4 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-EXTRA_DIST = get_words \
-	sort_file \
-	utf_to_ispell \
-	ispell_to_utf
+EXTRA_DIST = get_words sort_file

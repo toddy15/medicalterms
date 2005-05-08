@@ -20,7 +20,7 @@
 
 SUBDIRS = bin dicts
 
-CLEANFILES = wordlist \
+CLEANFILES = german-medical \
 	de-medical.rws \
 	ChangeLog
 
@@ -30,7 +30,7 @@ LISTS = medizin.txt \
 	medizin-namen.txt
 
 
-all-local: wordlist aspell
+all-local: german-medical aspell
 
 install-data-local: install-aspell
 
@@ -38,11 +38,11 @@ uninstall-local: uninstall-aspell
 
 
 #####################################################################
-# plain wordlist
+# plain wordlist for installing in /usr/share/dict/
 #####################################################################
 
 # Generates a complete wordlist without TeX ligatures in ISO-8859-1 encoding
-wordlist:
+german-medical:
 	$(srcdir)/bin/get_words $(addprefix $(srcdir)/dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
 	$(PERL) -pe 's/qq//g' | \
 	$(SORT) -u | \
@@ -56,8 +56,8 @@ wordlist:
 # aspell
 #####################################################################
 
-aspell: wordlist
-	$(ASPELL) --lang=de create master ./de-medical.rws < wordlist
+aspell: german-medical
+	$(ASPELL) --lang=de create master ./de-medical.rws < german-medical
 
 .PHONY: install-aspell
 install-aspell: aspell

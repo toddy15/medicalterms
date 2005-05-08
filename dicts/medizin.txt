@@ -2650,7 +2650,8 @@ Zystitis
 Zystitiden
 Zystoskopie/N
 Zytochrom/EPS
-Zytologie/Nl
+Zytologie/N
+Zytologe/FN
 Zytoplasma
 Zytostatika
 Zytostatikum/S

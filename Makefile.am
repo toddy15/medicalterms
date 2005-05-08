@@ -71,15 +71,6 @@ aspell: german-medical
 
 .PHONY: install-aspell
 install-aspell: aspell
-	@if test "$(libdir)/aspell-0.60" != "$(ASPELL_DICTDIR_PATH)"; then \
-		echo "*****************************************************************" ;\
-		echo "WARNING: The installation path for the dictionary is not the same" ;\
-		echo "         as the path returned from aspell's configuration." ;\
-		echo ;\
-		echo "Installing into: $(libdir)/aspell-0.60" ;\
-		echo "Aspell returned: $(ASPELL_DICTDIR_PATH)" ;\
-		echo "*****************************************************************" ;\
-	fi
 	$(INSTALL) --directory $(libdir)/aspell-0.60/
 	$(INSTALL_DATA) --owner=root --group=root \
 		de-medical.rws $(srcdir)/dicts/de-medical.multi \

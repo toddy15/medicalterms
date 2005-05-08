@@ -62,15 +62,15 @@ the following command:
 $ gpg --recv-keys 0x416cf2dc
 
 Please note that there are no automatically generated files included. This
-means that you need automake (> 1.6.3) and autoconf (> 2.59) to build those
+means that you need automake (>= 1.7.9) and autoconf (>= 2.59) to build those
 files yourself. You can use the following commands:
 
-$ aclocal
 $ baz changelog > ChangeLog
+$ aclocal
 $ automake --add-missing
 $ autoconf
 
 Now you can start hacking away -- don't forget to send your patches to me!
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sun, 08 May 2005 12:55:43 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun, 08 May 2005 20:01:53 +0200

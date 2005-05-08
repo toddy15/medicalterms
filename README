@@ -23,6 +23,19 @@ August 1, 1998, and "both" will include both spellings. The configuration
 defaults to "new".
 
 
+How to use the new dictionary with aspell
+=========================================
+
+Assume that you have checked your files this way:
+
+$ aspell --lang=de check myfile.txt
+
+You only need one more command line option to get rid of all the warnings
+about unknown medical terms:
+
+$ aspell --lang=de --add-variety=medical check myfile.txt
+
+
 Access to the source code repository
 ====================================
 
@@ -51,4 +64,4 @@ $ autoconf
 Now you can start hacking away -- don't forget to send your patches to me!
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sun, 08 May 2005 00:12:15 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun, 08 May 2005 12:55:43 +0200

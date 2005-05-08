@@ -90,3 +90,13 @@ uninstall-aspell:
 .PHONY: ChangeLog
 ChangeLog:
 	baz changelog > ChangeLog
+
+
+#####################################################################
+# This is for creating a release tarball which is signed
+#####################################################################
+
+.PHONY: release
+release: distcheck
+	rm -f $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz.sig
+	gpg --detach-sign $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz

@@ -46,11 +46,20 @@ check out the latest development sources with the following commands:
 $ baz register-archive medicalterms-dev@gna.org http://arch.gna.org/medicalterms
 $ baz get medicalterms-dev@gna.org/medicalterms--main--1.0 medicalterms
 
+Note that you can use tla as a frontend as well, just replace all "baz"
+commands with "tla".
+
 As this is a signed archive, you might want to tell baz how to verify the
 signatures found in the archive. Please consult the baz manual on how to do
 this. If you don't configure baz to verify signed archives, you can still
 check out the sources -- baz will only warn you about not having verified
 the signatures.
+
+Currently, the only GPG key used for signing the repository (and the
+released tarball) is my own. You can fetch it from the any keyserver, using
+the following command:
+
+$ gpg --recv-keys 0x416cf2dc
 
 Please note that there are no automatically generated files included. This
 means that you need automake (> 1.6.3) and autoconf (> 2.59) to build those

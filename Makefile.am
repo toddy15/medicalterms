@@ -71,7 +71,8 @@ install-aspell: aspell
 		echo "*****************************************************************" ;\
 	fi
 	$(INSTALL) --directory $(libdir)/aspell-0.60/
-	$(INSTALL_DATA) de-medical.rws $(srcdir)/dicts/de-medical.multi \
+	$(INSTALL_DATA) --owner=root --group=root \
+		de-medical.rws $(srcdir)/dicts/de-medical.multi \
 		$(libdir)/aspell-0.60/
 
 .PHONY: uninstall-aspell

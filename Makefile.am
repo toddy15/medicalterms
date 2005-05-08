@@ -32,9 +32,9 @@ LISTS = medizin.txt \
 
 all-local: german-medical aspell
 
-install-data-local: install-aspell
+install-data-local: install-german-medical install-aspell
 
-uninstall-local: uninstall-aspell
+uninstall-local: uninstall-german-medical uninstall-aspell
 
 
 #####################################################################
@@ -50,6 +50,16 @@ german-medical:
 	$(PERL) -pe 's/ /\n/g' | \
 	$(ASPELL) conv UTF-8 ISO-8859-1 | \
 	$(SORT) -u > $@
+
+.PHONY: install-german-medical
+install-german-medical: german-medical
+	$(INSTALL) --directory $(datadir)/dict/
+	$(INSTALL_DATA) --owner=root --group=root \
+		german-medical $(datadir)/dict/
+
+.PHONY: uninstall-german-medical
+uninstall-german-medical:
+	rm -f $(datadir)/dict/german-medical
 
 
 #####################################################################

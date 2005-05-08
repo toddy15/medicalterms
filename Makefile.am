@@ -59,6 +59,7 @@ wordlist:
 aspell: wordlist
 	$(ASPELL) --lang=de create master ./de-medical.rws < wordlist
 
+.PHONY: install-aspell
 install-aspell: aspell
 	@if test "$(libdir)/aspell-0.60" != "$(ASPELL_DICTDIR_PATH)"; then \
 		echo "*****************************************************************" ;\
@@ -73,6 +74,7 @@ install-aspell: aspell
 	$(INSTALL_DATA) de-medical.rws $(srcdir)/dicts/de-medical.multi \
 		$(libdir)/aspell-0.60/
 
+.PHONY: uninstall-aspell
 uninstall-aspell:
 	rm -f $(libdir)/aspell-0.60/de-medical.rws
 	rm -f $(libdir)/aspell-0.60/de-medical.multi
@@ -83,7 +85,6 @@ uninstall-aspell:
 # under version control, because it's generated automatically.
 #####################################################################
 
+.PHONY: ChangeLog
 ChangeLog:
 	baz changelog > ChangeLog
-
-.PHONY: ChangeLog

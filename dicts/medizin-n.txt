@@ -17,9 +17,11 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 Abdomensonografiekontrolle/N
+abdominalsonografisch/A
 Abhängigkeitspotenzial/S
 Aktivierungsprozess
 Angiografie/N
+angiografisch/A
 Arteriografie/N
 Ausflussbahn/P
 Autoradiografie/N
@@ -29,6 +31,7 @@ Brustdrüsenabszess
 Cannabismissbrauch/TS
 Cholangiografie/N
 Computertomografie/N
+computertomografisch/A
 Coronarangiografie/N
 Dopplerechokardiografie/N
 Echografie/N
@@ -41,22 +44,19 @@ Fresszelle/N
 Gefäßmissbildung/P
 Kernspintomograf/PS
 Kernspintomografie/N
+kernspintomografisch/A
 Koronarangiografie/N
 Mammografie/N
 Mikrografie/N
 Phlebografie/N
 Radiografie/N
 Sonografie/N
+stressbelastet/A
 Szintigrafie/N
 Thermografie/N
 Tomografie/N
+tomografisch/A
 Urografie/N
 Verfolgungsfantasie/N
 Xeromammografie/N
 Xeroradiografie/N
-abdominalsonografisch/A
-angiografisch/A
-computertomografisch/A
-kernspintomografisch/A
-stressbelastet/A
-tomografisch/A

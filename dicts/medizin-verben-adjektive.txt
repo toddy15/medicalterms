@@ -16,8 +16,6 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
-äquilibrieren/DIOXY
-ätiologisch/A
 abdominal/A
 abdominalis
 abdominell/A
@@ -59,8 +57,8 @@ adductor
 adductus
 adduzieren/DIOXY
 adenoid/A
-adenomatös/A
 adenomatoid/A
+adenomatös/A
 adenomatosa
 adhärent/A
 adhäsiv/A
@@ -141,27 +139,27 @@ amputationsgefährdet/A
 amyloid/A
 amyotroph/A
 amyotrophisch/A
-anästhesieren/DIOXY
-anästhesiologisch/A
-anästhetisch/A
-anästhetisieren/DIOXY
 anabol/A
 anaerob/A
 analgetisch/A
 anamnestisch/A
 anaphylaktisch/A
 anaplastisch/A
+anästhesieren/DIOXY
+anästhesiologisch/A
+anästhetisch/A
+anästhetisieren/DIOXY
 anastomosiert/A
 anbehandelt/A
 androgen/A
 androgenmangelbedingt/A
 aneurysmatisch/A
-anfärben/DIXY
 anfallsartig/A
 anfallsfrei/A
 anfallskontrollierend/A
 anfallsprophylaktisch/A
 anfallsweise/A
+anfärben/DIXY
 anginös/A
 angiologisch/A
 angioneurotisch/A
@@ -213,10 +211,10 @@ antimitochondrial/A
 antimykotisch/A
 antineoplastisch/A
 antinukleär/A
-antiödematös/A
-antiöstrogen/A
 antiobstruktiv/A
+antiödematös/A
 antiosteoporotisch/A
+antiöstrogen/A
 antioxidativ/A
 antiphlogistisch/A
 antiproliferativ/A
@@ -245,6 +243,7 @@ apikal/A
 aplastisch/A
 apoplektisch/A
 approximal/A
+äquilibrieren/DIOXY
 arrhythmisch/A
 arrhythmogen/A
 arteriell/A
@@ -262,6 +261,7 @@ asthmatisch/A
 asthmatoid/A
 asthmoid/A
 asymptomatisch/A
+ätiologisch/A
 atopisch/A
 atoxisch/A
 atraumatisch/A
@@ -386,8 +386,8 @@ doppelblind/A
 doppelsträngig/A
 dorsal/A
 dorsalis
-drüsig/A
 druckbelastet/A
+drüsig/A
 duodeni
 dysphagisch/A
 dystop/A
@@ -451,10 +451,10 @@ granulomatös/A
 granulosa
 grimassieren/DIOXY
 grüblerisch/A
+halbsynthetisch/A
 hämatologisch/A
 hämatopoetisch/A
 hämodynamisch/A
-halbsynthetisch/A
 handlungsbezogen/A
 hepatisch/A
 hepatobiliär/A
@@ -562,8 +562,6 @@ ketoazidotisch/A
 klitoridal/A
 klonieren/DIOXY
 klonisch/A
-körpereigen/A
-körperfremd/A
 kognitionsbezogen/A
 kolloid/A
 kolloidal/A
@@ -579,6 +577,8 @@ konnatal/A
 kontraindiziert/A
 konvaleszent/A
 koronar/A
+körpereigen/A
+körperfremd/A
 kortikal/A
 krampfartig/A
 kranial/A
@@ -680,7 +680,6 @@ normalverteilt/A
 normotensiv/A
 nosokomial/A
 nummulär/A
-ösophageal/A
 obliterieren/DIOXY
 obstipiert/A
 obstruktiv/A
@@ -694,6 +693,7 @@ orbital/A
 oris
 orofazial/A
 orthostatisch/A
+ösophageal/A
 ototoxisch/A
 ovarial/A
 pädiatrisch/A
@@ -794,8 +794,8 @@ rezessiv/A
 rezidivierend/A
 rheumatoid/A
 risikoarm/A
-röntgenologisch/A
 roborierend/A
+röntgenologisch/A
 rückbildungsfähig/A
 rückenmarknahe/A
 salinisch/A

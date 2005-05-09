@@ -22,12 +22,15 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 Akzeleration/P
+allergisch/AC
 Anamnese/N
 Antikörper/NS
 Arteriosklerose/N
+basal/A
 Bauchdecke/N
 Bauchschmerz/PT
 Bauchspeicheldrüse/N
+bizonal/A
 Blutgruppenfaktor/PS
 Blutmischung/P
 Blutpfütze/N
@@ -46,6 +49,7 @@ Herzscheibe/N
 Herzschlagfolge/N
 Herzschrittmacher/NS
 Herzspezialist/FP
+induzieren/BDIOXY
 Insertion/P
 Kinderheilkundler/FNS
 Krankenwagenfahrer/FNS
@@ -61,12 +65,8 @@ Krebskrankheit/P
 Krebswachstum/S
 Lokalisation/P
 Lokalisierung/P
+sensitiv/AC
 Sensitivität/P
 Trockner/S
 Umland/ST
-allergisch/AC
-basal/A
-bizonal/A
-induzieren/BDIOXY
-sensitiv/AC
 verletzt/AU

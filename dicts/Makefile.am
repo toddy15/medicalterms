@@ -19,6 +19,7 @@
 #
 
 EXTRA_DIST = medizin.txt \
+	medizin-verben-adjektive.txt \
 	medizin-abkuerzungen.txt \
 	medizin-ergaenzungen.txt \
 	medizin-namen.txt \

@@ -23,6 +23,10 @@
 use warnings;
 use strict;
 
+use locale;
+use POSIX;
+POSIX::setlocale(LC_COLLATE, 'de_DE.UTF-8');
+
 use Getopt::Long;
 
 sub version
@@ -58,6 +62,13 @@ if ($help) {
 	exit;
 };
 
+sub without_suffixes
+{
+	my @stem_a = split /\//,  $a;
+	my @stem_b = split /\//,  $b;
+	(defined($stem_a[0]) ? $stem_a[0] : 0) cmp (defined($stem_b[0]) ? $stem_b[0] : 0);
+}
+
 # the start of the actual program
 foreach my $file (@ARGV) {
 	my $gnu_header = "";
@@ -76,7 +87,7 @@ foreach my $file (@ARGV) {
 	}
 
 	print $gnu_header;
-	print sort(@file_contents);
+	print sort without_suffixes @file_contents;
 
 	close FILE;
 }

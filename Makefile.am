@@ -49,7 +49,7 @@ german-medical:
 	$(ASPELL) expand --encoding=UTF-8 --lang=de | \
 	$(PERL) -pe 's/ /\n/g' | \
 	$(ASPELL) conv UTF-8 ISO-8859-1 | \
-	$(SORT) -u > $@
+	LANG=de_DE $(SORT) -u > $@
 
 .PHONY: install-german-medical
 install-german-medical: german-medical

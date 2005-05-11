@@ -21,10 +21,10 @@
 SUBDIRS = bin dicts
 
 CLEANFILES = german-medical \
-	de-medical.rws \
-	ChangeLog
+	de-medical.rws
 
 LISTS = medizin.txt \
+	medizin-verben-adjektive.txt \
 	medizin-abkuerzungen.txt \
 	medizin-ergaenzungen.txt \
 	medizin-namen.txt

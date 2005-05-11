@@ -53,13 +53,13 @@ german-medical:
 
 .PHONY: install-german-medical
 install-german-medical: german-medical
-	$(INSTALL) --directory $(datadir)/dict/
+	$(INSTALL) --directory $(DESTDIR)$(datadir)/dict/
 	$(INSTALL_DATA) --owner=root --group=root \
-		german-medical $(datadir)/dict/
+		german-medical $(DESTDIR)$(datadir)/dict/
 
 .PHONY: uninstall-german-medical
 uninstall-german-medical:
-	rm -f $(datadir)/dict/german-medical
+	rm -f $(DESTDIR)$(datadir)/dict/german-medical
 
 
 #####################################################################
@@ -71,15 +71,15 @@ aspell: german-medical
 
 .PHONY: install-aspell
 install-aspell: aspell
-	$(INSTALL) --directory $(libdir)/aspell-0.60/
+	$(INSTALL) --directory $(DESTDIR)$(libdir)/aspell-0.60/
 	$(INSTALL_DATA) --owner=root --group=root \
 		de-medical.rws $(srcdir)/dicts/de-medical.multi \
-		$(libdir)/aspell-0.60/
+		$(DESTDIR)$(libdir)/aspell-0.60/
 
 .PHONY: uninstall-aspell
 uninstall-aspell:
-	rm -f $(libdir)/aspell-0.60/de-medical.rws
-	rm -f $(libdir)/aspell-0.60/de-medical.multi
+	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.rws
+	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.multi
 
 
 #####################################################################

@@ -87,8 +87,8 @@ uninstall-aspell:
 # under version control, because it's generated automatically.
 #####################################################################
 
-.PHONY: ChangeLog
-ChangeLog:
+.PHONY: update-changelog
+update-changelog:
 	baz changelog > ChangeLog
 
 
@@ -97,6 +97,6 @@ ChangeLog:
 #####################################################################
 
 .PHONY: release
-release: distcheck
+release: update-changelog distcheck
 	rm -f $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz.sig
 	gpg --detach-sign $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz

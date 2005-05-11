@@ -23,7 +23,7 @@ SUBDIRS = bin dicts
 CLEANFILES = german-medical \
 	de-medical.rws
 
-LISTS = medizin.txt \
+export LISTS = medizin.txt \
 	medizin-verben-adjektive.txt \
 	medizin-abkuerzungen.txt \
 	medizin-ergaenzungen.txt \

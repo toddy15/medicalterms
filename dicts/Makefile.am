@@ -18,11 +18,7 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-EXTRA_DIST = medizin.txt \
-	medizin-verben-adjektive.txt \
-	medizin-abkuerzungen.txt \
-	medizin-ergaenzungen.txt \
-	medizin-namen.txt \
+EXTRA_DIST = $(LISTS) \
 	medizin-n.txt \
 	medizin-a.txt \
 	de-medical.multi

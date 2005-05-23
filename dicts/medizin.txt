@@ -277,6 +277,7 @@ Aktionstremor/S
 Aktivation
 Aktivierungsform/P
 Aktivierungsforschung/P
+Aktivierungsgeschwindigkeit/P
 Aktivierungspotenzial/EPS
 Aktivierungsprozesse/N
 Aktivitätsgrad/EPST
@@ -298,7 +299,7 @@ Alalie/N
 Albinismus
 Albumin/EPS
 Albuminurie/N
-Aldosteron
+Aldosteron/S
 Aldosteronismus
 Aldosteronproduktion/P
 Aldosteronsekretion/P
@@ -503,6 +504,7 @@ Angioödem/EPS
 Angiopathie/N
 Angioplasie/N
 Angiosarkom/EPS
+Angiotensin/S
 Angstbewältigungstraining/S
 Angstneurotiker/FNS
 Angstsyndrom/EPS
@@ -651,6 +653,7 @@ Applikationsform/P
 Aqua
 Arachnoidea
 Arrhythmie/N
+Arrhythmogenese/N
 Arrosion/P
 Arteria
 Arteriole/N
@@ -1127,9 +1130,12 @@ Ejakulation/P
 Ejektionsfraktion
 Ekchymose/N
 Eklampsie/N
+Ektopie/N
 Elastase/N
 Elektronenmikroskop/EPS
 Elektrophorese/N
+Elektrophysiologe/FN
+Elektrophysiologie/N
 Elektrounfall/Sp
 Ellenbogenfraktur
 Ellenbogengelenk/EPS
@@ -1225,7 +1231,8 @@ Erregungszustand/S
 Erregungszustände/N
 Erschöpfbarkeit
 Erschöpfungssyndrom/EPS
-Erstbeschreiber/S
+Erstbeschreiber/FS
+Erstbeschreibung/P
 Ertrinkungstod/ES
 Ertrinkungsunfall/Sp
 Eruktation/P
@@ -1347,6 +1354,8 @@ Größenbestimmung/P
 Größenstandard/S
 Größenunterschied/EPS
 Großpräparation/P
+Grundlagenkenntnis
+Grundlagenkenntnisse/N
 Guajakprobe/N
 Guanin/S
 Halluzination/P
@@ -1395,11 +1404,14 @@ Herztod/EST
 Herzvergrößerung/P
 Herzzelle/N
 Heterologie/N
+Heteromultimer/EPS
+Heteromultimerisation/P
 Heterozygotenfrequenz/P
 Hippocampus
 Hirnblutung/P
 Hirnmassenblutung/P
 Hirntod/EST
+Hirnzelle/N
 Hirsutismus
 Histamin
 Histologe/FN
@@ -1577,6 +1589,7 @@ Karbunkel/S
 Kardiogramm/EPS
 Kardiomegalie/N
 Kardiomyopathie/N
+Kardiomyozyt/PS
 Kardiopathie/N
 Karotis
 Karotisstenose/N
@@ -1630,6 +1643,7 @@ Konduktion/P
 Konduktor/PS
 Kondylom/EPS
 Kongestion/P
+Konglomerat/EPS
 Konisation/P
 Konjunktivalgefäß/EPT
 Konjunktivitiden
@@ -1842,6 +1856,7 @@ Mukolytikum/S
 Mukosa
 Mukus
 Multiinfarktdemenz/P
+Multimer/EPS
 Multipara
 Multisystematrophie/N
 Mumps
@@ -1865,6 +1880,7 @@ Myokardhypertrophie/N
 Myokarditiden
 Myokarditis
 Myokardregion/P
+Myokardzelle/N
 Myoklonie/N
 Myometrium/S
 Myopathie/N
@@ -2159,6 +2175,7 @@ Pulmonalstenose/N
 Pulmonarkapillardruck/S
 Pulmonarkapillardrücke/N
 Pulsation/P
+Pumpfunktion/P
 Punktion/P
 Purkinje
 Purkinjefaser/N
@@ -2180,6 +2197,7 @@ Rachitis
 Radiotherapie/N
 Ramus
 Randomisierung/P
+Rattenherz/P
 Rattenmyokard/S
 Raucitas
 Räude
@@ -2212,6 +2230,7 @@ Rektumkarzinom/EPS
 Relaxans
 Relaxanzien
 Remission/P
+Remodeling/S
 Renin/S
 Repolarisationsphase/N
 Reposition/P
@@ -2346,6 +2365,7 @@ Spenderherz/P
 Spermatogenese
 Spermizid/EPS
 Spezies
+Speziesunterschied/EPS
 Spezifität/P
 Sphinkter/S
 Spinalanästhesie/N
@@ -2490,6 +2510,7 @@ Trachom/EPS
 Tractus
 Trägersubstanz/P
 Transit
+Transkriptase/N
 Transkription/P
 Transkriptionsansatz/T
 Transkriptionsansätze/N
@@ -2580,6 +2601,7 @@ Ventrikelmyokard/S
 Ventrikelmyozyt/PS
 Ventrikelseptum/S
 Ventrikelseptumdefekt/EPST
+Ventrikelzelle/N
 Verabreichung/P
 Verbalisierung/P
 Verblödung/P

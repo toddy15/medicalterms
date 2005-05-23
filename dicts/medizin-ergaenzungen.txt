@@ -26,7 +26,7 @@ allergisch/AC
 Anamnese/N
 Antikörper/NS
 Arteriosklerose/N
-basal/A
+Automatismenbasal/A
 Bauchdecke/N
 Bauchschmerz/PT
 Bauchspeicheldrüse/N

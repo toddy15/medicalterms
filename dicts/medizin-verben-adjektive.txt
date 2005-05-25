@@ -424,6 +424,7 @@ epileptisch/A
 epiphysär/A
 epitheloidzellig/A
 equina
+ergotherapeutisch/A
 ethmoidalis
 euthyreot/A
 exazerbiert/A
@@ -583,6 +584,7 @@ kortikal/A
 krampfartig/A
 kranial/A
 kraniosakral/A
+krankengymnastisch/A
 krankheitsbedingt/A
 krankheitsbezogen/A
 krebsverdächtig/A
@@ -731,6 +733,7 @@ petit
 photometrisch/A
 physikochemisch/A
 physiologischerweise
+physiotherapeutisch/A
 pigmentbildend/A
 pipettieren/DIOXY
 plasmidtragend/A

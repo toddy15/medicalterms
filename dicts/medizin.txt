@@ -806,12 +806,12 @@ Bewegungseinschränkung/P
 Bewegungskontrolle/N
 Bewegungspädagoge/NF
 Bewegungsstörung/P
-Bewegungstherapeut/FPS
+Bewegungstherapeut/FP
 Bewegungsunruhe/N
 Beziehungsperson/P
 Beziehungsproblem/EPS
 Beziehungsstörung/P
-Bezugstherapeut/FPS
+Bezugstherapeut/FP
 Bildgebung/P
 Bilirubin/S
 Bindehautrötung/P
@@ -1220,6 +1220,8 @@ Eppendorfgefäß/EPT
 Eppendorfzentrifuge/N
 Erbgang/Sp
 Ergotamin/S
+Ergotherapeut/FP
+Ergotherapie/N
 Ergotismus
 Erkennungssequenz/P
 Erkrankung/P
@@ -1676,6 +1678,7 @@ Kortikosteroid/EPS
 Kortison/S
 Kosmetikum/S
 Koxalgie/N
+Krankengymnastik
 Krankheitsbeginn/S
 Krankheitsfreiheit
 Krankheitsherd/EPT
@@ -2076,7 +2079,8 @@ Phosphoimager/S
 Photophobie/N
 Photosensibilisierung/P
 Photosensibilität
-Physiotherapeut/P
+Physiotherapeut/FP
+Physiotherapie/N
 Pia
 Pigmentierung/P
 Pityriasis

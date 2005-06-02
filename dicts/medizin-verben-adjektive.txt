@@ -300,6 +300,7 @@ bewegungsfaul/A
 biiliacal/A
 bildgebend/A
 biliär/A
+biophysikalisch/A
 biopsieren/DIOXY
 biphasisch/A
 bipolar/A
@@ -448,6 +449,7 @@ gelelektrophoretisch/A
 genomisch/A
 gepoolt/A
 geschlechtsreif/A
+gleichsinnig/A
 granulomatös/A
 granulosa
 grimassieren/DIOXY
@@ -506,6 +508,7 @@ infaust/A
 infektiös/A
 infundieren/DIOXY
 inguinal/A
+inhibieren/DIOXY
 inhibitorisch/A
 iniectabilia
 inkubieren/DIOXY
@@ -833,6 +836,7 @@ spinal/A
 spontanhypertensiv/A
 squamös/A
 stehengelassen/A
+stenosieren/DIOXY
 stimulatorisch/A
 stromtragend/A
 stuporös/A

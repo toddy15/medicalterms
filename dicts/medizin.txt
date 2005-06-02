@@ -278,6 +278,7 @@ Aktivation
 Aktivierungsform/P
 Aktivierungsforschung/P
 Aktivierungsgeschwindigkeit/P
+Aktivierungskurve/N
 Aktivierungspotenzial/EPS
 Aktivierungsprozesse/N
 Aktivitätsgrad/EPST
@@ -983,6 +984,7 @@ Darmflorabestimmung/P
 Darmmotilitätsstörung/P
 Darmmykose/N
 Dauerkatheter/NS
+Dauermedikation/P
 Daumenfraktur/P
 Daumengrundgelenk/EPS
 Debilität
@@ -1391,6 +1393,7 @@ Herpes
 Herstellerangabe/N
 Herzachse/N
 Herzaktion/P
+Herzchirurg/FP
 Herzfrequenz/P
 Herzgewebe/NS
 Herzglykosid/EPS
@@ -1406,6 +1409,7 @@ Herztod/EST
 Herzvergrößerung/P
 Herzzelle/N
 Heterologie/N
+Heteromer/EPS
 Heteromultimer/EPS
 Heteromultimerisation/P
 Heterozygotenfrequenz/P
@@ -1507,6 +1511,7 @@ Immunfluoreszenz/P
 Immunglobulin/EPS
 Immunisierung/P
 Immunoassay/S
+Immunoblot/S
 Immunosuppressiva
 Immunosuppressivum/S
 Immunsuppression/P
@@ -1572,6 +1577,7 @@ Kachexie/N
 Kaliumion/PS
 Kaliumkanal/S
 Kaliumkanäle/N
+Kaliumpassage/N
 Kaliumstrom/S
 Kaliumströme/N
 Kalzifikation/P
@@ -1580,6 +1586,8 @@ Kalziumkanäle/N
 Kalziurie
 Kanalbildung/P
 Kanalfamilie/N
+Kanalfunktion/P
+Kanalinhibitor/PS
 Kanalprotein/EPS
 Kaninchenherz/P
 Kaninchenherzens
@@ -1661,6 +1669,7 @@ Kontrazeptivum/S
 Kontrollgruppe/N
 Kontrollherz/P
 Kontrollperson/P
+Kontrollzelle/N
 Kontusion/P
 Kontusionsblutung/P
 Konvaleszenz
@@ -1721,6 +1730,7 @@ Leerkontrolle/N
 Lehrbeauftragte/RN
 Leichtketten
 Leitsymptom/EPS
+Leitungssystem/EPS
 Lernproblem/EPS
 Letalität/P
 Leukämie/N
@@ -2033,14 +2043,18 @@ Parotis
 Parotitiden
 Parotitis
 Pathogenese/N
+Pathomechanismen
+Pathomechanismus
 Patientencharakteristik/P
 Patientengruppe/N
+Patientenkollektiv/EPS
 Peak
 Pedikulose/N
 Pellet/S
 Pemphigus
 Penes
 Penicillinase/N
+Peptid/EPS
 Perforation/P
 Perfusion
 Perfusor/PS
@@ -2254,6 +2268,7 @@ Retinopathie/N
 Retraktion/P
 Retransplantation/P
 Rezeptor/PS
+Rezeptorantagonist/P
 Rezidiv/EPS
 Rezipient/PS
 Rhabdomyosarkom/EPS
@@ -2304,6 +2319,8 @@ Schlinge/N
 Schrittmacheraktivität/P
 Schrittmacherfunktion/P
 Schrittmachergewebe/N
+Schrittmacherkanal/S
+Schrittmacherkanäle/N
 Schrittmacherstrom/S
 Schrittmacherströme/N
 Schrittmacherzelle/N
@@ -2611,6 +2628,7 @@ Verbalisierung/P
 Verblödung/P
 Verdau/S
 Verdrängungsstrategie/N
+Vergleichsgruppe/N
 Verlegenheitsbewegungen
 Verletzung/P
 Vernarbung/P

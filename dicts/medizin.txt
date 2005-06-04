@@ -469,7 +469,6 @@ Analschleimhaut
 Analsphinkter/S
 Analsphinkterinsuffizienz/P
 Anämie/N
-Anamnese/N
 Anankasmus
 Anaphylaxie/N
 Anaphylaxiegefahr/P
@@ -1533,7 +1532,6 @@ Inkubation/P
 Inkubationszeit/P
 Innervation/P
 Insert/S
-Insertion/P
 Insertlänge/N
 Insertmenge/N
 Insomnie/N
@@ -2348,7 +2346,6 @@ Selektivitätsfilter/S
 Selektivnährboden/S
 Selektivnährböden
 Sensitivierung/P
-Sensitivität/P
 Sepsis
 Septum/S
 Sequenziergel/EPS

@@ -1,0 +1,85 @@
+#!/usr/bin/env perl
+#
+# Script for finding duplicate words in the specified
+# files, stripping the GNU license comment at the beginning
+#
+# Copyright (C) 2005 Tobias Toedter <t.toedter@gmx.net>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+
+use warnings;
+use strict;
+
+use Getopt::Long;
+
+sub version
+{
+	my $filename = substr($0, rindex($0, "/") + 1);
+	print "$filename version 0.1\n";
+	print "Copyright (C) 2005 Tobias Toedter <t.toedter\@gmx.net>\n";
+}
+
+sub usage
+{
+	my $filename = substr($0, rindex($0, "/") + 1);
+	&version;
+	print "\nThis utility finds all duplicate words from the specified files, stripping\n";
+	print "the GNU license comment at the beginning and printing the result to the\n";
+	print "standard output.\n\n";
+	print "Usage: $filename [file_1.txt ... file_n.txt]\n";
+}
+
+my $help;
+my $version;
+my $options = GetOptions(
+	"help" => \$help,
+	"version" => \$version)
+	or exit;
+
+if ($version) {
+	&version;
+	exit;
+};
+if ($help) {
+	&usage;
+	exit;
+};
+
+# the start of the actual program
+my @words;
+foreach my $file (@ARGV) {
+	open FILE, "< $file"
+		or die "Could not open $file: $!\n";
+	while (<FILE>) {
+		# prints the whole file except the comments
+		# and empty lines, although those should not
+		# be there in the first place
+		next if /^\s*#/;
+		next if /^$/;
+		push(@words, $_);
+	}
+	close FILE;
+}
+
+my $previous_word = "";
+foreach my $entry (sort @words) {
+	# ignore possible affixes
+	my $word = (split /\//, $entry)[0];
+	chomp $word;
+
+	print "$word\n" if $word eq $previous_word;
+	$previous_word = $word;
+}

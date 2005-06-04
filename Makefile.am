@@ -27,7 +27,8 @@ export LISTS = medizin.txt \
 	medizin-verben-adjektive.txt \
 	medizin-abkuerzungen.txt \
 	medizin-ergaenzungen.txt \
-	medizin-namen.txt
+	medizin-namen.txt \
+	medizin-wirkstoffe.txt
 
 
 all-local: german-medical aspell

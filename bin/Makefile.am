@@ -18,4 +18,4 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-EXTRA_DIST = get_words sort_file
+EXTRA_DIST = find_dups get_words sort_file

@@ -72,7 +72,6 @@ Acariasis
 Acetabulum/S
 Acetonurie
 Acetylcholin/S
-Acetylsalicylsäure
 Achalasie/N
 Achillessehne/N
 Achillobursitiden
@@ -372,7 +371,6 @@ Altersschwerhörigkeit/P
 Alterssichtigkeit/P
 Altersskoliose/N
 Altersstar/ES
-Altinsulin
 Altruismus
 Alveolarfortsatz/T
 Alveolarfortsätze/N
@@ -390,7 +388,6 @@ Alveolitis
 Alymphoplasie/N
 Alymphozytose/N
 Amalgam/S
-Amantadin/S
 Amastie/N
 Amaurose/N
 Amaurosis
@@ -415,12 +412,10 @@ Aminoazidurie/N
 Aminoglykosid/EPS
 Aminogruppe/N
 Aminophenol/EPS
-Aminophyllin/S
 Aminosäuremangelanämie/N
 Aminosäurenstoffwechselstörung/P
 Aminosäuresequenz/P
 Aminotransferase/N
-Amitriptylin/S
 Ammonshorn
 Amnion/S
 Amnionhöhlenstörung/P
@@ -430,10 +425,8 @@ Amnionitis
 Amniozentese/N
 Amöbe/N
 Amotio
-Amoxicillin/S
 Amoxicillinexanthem/EPS
 Amphetamintyp/S
-Ampicillin/S
 Amplifikat/EPS
 Amplifikation/P
 Ampulla

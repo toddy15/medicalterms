@@ -497,7 +497,6 @@ Angioödem/EPS
 Angiopathie/N
 Angioplasie/N
 Angiosarkom/EPS
-Angiotensin/S
 Angstbewältigungstraining/S
 Angstneurotiker/FNS
 Angstsyndrom/EPS
@@ -878,7 +877,6 @@ Candidamykose/N
 Candidiasis
 Cannabinoidrezeptor/PS
 Cannabis
-Carbamazepin/S
 Carbonylrest/EPS
 Carboxytermini
 Carboxyterminus
@@ -1213,7 +1211,6 @@ Eppendorf
 Eppendorfgefäß/EPT
 Eppendorfzentrifuge/N
 Erbgang/Sp
-Ergotamin/S
 Ergotherapeut/FP
 Ergotherapie/N
 Ergotismus
@@ -1238,7 +1235,6 @@ Erythem/EPS
 Erythema
 Erythrasma
 Erythropoese
-Erythropoetin/S
 Erythrozyt/P
 Erythrozytopoese
 Erythrozyturie/N

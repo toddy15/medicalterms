@@ -2308,7 +2308,7 @@ Schrittmacherstrom/S
 Schrittmacherströme/N
 Schrittmacherzelle/N
 Schulmedizin
-Schulmediziner/FN
+Schulmediziner/FNS
 Schwärzung/P
 Schwellenpotenzial/EPS
 Schweregrad/EPST
@@ -2423,6 +2423,8 @@ Strömungsvolumina
 Strömungswiderstand/ST
 Strömungswiderstände/N
 Struma/E
+Strumaresektion/P
+Strumektomie/N
 Stupor
 Subarachnoidalblutung/P
 Subarachnoidea

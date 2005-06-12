@@ -1506,7 +1506,6 @@ Immunsuppression/P
 Impetigo
 Impfung/P
 Implantat/EPS
-Indometacin
 Induration/P
 Infiltration/P
 Inflammation/P
@@ -1528,7 +1527,6 @@ Instillation/P
 Insuffizienz/P
 Insult/EPS
 Intentionstremor/S
-Interferon/EPS
 Interkostalraum/STp
 Interleukin/EPS
 Intertrigo
@@ -2139,7 +2137,6 @@ Primer/NS
 Primerpaar/EPS
 Prion/PS
 Procedere
-Progesteron/S
 Progredienz
 Proktitiden
 Proktitis
@@ -2148,7 +2145,6 @@ Proliferation/P
 Promotor/PS
 Promotorregion/P
 Pronation
-Prostaglandin/EPS
 Prostatahypertrophiesyndrom/EPS
 Prostatitiden
 Prostatitis

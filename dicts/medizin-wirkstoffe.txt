@@ -309,7 +309,7 @@ Dihydrocodein/S
 Dihydroergotamin/S
 Dihydroergotoxin/S
 Dihydrotachysterol/S
-Dikaliumchlorazepat/S
+Dikaliumclorazepat/S
 Diltiazem/S
 Dimenhydrinat/S
 Dimethylsulfoxid/S

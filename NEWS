@@ -1,4 +1,4 @@
-News for medicalterms-20050605
+News for medicalterms-20050703
 ==============================
 
 This release fixes two errors in the Makefile, which made the
@@ -7,9 +7,12 @@ creation of distribution packages really annoying.
 Furthermore, there's a new category of words. I've included the
 generic names for most usual drugs.
 
+In the already distributed word lists were some typo fixes applied
+and quite a few more words added.
+
 And last, but not least, the creation of this NEWS file makes
 the package suitable for "gnu" rules in the configure.ac file
 instead of "foreign". In addition, the NEWS file is checked for
 the current release number before actually shipping the tarball.
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sun, 05 June 2005 13:40:16 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Sun, 03 Jul 2005 19:11:17 +0200

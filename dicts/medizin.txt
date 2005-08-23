@@ -740,6 +740,7 @@ Basilarisaneurysma
 Basilarisaneurysmen
 Basisimpfung/P
 Basismedikation/P
+Bathmotropie/N
 Bauchdeckeninsuffizienz/P
 Bauchschmerzsyndrom/EPS
 Beckenarterienaneurysma/S
@@ -923,6 +924,7 @@ Chorionkarzinom/EPS
 Chromatin/S
 Chromosomensatz/T
 Chromosomensätze/N
+Chronotropie/N
 Chymotrypsin
 Circulus
 Circumcision/P
@@ -1072,6 +1074,7 @@ Dosierungsschemata
 Dranginkontinenz
 Dreimonatskolik/P
 Dreipunktgang/S
+Dromotropie/N
 Druckausgleich/ST
 Drucktrennung/P
 Druckulkus
@@ -1521,6 +1524,7 @@ Inkorporation/P
 Inkubation/P
 Inkubationszeit/P
 Innervation/P
+Inotropie/N
 Insert/S
 Insertlänge/N
 Insertmenge/N
@@ -2201,6 +2205,7 @@ Radiotherapie/N
 Ramus
 Randomisierung/P
 Rattenherz/P
+Rattenherzen/S
 Rattenmyokard/S
 Raucitas
 Räude
@@ -2409,6 +2414,7 @@ Stimmlippe/N
 Stimmungsschwankung/P
 Stimulans
 Stimulantien
+Stöchiometrie/N
 Stoma
 Stomatitiden
 Stomatitis
@@ -2459,6 +2465,8 @@ Tachykardie/N
 Tachyphylaxie/N
 Tachypnoe/N
 Tagesschwankung/P
+Tandemkanal/S
+Tandemkanäle/N
 Teleangiektasie/N
 Telomerregion/P
 Tendinitiden

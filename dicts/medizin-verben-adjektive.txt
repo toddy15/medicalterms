@@ -292,6 +292,7 @@ bakterizid/A
 basal/A
 basalpleuritisch/A
 basilaris
+bathmotrop/A
 befruchtungsfähig/A
 beidseits
 beinbetont/A
@@ -389,6 +390,7 @@ doppelblind/A
 doppelsträngig/A
 dorsal/A
 dorsalis
+dromotrop/A
 druckbelastet/A
 drüsig/A
 duodeni
@@ -840,6 +842,7 @@ squamös/A
 stehengelassen/A
 stenosieren/DIOXY
 stimulatorisch/A
+stöchiometrisch/A
 stromtragend/A
 stuporös/A
 subakut/A

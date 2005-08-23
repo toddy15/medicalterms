@@ -366,6 +366,7 @@ Ciclosporin/S
 Cidofovir/S
 Cilastatin/S
 Cilazapril/S
+Cilobradin/S
 Cimetidin/S
 Cimicifuga
 Cinchocain/S
@@ -828,6 +829,7 @@ Isosorbidmononitrat/S
 Isotretinoin/S
 Isradipin/S
 Itraconazol/S
+Ivabradin/S
 Jodid/S
 Jodoform/S
 Jodum
@@ -1507,8 +1509,6 @@ Sumatriptansuccinat/S
 Süßholzwurzel/N
 Suxamethonium/S
 Symphytum
-T3
-T4
 Tabacum
 Tacrin/S
 Tacrolimus
@@ -1679,6 +1679,7 @@ Yohimbin/S
 Zalcitabin/S
 Zaleplon/S
 Zanamivir/S
+Zatebradin/S
 Zidovudin/S
 Zimtöl/S
 Zimtrinde

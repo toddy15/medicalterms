@@ -1455,7 +1455,7 @@ Hyperlipidämie/N
 Hyperostose/N
 Hyperparathyreoidismus
 Hyperplasie/N
-Hyperpolarisation/P
+Hyperpolarisation/PS
 Hyperreflexie/N
 Hypersekretion/P
 Hypersensitivität/P

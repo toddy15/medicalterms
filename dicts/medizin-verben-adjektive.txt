@@ -837,7 +837,6 @@ spannungsabhängig/A
 spasmolytisch/A
 spermizid/A
 spinal/A
-spontanhypertensiv/A
 squamös/A
 stehengelassen/A
 stenosieren/DIOXY

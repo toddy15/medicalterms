@@ -685,7 +685,10 @@ neuropsychologisch/A
 neurotoxisch/A
 neurovegetativ/A
 neutrophil/A
+nichtinsuffizient/A
 nichtmedikamentös/A
+nichtmyozytär/A
+nichtselektiv/A
 nodal/A
 nonparametrisch/A
 normalverteilt/A

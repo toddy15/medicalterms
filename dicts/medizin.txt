@@ -2204,7 +2204,7 @@ Rachitis
 Radiotherapie/N
 Ramus
 Randomisierung/P
-Rattenherz/P
+Rattenherz
 Rattenherzen/S
 Rattenmyokard/S
 Raucitas

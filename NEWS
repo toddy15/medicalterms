@@ -1,18 +1,32 @@
-News for medicalterms-20050703
-==============================
+medicalterms-20051025
+=====================
+Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-84
 
-This release fixes two errors in the Makefile, which made the
-creation of distribution packages really annoying.
+* Some additions to the word lists; one incorrect entry has
+  been removed
+* The macro AM_MAINTAINER_MODE is now enabled in configure.ac
+* Changed the format of the NEWS file, so that the main changes
+  between releases can be found at once
 
-Furthermore, there's a new category of words. I've included the
-generic names for most usual drugs.
 
-In the already distributed word lists were some typo fixes applied
-and quite a few more words added.
+medicalterms-20050703
+=====================
+Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-77
 
-And last, but not least, the creation of this NEWS file makes
-the package suitable for "gnu" rules in the configure.ac file
-instead of "foreign". In addition, the NEWS file is checked for
-the current release number before actually shipping the tarball.
+* Fixed two errors in the Makefile, which made the creation of
+  distribution packages really annoying
+* New category of words: generic names for most usual drugs
+  are now included
+* In the already distributed word lists were some typo fixes
+  applied and quite a few more words added
+* Created this NEWS file which makes the package suitable for
+  "gnu" rules in the configure.ac file instead of "foreign".
+  In addition, the NEWS file is checked for the current release
+  number before actually shipping the tarball.
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sun, 03 Jul 2005 19:11:17 +0200
+
+medicalterms-20050510
+=====================
+Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-46
+
+* Initial release of the package

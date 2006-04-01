@@ -33,11 +33,11 @@ export LISTS = medizin.txt \
 	medizin-wirkstoffe.txt
 
 
-all-local: german-medical aspell
+all-local: german-medical aspell-de-medical
 
-install-data-local: install-german-medical install-aspell
+install-data-local: install-german-medical install-aspell-de-medical
 
-uninstall-local: uninstall-german-medical uninstall-aspell
+uninstall-local: uninstall-german-medical uninstall-aspell-de-medical
 
 
 #####################################################################
@@ -69,18 +69,18 @@ uninstall-german-medical:
 # aspell
 #####################################################################
 
-aspell: german-medical
+aspell-de-medical: german-medical
 	$(ASPELL) --lang=de create master ./de-medical.rws < german-medical
 
-.PHONY: install-aspell
-install-aspell: aspell
+.PHONY: install-aspell-de-medical
+install-aspell-de-medical: aspell-de-medical
 	$(INSTALL) --directory $(DESTDIR)$(libdir)/aspell-0.60/
 	$(INSTALL_DATA) --owner=root --group=root \
 		de-medical.rws $(srcdir)/dicts/de-medical.multi \
 		$(DESTDIR)$(libdir)/aspell-0.60/
 
-.PHONY: uninstall-aspell
-uninstall-aspell:
+.PHONY: uninstall-aspell-de-medical
+uninstall-aspell-de-medical:
 	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.rws
 	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.multi
 

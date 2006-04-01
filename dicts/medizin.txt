@@ -2479,6 +2479,7 @@ Tetanie/N
 Tetanus
 Tetrade
 Tetrahydrocannabinol/S
+Tetralogie/N
 Tetraplegie/N
 Thalamus
 Thalassämie/N

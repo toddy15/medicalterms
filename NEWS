@@ -2,6 +2,9 @@ medicalterms-UNRELEASED
 =======================
 
 * Some additions to the word lists
+* The aspell related targets in the Makefile have been renamed to
+  include the string "-de-medical", to better reflect the medical
+  domain of the generated files.
 
 
 medicalterms-20051025

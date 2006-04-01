@@ -1,6 +1,6 @@
 # This file lists medical terms in German, old spelling
 #
-# Copyright (C) 2005 Tobias Toedter <t.toedter@gmx.net>
+# Copyright (C) 2005-2006 Tobias Toedter <t.toedter@gmx.net>
 #
 # This file is part of Medicalterms.
 #

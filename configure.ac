@@ -1,7 +1,7 @@
 # Some configure options for medicalterms
 # Process this file with autoconf to produce a configure script.
 #
-# Copyright (C) 2005 Tobias Toedter <t.toedter@gmx.net>
+# Copyright (C) 2005-2006 Tobias Toedter <t.toedter@gmx.net>
 #
 # This file is part of Medicalterms.
 #

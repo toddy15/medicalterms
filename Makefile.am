@@ -85,20 +85,10 @@ uninstall-aspell-de-medical:
 
 
 #####################################################################
-# The ChangeLog should be in the tarball, but doesn't need to be
-# under version control, because it's generated automatically.
-#####################################################################
-
-.PHONY: update-changelog
-update-changelog:
-	baz changelog > ChangeLog
-
-
-#####################################################################
 # This is for creating a release tarball which is signed
 #####################################################################
 
 .PHONY: release
-release: update-changelog distcheck
+release: distcheck
 	rm -f $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz.sig
 	gpg --detach-sign $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz

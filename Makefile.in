@@ -629,20 +629,11 @@ uninstall-aspell-de-medical:
 	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.multi
 
 #####################################################################
-# The ChangeLog should be in the tarball, but doesn't need to be
-# under version control, because it's generated automatically.
-#####################################################################
-
-.PHONY: update-changelog
-update-changelog:
-	baz changelog > ChangeLog
-
-#####################################################################
 # This is for creating a release tarball which is signed
 #####################################################################
 
 .PHONY: release
-release: update-changelog distcheck
+release: distcheck
 	rm -f $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz.sig
 	gpg --detach-sign $(PACKAGE_TARNAME)-$(PACKAGE_VERSION).tar.gz
 # Tell versions [3.59,3.63) of GNU make to not export all variables.

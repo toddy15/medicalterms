@@ -805,6 +805,7 @@ Bewegungsunruhe/N
 Beziehungsperson/P
 Beziehungsproblem/EPS
 Beziehungsstörung/P
+Bezoar/S
 Bezugstherapeut/FP
 Bildgebung/P
 Bilirubin/S

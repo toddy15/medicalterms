@@ -21,7 +21,7 @@
 
 AC_INIT(medicalterms, esyscmd(date +%Y%m%d | perl -pe "chop"))
 AM_MAINTAINER_MODE
-AM_INIT_AUTOMAKE([gnu check-news])
+AM_INIT_AUTOMAKE([foreign check-news])
 
 
 # Enable the selection of different orthographies

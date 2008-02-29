@@ -8,6 +8,11 @@ medicalterms-UNRELEASED
 * The package is now licensed under GPL version 3 or later
 * Do not install data with user and group set to root, but leave
   as the uid and gid which is executing the command
+* As the revision control system has been switched from Arch to
+  Bazaar, some information has been updated in README. Moreover,
+  the automatically generated ChangeLog is no longer available.
+  Therefore, the package uses the "foreign" ruleset instead of
+  "gnu" for configuring.
 
 
 medicalterms-20051025

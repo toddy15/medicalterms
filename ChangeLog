@@ -13,6 +13,7 @@ medicalterms-UNRELEASED
   the automatically generated ChangeLog is no longer available.
   Therefore, the package uses the "foreign" ruleset instead of
   "gnu" for configuring.
+* Rename this file from NEWS to ChangeLog
 
 
 medicalterms-20051025

@@ -9,7 +9,6 @@ medicalterms-UNRELEASED
 
 medicalterms-20051025
 =====================
-Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-84
 
 * Some additions to the word lists; one incorrect entry has
   been removed
@@ -20,7 +19,6 @@ Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-84
 
 medicalterms-20050703
 =====================
-Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-77
 
 * Fixed two errors in the Makefile, which made the creation of
   distribution packages really annoying
@@ -36,6 +34,5 @@ Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-77
 
 medicalterms-20050510
 =====================
-Corresponds to medicalterms-dev@gna.org/medicalterms--main--1.0--patch-46
 
 * Initial release of the package

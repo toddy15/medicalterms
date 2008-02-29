@@ -39,38 +39,12 @@ $ aspell --lang=de --add-variety=medical check myfile.txt
 Access to the source code repository
 ====================================
 
-This project uses GNU arch as its revision control system. More
-specifically, the bazaar implementation is used as a frontend. You can
+This project uses the Bazaar revision control system. You can
 check out the latest development sources with the following commands:
 
-$ baz register-archive medicalterms-dev@gna.org http://arch.gna.org/medicalterms
-$ baz get medicalterms-dev@gna.org/medicalterms--main--1.0 medicalterms
-
-Note that you can use tla as a frontend as well, just replace all "baz"
-commands with "tla".
-
-As this is a signed archive, you might want to tell baz how to verify the
-signatures found in the archive. Please consult the baz manual on how to do
-this. If you don't configure baz to verify signed archives, you can still
-check out the sources -- baz will only warn you about not having verified
-the signatures.
-
-Currently, the only GPG key used for signing the repository (and the
-released tarball) is my own. You can fetch it from the any keyserver, using
-the following command:
-
-$ gpg --recv-keys 0x416cf2dc
-
-Please note that there are no automatically generated files included. This
-means that you need automake (>= 1.7.9) and autoconf (>= 2.59) to build those
-files yourself. You can use the following commands:
-
-$ baz changelog > ChangeLog
-$ aclocal
-$ automake --add-missing
-$ autoconf
+$ bzr branch http://download.gna.org/medicalterms/
 
 Now you can start hacking away -- don't forget to send your patches to me!
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Sun, 08 May 2005 20:01:53 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 29 Feb 2008 15:08:39 +0100

@@ -1,5 +1,5 @@
-medicalterms-UNRELEASED
-=======================
+medicalterms-20080229
+=====================
 
 * Some additions to the word lists
 * The aspell related targets in the Makefile have been renamed to

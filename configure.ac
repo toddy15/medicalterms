@@ -19,7 +19,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-AC_INIT(medicalterms, esyscmd(date +%Y%m%d | perl -pe "chop"))
+AC_INIT(medicalterms, 20080229)
 AM_MAINTAINER_MODE
 AM_INIT_AUTOMAKE([foreign])
 

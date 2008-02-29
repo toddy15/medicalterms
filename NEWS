@@ -5,6 +5,7 @@ medicalterms-UNRELEASED
 * The aspell related targets in the Makefile have been renamed to
   include the string "-de-medical", to better reflect the medical
   domain of the generated files.
+* The package is now licensed under GPL version 3 or later
 
 
 medicalterms-20051025

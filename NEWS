@@ -6,6 +6,8 @@ medicalterms-UNRELEASED
   include the string "-de-medical", to better reflect the medical
   domain of the generated files.
 * The package is now licensed under GPL version 3 or later
+* Do not install data with user and group set to root, but leave
+  as the uid and gid which is executing the command
 
 
 medicalterms-20051025

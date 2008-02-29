@@ -56,7 +56,7 @@ POST_UNINSTALL = :
 subdir = .
 DIST_COMMON = README $(am__configure_deps) $(srcdir)/Makefile.am \
 	$(srcdir)/Makefile.in $(top_srcdir)/configure AUTHORS COPYING \
-	INSTALL NEWS install-sh missing
+	ChangeLog INSTALL install-sh missing
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
@@ -329,12 +329,6 @@ distclean-tags:
 	-rm -f TAGS ID GTAGS GRTAGS GSYMS GPATH tags
 
 distdir: $(DISTFILES)
-	@case `sed 15q $(srcdir)/NEWS` in \
-	*"$(VERSION)"*) : ;; \
-	*) \
-	  echo "NEWS not updated; not releasing" 1>&2; \
-	  exit 1;; \
-	esac
 	$(am__remove_distdir)
 	mkdir $(distdir)
 	@srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`; \

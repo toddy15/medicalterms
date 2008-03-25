@@ -7,7 +7,7 @@ aspell, an advanced spellchecker.
 
 As of now, German is the only supported language. If you'd like to contribute
 to the development of the package medicalterms, please contact me. You can
-find the latest version on <http://gna.org/projects/medicalterms/>.
+find the latest version on <https://launchpad.net/medicalterms>.
 
 
 Configuration options
@@ -40,11 +40,16 @@ Access to the source code repository
 ====================================
 
 This project uses the Bazaar revision control system. You can
-check out the latest development sources with the following commands:
+check out the latest development sources with the following command,
+if you use a recent version of bzr:
 
-$ bzr branch http://download.gna.org/medicalterms/
+$ bzr branch lp:medicalterms
+
+If this does not work, you can use the full URL:
+
+$ bzr branch http://bazaar.launchpad.net/~toddy/medicalterms/trunk
 
 Now you can start hacking away -- don't forget to send your patches to me!
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Fri, 29 Feb 2008 15:08:39 +0100
+ -- Tobias Toedter <t.toedter@gmx.net>  Tue, 25 Mar 2008 19:16:51 +0100

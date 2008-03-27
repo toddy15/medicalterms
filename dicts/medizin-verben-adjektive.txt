@@ -702,7 +702,7 @@ okular/A
 onkogen/A
 onkolytisch/A
 onkotisch/A
-opthalmologisch/A
+ophthalmologisch/A
 orbital/A
 oris
 orofazial/A

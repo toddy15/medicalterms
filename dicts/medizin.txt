@@ -18,6 +18,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 Abasie/N
+Abbildungsfehler/NS
+Abbildungsqualität/P
 Abblassung/P
 Abdeckprobe/N
 Abdomen/S
@@ -29,6 +31,8 @@ Abduktion/P
 Abduktionseinschränkung/P
 Abduzens
 Abduzensparese/N
+Aberration/P
+Aberrometrie/N
 Abflusshindernis/Q
 Abflussstau/S
 Abführtropfen
@@ -40,6 +44,11 @@ Abheilung/P
 Abheilungstendenz/P
 Abknickung/P
 Ablatio
+Ablation/P
+Ablationsprofil/EPST
+Ablationsvorgang
+Ablationsvorgänge/N
+Ablationszone/N
 Ablepharie/N
 Abnormalität/P
 Abnormität/P
@@ -63,6 +72,8 @@ Absiedelung/P
 Absorptionswert/EPS
 Absprengung/P
 Abszedierung/P
+Abtrag/S
+Abtragsprofil/EPST
 Abtragung/P
 Abtreibung/P
 Abulie/N
@@ -156,6 +167,8 @@ Adhäsiolyse/N
 Adhäsion/P
 Adhäsionsbeschwerde/N
 Adhäsionsileus
+Adhäsionskraft
+Adhäsionskräfte/N
 Adhäsionsprophylaxe/N
 Adhäsionsschmerz/P
 Adhäsionssyndrom/EPS
@@ -236,12 +249,15 @@ Akatalasämie/N
 Akathisie/N
 Akinese/N
 Akinesie/N
+Akkommodation
 Akkommodationsbeschwerde/N
 Akkommodationsdefizit/EPS
+Akkommodationsfähigkeit/P
 Akkommodationskrampf/S
 Akkommodationskrämpfe/N
 Akkommodationslähmung/P
 Akkommodationsparese/N
+Akkommodationsruhe
 Akkommodationsschwäche/N
 Akkommodationsspasmus
 Akkommodationsstörung/P
@@ -332,6 +348,7 @@ Alkoholhepatitiden
 Alkoholhepatitis
 Alkoholintoxikation/P
 Alkoholkarenz
+Alkohollösung/P
 Alkoholmyopathie/N
 Alkoholpolyneuropathie/N
 Alkoholrückfall/STp
@@ -372,6 +389,7 @@ Altersschwerhörigkeit/P
 Alterssichtigkeit/P
 Altersskoliose/N
 Altersstar/ES
+Altersweitsichtigkeit/P
 Altruismus
 Alveolarfortsatz/T
 Alveolarfortsätze/N
@@ -426,6 +444,7 @@ Amnionitis
 Amniozentese/N
 Amöbe/N
 Amotio
+Amotiorisiko/S
 Amoxicillinexanthem/EPS
 Amphetamintyp/S
 Amplifikat/EPS
@@ -665,7 +684,12 @@ Aspirationsneigung/P
 Assay/S
 Asthenie/N
 Asthmaanamnese/N
+Astigmatismen
+Astigmatismus
+Astigmatismusentwicklung/P
+Astigmatismuskorrektur/P
 Astrovirusinfektion/P
+Asymmetriefehler/NS
 Asystolie/N
 Aszites
 Ataxie/N
@@ -688,7 +712,9 @@ Aufnahmebefund/EPST
 Aufreinigung/P
 Aufzweigung/P
 Augapfelkontusion/P
+Augenbewegung/P
 Augenhämatom/EPS
+Augenlinse/N
 Augenrötung/P
 Ausbreitungsgebiet/EPS
 Auskultation/P
@@ -774,6 +800,7 @@ Behandlungsgruppe/N
 Behandlungsnotwendigkeit/P
 Behandlungsprogramm/EPS
 Behandlungsunterlagen
+Behandlungsverfahren/S
 Beinfehlstellung/P
 Beinlängenunterschied/EPS
 Beinumfangsdifferenz/P
@@ -785,11 +812,14 @@ Belastungsinsuffizienz/P
 Belastungsreaktion/P
 Belastungsschmerz/PT
 Belastungsstufe/N
+Beleuchtungsbedingung/P
 Benommenheitsschwindel/S
 Benzodiazepin/EPS
 Beratungsgespräch/EPST
 Berentung/P
 Berufstauglichkeitsberatung/P
+Berufsverband/P
+Berufsverbände/N
 Beschäftigungstherapie/N
 Beta
 Betablocker/NS
@@ -822,6 +852,8 @@ Blähbäuche/N
 Blasenentleerungsstörung/P
 Blepharitiden
 Blepharitis
+Blickbewegung/P
+Blicksakkade/N
 Blisterpackung/P
 Blocker/NS
 Blockierung/P
@@ -846,6 +878,9 @@ Bradyarrhythmie/N
 Bradykardie/N
 Bradykinesie/N
 Bradypnoe/N
+Brechkraft
+Brechkraftapparat/EPST
+Brechkräfte/N
 Brechreiz/EPT
 Brillenhämatom/EPS
 Bronchialkarzinom/EPS
@@ -945,6 +980,7 @@ Colon/S
 Coloncarcinom/EPS
 Coloskopie/N
 Colostomie/N
+Coma
 Commotio
 Compliance
 Condyloma
@@ -973,6 +1009,7 @@ Cytomegalie/N
 Cytosin/S
 Dakryozystitiden
 Dakryozystitis
+Dämmerungssehvermögen/S
 Darmfehlbildung/P
 Darmflorabestimmung/P
 Darmmotilitätsstörung/P
@@ -1037,6 +1074,8 @@ Desquamation/P
 Determinationskoeffizient/P
 Detoxikation/P
 Dextrokardie/N
+Dezentration/P
+Diamantmesser/NS
 Diameter/S
 Diaphorese/N
 Diarrhoe/N
@@ -1163,6 +1202,8 @@ Endoskop/EPS
 Endoskopie/N
 Endoskopiker/FNS
 Endothel/S
+Endothelzellverlust/EPST
+Endothelzellzahl/P
 Endvolumen
 Endvolumina
 Enkopresis
@@ -1210,6 +1251,7 @@ Epilation/P
 Episiotomie/N
 Epistaxis
 Epithel/EPS
+Epitheleinwachsung/P
 Epithelgewebe/NS
 Epitheliom/EPS
 Eppendorf
@@ -1252,6 +1294,8 @@ Evalution/P
 Exanthem/EPS
 Exanthema
 Exazerbation/P
+Excimer/S
+Excimerbehandlung/P
 Exfoliation/P
 Exfoliativzytologie/N
 Exitus
@@ -1284,7 +1328,14 @@ Fällung/P
 Fazialisparese/N
 Fehlbildung/P
 Fehlbildungssyndrom/EPS
+Fehlsichtigkeit/P
+Fehlsichtigkeitsform/P
+Fehlsichtigkeitskorrektur/P
+Feinkorrektur/P
 Feinnadelbiopsie/N
+Femtolaser/NS
+Femtosekundenlaser/NS
+Fernpunkt/EPST
 Fibrille/N
 Fibrose/N
 Flüssigkeitsfilm/EPS
@@ -1292,6 +1343,7 @@ Foetor/S
 Folgekrankheit/P
 Formaldehyd/S
 Forschungsprozess/EPT
+Fortbildungsartikel/NS
 Fortpflanzung/P
 Fortpflanzungsreife
 Fragmentlänge/N
@@ -1331,6 +1383,8 @@ Gerinnung/P
 Gerinnungsprotein/EPS
 Geschlechterverhältnis/Q
 Gesichtsdysmorphie/N
+Gesichtsfeldschaden/S
+Gesichtsfeldschäden
 Gesichtsrötung/P
 Gesichtsschwitzen
 Gestagen/EPS
@@ -1340,6 +1394,7 @@ Gewebeprobe/N
 Gewebsflüssigkeit/P
 Gewichtszunahme/N
 Giftigkeit/P
+Glaskörperabhebung/P
 Glaukom/S
 Glyceraldehyd/S
 Glycin/S
@@ -1356,6 +1411,7 @@ Grundlagenkenntnisse/N
 Guajakprobe/N
 Guanin/S
 Halluzination/P
+Halo/S
 Haltungsschaden/S
 Haltungsschäden
 Hämangiom/EPS
@@ -1371,6 +1427,8 @@ Haschischöl/EPS
 Hauptschlagader/N
 Hautbiopsie/N
 Heilungschance/N
+Heilverlauf/ST
+Heilverläufe/N
 Hemicranie
 Hemiplegie/N
 Hemmer/NS
@@ -1406,6 +1464,8 @@ Heteromer/EPS
 Heteromultimer/EPS
 Heteromultimerisation/P
 Heterozygotenfrequenz/P
+Hinterkammer/N
+Hinterkammerlinse/N
 Hippocampus
 Hirnblutung/P
 Hirnmassenblutung/P
@@ -1422,6 +1482,23 @@ Homologie/N
 Homöostase/N
 Homozygotenfrequenz/P
 Hormonrezeptor/PS
+Hornhautbrechkraft
+Hornhautbrechkräfte/N
+Hornhautchirurgie
+Hornhautdicke/N
+Hornhautendothel/S
+Hornhautepithel/S
+Hornhautflap/S
+Hornhautgewebe/NS
+Hornhautlamelle/N
+Hornhautnerv/P
+Hornhautpathologie/N
+Hornhautperipherie
+Hornhautschicht/P
+Hornhautschnitt/EPST
+Hornhautsystem/EPST
+Hornhauttopografie/N
+Hornhauttransplantation/P
 Hospitalisierung/P
 Hospitalismus
 Host
@@ -1452,6 +1529,8 @@ Hyperkapnie/N
 Hyperkeratose/N
 Hyperkinese/N
 Hyperlipidämie/N
+Hypermetropie/N
+Hyperopie/N
 Hyperostose/N
 Hyperparathyreoidismus
 Hyperplasie/N
@@ -1511,6 +1590,10 @@ Immunsuppression/P
 Impetigo
 Impfung/P
 Implantat/EPS
+Indikationsbereich/EPST
+Indikationskriterien
+Indikationskriterium/S
+Indikationsstellung/P
 Induration/P
 Infiltration/P
 Inflammation/P
@@ -1538,11 +1621,14 @@ Interleukin/EPS
 Intertrigo
 Interventrikularseptum/S
 Intoxikation/P
+Intraokularlinse/N
 Intubation/P
 Invertzucker/NS
 Involution/P
 Inzidenz/P
 Inzision/P
+Inzisionsschnitt/EPST
+Inzisionsverfahren/S
 Ionenkanal/S
 Ionenkanäle/N
 Ionenkanalprotein/EPS
@@ -1551,6 +1637,8 @@ Ionenströme/N
 Ionogramm/EPS
 Iridozyklitiden
 Iridozyklitis
+Iris
+Iriserkennung/P
 Iritiden
 Iritis
 Irrigation/P
@@ -1575,6 +1663,7 @@ Kalzifikation/P
 Kalziumkanal/S
 Kalziumkanäle/N
 Kalziurie
+Kammerwinkel/S
 Kanalbildung/P
 Kanalfamilie/N
 Kanalfunktion/P
@@ -1586,6 +1675,9 @@ Kaninchenmyokard/S
 Kanüle/N
 Kanzerogen/EPS
 Kapillare/N
+Kapselsack/S
+Kapselsäcke/N
+Kapsulotomie/N
 Karbunkel/S
 Kardiogramm/EPS
 Kardiomegalie/N
@@ -1601,6 +1693,8 @@ Katabolismus
 Katalyse/N
 Katamnese/N
 Katarakt/EPS
+Kataraktchirurgie
+Kataraktentwicklung/P
 Katheter/NS
 Katheterismus
 Katheterlage/N
@@ -1611,10 +1705,14 @@ Kationenströme/N
 Katzenherz/PT
 Keloid/EPS
 Kephalalgie/N
+Keratektasie/N
+Keratektomie/N
 Keratitiden
 Keratitis
 Keratokonjunktivitiden
 Keratokonjunktivitis
+Keratomileusis
+Keratotomie/N
 Kernspintomogramm/EPS
 Ketoazidose/N
 Kinderarzt/T
@@ -1640,6 +1738,8 @@ Kommensale/N
 Kompartiment/EPS
 Kompartmentsyndrom/EPS
 Komplex/EPT
+komplikationsarm/A
+Komplikationsrate/N
 Konduktion/P
 Konduktor/PS
 Kondylom/EPS
@@ -1673,6 +1773,7 @@ Kopfschmerzform/P
 Kopfschmerzsyndrom/EPS
 Koronarinsuffizienz/P
 Körperbehaarung
+Korrekturverfahren/S
 Kortex
 Kortikosteroid/EPS
 Kortison/S
@@ -1696,8 +1797,11 @@ Kreuzresistenz/P
 Kristallurie
 Kritiklosigkeit
 Kühlzentrifuge/N
+Kunstlinse/N
+Kunstlinsenimplantation/P
 Kupierung/P
 Kürettage/N
+Kurzsichtigkeit/P
 Kurzzeitgedächtnis/Q
 Kyphose/N
 Kyphosierung/P
@@ -1709,6 +1813,7 @@ Laryngitis
 Laryngoskop/EPS
 Laryngoskopie/N
 Larynx
+Laserabtrag/S
 Läsion/P
 Latenzperiode/N
 Laufpuffer/S
@@ -1722,7 +1827,10 @@ Lehrbeauftragte/RN
 Leichtketten
 Leitsymptom/EPS
 Leitungssystem/EPS
+Lentikel/NS
 Lernproblem/EPS
+Lernziel/EPST
+Lesebrille/N
 Letalität/P
 Leukämie/N
 Leukenzephalopathie/N
@@ -1733,6 +1841,8 @@ Leukozytopenie/N
 Leukozytose/N
 Libido
 Lichenifikation/P
+Lichthof/S
+Lichthöfe/N
 Ligament/EPS
 Ligase/N
 Ligasepuffer/S
@@ -1742,6 +1852,11 @@ Ligationsansätze/N
 Linksherzhypertrophie/N
 Linksherzinsuffizienz/P
 Linkstyp/S
+Linsenaustausch/ST
+Linsenchirurgie
+Linsenimplantation/P
+Linsensystem/ESPT
+Linsenverfahren/S
 Lipase/N
 Lipid/EPS
 Lipidanteil/EPS
@@ -1750,6 +1865,7 @@ Lipoprotein/EPS
 Lipoproteinämie/N
 Liposom/PS
 Liquor/S
+Literaturaufarbeitung/P
 Livedo
 Livor
 Lobus
@@ -1787,11 +1903,14 @@ Lysozym/S
 Magendarmtrakt/ST
 Makrophage/N
 Makula
+Makuladegeneration/P
+Makulaödem/EPST
 Malabsorption
 Malaise/N
 Malformation/P
 Mamma/E
 Mannit
+Manuskriptdaten
 Marker/NS
 Maschinengeräusch/EPT
 Mastektomie/N
@@ -1818,6 +1937,7 @@ Meningitiden
 Meningitis
 Menopause/N
 Menorrhagie/N
+Meridian/EPST
 Metabolisierung/P
 Metabolismus
 Metabolit/EPS
@@ -1828,6 +1948,7 @@ Methämoglobinämie/N
 Metrorrhagie/N
 Migräneanfall/Sp
 Mikroglobulin/EPS
+Mikrokeratom/EPST
 Mikrospore/N
 Mikrovilli
 Mikrovillus
@@ -1859,6 +1980,7 @@ Mukolytika
 Mukolytikum/S
 Mukosa
 Mukus
+Multifokallinse/N
 Multiinfarktdemenz/P
 Multimer/EPS
 Multipara
@@ -1892,9 +2014,17 @@ Myopie/N
 Myositiden
 Myositis
 Myozyt/PS
+Nachbeobachtungszeitraum/ST
+Nachbeobachtungszeiträume/N
+Nachkorrektur/P
+Nachstar/S
 Nachweisgrenze/N
 Nachweismethode/N
 Nachweisverfahren/S
+Naheinstellung/P
+Nährstoffversorgung/P
+Nahsehfähigkeit/P
+Narbenbildung/P
 Natriumion/PS
 Natriurie
 Nausea
@@ -1910,6 +2040,7 @@ Nephrolith
 Nephropathie/N
 Nervi
 Nervus
+Netzhautablösung/P
 Netzhäute/N
 Neuralgie/N
 Neuraltherapie/N
@@ -1939,6 +2070,9 @@ Nullipara
 Nutriens
 Nykturie/N
 Nystagmus
+Oberflächenbehandlung/P
+Oberflächendaten
+Oberflächenkrümmung/P
 Obesitas
 Observation/P
 Obsession/P
@@ -1946,6 +2080,7 @@ Obstipation/P
 Obstruktion/P
 Ödem/EPS
 Odor
+Öffnungsfehler/N
 Okklusion/P
 Oligomenorrhoe/N
 Oligonukleotid/EPS
@@ -1955,8 +2090,10 @@ Onkologie
 Oophorektomie/N
 Oophoritiden
 Oophoritis
+Operationsbedingung/P
 Operationsnarbe/N
 Operationswunde/N
+Ophthalmochirurg/FP
 Ophthalmologe/FN
 Ophthalmologie
 Opiat/EPS
@@ -2138,6 +2275,8 @@ Präskription/P
 Prävalenz/P
 Präzipitation/P
 Preload/S
+Presbyopie/N
+Presbyopiebehandlung/P
 Priapismus
 Primer/NS
 Primerpaar/EPS
@@ -2182,6 +2321,7 @@ Pulmonalstenose/N
 Pulmonarkapillardruck/S
 Pulmonarkapillardrücke/N
 Pulsation/P
+Pumpeffekt/EPST
 Pumpfunktion/P
 Punktion/P
 Purkinje
@@ -2224,6 +2364,10 @@ Rechtstyp/S
 Reduktionsfehlbildung/P
 Reentry
 Reflux/T
+Refraktionsergebnis
+Refraktionsergebnisse/NS
+Refraktionsfehler/NS
+Refraktionsschwankung/P
 Regenerationsfähigkeit/P
 Regurgitation/P
 Rehabilitation/P
@@ -2237,6 +2381,7 @@ Rektum/S
 Rektumkarzinom/EPS
 Relaxans
 Relaxanzien
+Relaxationsinzision/P
 Remission/P
 Remodeling/S
 Renin/S
@@ -2246,6 +2391,7 @@ Resektion/P
 Residuen
 Residuum/S
 Resorption/P
+Restfehlsichtigkeit/P
 Restriktionsansatz/T
 Restriktionsansätze/N
 Restriktionsenzym/EPS
@@ -2306,6 +2452,8 @@ Scharlach
 Scharlatanerie/N
 Schichtdicke/N
 Schlinge/N
+Schnittfehler/NS
+Schnittsystem/EPST
 Schrittmacheraktivität/P
 Schrittmacherfunktion/P
 Schrittmachergewebe/N
@@ -2392,10 +2540,13 @@ Sprue
 Spülung/P
 Sputum/S
 Stabilisierung/P
+Stabsichtigkeit/P
 Standarddosen
 Standarddosis
 Standardfehler/S
 Standardgerade/N
+Standardkriterien
+Standardkriterium/S
 Standardreihe/N
 Staphylococcus
 Staphylokokken
@@ -2425,6 +2576,7 @@ Stressbewältigungstechnik/P
 Stressinkontinenz
 Stria/E
 Stridor
+Stroma/S
 Stromdichte/N
 Strömungsvolumen/S
 Strömungsvolumina
@@ -2433,6 +2585,7 @@ Strömungswiderstände/N
 Struma/E
 Strumaresektion/P
 Strumektomie/N
+Studienunterstützung/P
 Stupor
 Subarachnoidalblutung/P
 Subarachnoidea
@@ -2467,6 +2620,7 @@ Tachypnoe/N
 Tagesschwankung/P
 Tandemkanal/S
 Tandemkanäle/N
+Teilgebiet/EPST
 Teleangiektasie/N
 Telomerregion/P
 Tendinitiden
@@ -2475,6 +2629,8 @@ Tenesmen
 Tenesmus
 Tension
 Teratom/EPS
+Termini
+Terminus
 Tetanie/N
 Tetanus
 Tetrade
@@ -2525,6 +2681,7 @@ Tracheitis
 Trachom/EPS
 Tractus
 Trägersubstanz/P
+Tränenfilmsekretion/P
 Transit
 Transkriptase/N
 Transkription/P
@@ -2636,6 +2793,7 @@ Verwirrtheitszustand
 Verwirrtheitszustände/N
 Vigilanz
 Virilisierung/P
+Visusreduktion/P
 Vitalkapazität/P
 Vitien
 Vitium/S
@@ -2643,20 +2801,30 @@ Volldigitalisierung/P
 Vollnarkose/N
 Volumenbelastung/P
 Vomitus
+Vorderkammer/N
+Vorderkammerlinse/N
+Vorderkammertiefe/N
 Vorhofebene/N
 Vorhofseptumdefekt/EPST
 Vorlaufzeit/P
 Vortexgerät/EPS
+Vorwölbung/P
 Vulva
 Vulvovaginitiden
 Vulvovaginitis
 Wahrnehmungsstörung/P
 Waschpuffer/S
+Wasseransammlung/P
+Wellenfront/P
+Wellenlängenbereich/EPST
+Wellennatur
 Wiederholungsrisiko/S
 Wilms
 Wirbelkörperanomalie/N
 Wirkdauer/N
 Wortfindung
+Wundheilung/P
+Wundheilungsstörung/P
 Xanthom/EPS
 Xanthopsie/N
 Xerophthalmie/N
@@ -2684,6 +2852,7 @@ Zusammenlagerung/P
 Zwischenwirbelabstand/S
 Zwischenwirbelabstände/N
 Zyanose/N
+Zyklorotationsbewegung/P
 Zyklusprogramm/EPS
 Zystitiden
 Zystitis

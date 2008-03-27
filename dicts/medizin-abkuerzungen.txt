@@ -70,6 +70,7 @@ dB
 DCM
 DNA
 DNase
+dpt
 EBV
 EDTA
 EEG
@@ -94,6 +95,8 @@ IgG
 IgM
 INR
 IPPV
+LASEK
+LASIK
 LDH
 LWS
 MEDLINE
@@ -118,7 +121,9 @@ PE
 PEEP
 pg
 pH
+PIOL
 pmol
+PRK
 PTCA
 QRS
 QT

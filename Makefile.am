@@ -72,14 +72,14 @@ aspell-de-medical: german-medical
 
 .PHONY: install-aspell-de-medical
 install-aspell-de-medical: aspell-de-medical
-	$(INSTALL) --directory $(DESTDIR)$(libdir)/aspell-0.60/
+	$(INSTALL) --directory $(DESTDIR)$(libdir)/aspell/
 	$(INSTALL_DATA) de-medical.rws $(srcdir)/dicts/de-medical.multi \
-		$(DESTDIR)$(libdir)/aspell-0.60/
+		$(DESTDIR)$(libdir)/aspell/
 
 .PHONY: uninstall-aspell-de-medical
 uninstall-aspell-de-medical:
-	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.rws
-	rm -f $(DESTDIR)$(libdir)/aspell-0.60/de-medical.multi
+	rm -f $(DESTDIR)$(libdir)/aspell/de-medical.rws
+	rm -f $(DESTDIR)$(libdir)/aspell/de-medical.multi
 
 
 #####################################################################

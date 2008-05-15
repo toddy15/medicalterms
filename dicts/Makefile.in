@@ -137,8 +137,7 @@ top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 EXTRA_DIST = $(LISTS) \
 	medizin-n.txt \
-	medizin-a.txt \
-	de-medical.multi
+	medizin-a.txt
 
 all: all-am
 

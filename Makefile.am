@@ -22,7 +22,7 @@
 SUBDIRS = bin dicts
 
 CLEANFILES = german-medical \
-	de-medical.rws
+	de_med.dic
 
 export LISTS = medizin.txt \
 	medizin-verben-adjektive.txt \
@@ -32,11 +32,11 @@ export LISTS = medizin.txt \
 	medizin-wirkstoffe.txt
 
 
-all-local: german-medical aspell-de-medical
+all-local: german-medical de_med.dic
 
-install-data-local: install-german-medical install-aspell-de-medical
+install-data-local: install-german-medical install-de_med.dic
 
-uninstall-local: uninstall-german-medical uninstall-aspell-de-medical
+uninstall-local: uninstall-german-medical uninstall-de_med.dic
 
 
 #####################################################################
@@ -64,22 +64,27 @@ uninstall-german-medical:
 
 
 #####################################################################
-# aspell
+# hunspell
 #####################################################################
 
-aspell-de-medical: german-medical
-	$(ASPELL) --lang=de create master ./de-medical.rws < german-medical
+de_med.dic:
+	$(srcdir)/bin/get_words $(addprefix $(srcdir)/dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
+	$(PERL) -pe 's/qq//g' | \
+	$(SORT) -u | \
+	$(ASPELL) conv UTF-8 ISO-8859-1 | \
+	LANG=de_DE $(SORT) -u > $@.tmp
+	wc -l < $@.tmp > $@
+	cat $@.tmp >> $@
+	rm -f $@.tmp
 
-.PHONY: install-aspell-de-medical
-install-aspell-de-medical: aspell-de-medical
-	$(INSTALL) --directory $(DESTDIR)$(libdir)/aspell/
-	$(INSTALL_DATA) de-medical.rws $(srcdir)/dicts/de-medical.multi \
-		$(DESTDIR)$(libdir)/aspell/
+.PHONY: install-de_med.dic
+install-de_med.dic: de_med.dic
+	$(INSTALL) --directory $(DESTDIR)$(datadir)/myspell/dicts
+	$(INSTALL_DATA) de_med.dic $(DESTDIR)$(datadir)/myspell/dicts
 
-.PHONY: uninstall-aspell-de-medical
-uninstall-aspell-de-medical:
-	rm -f $(DESTDIR)$(libdir)/aspell/de-medical.rws
-	rm -f $(DESTDIR)$(libdir)/aspell/de-medical.multi
+.PHONY: uninstall-de_med.dic
+uninstall-de_med.dic:
+	rm -f $(DESTDIR)$(datadir)/myspell/dicts/de_med.dic
 
 
 #####################################################################

@@ -1,6 +1,10 @@
 medicalterms trunk
 ==================
 
+* Support a supplemental hunspell dictionary which needs a "base"
+  dictionary
+* Remove support for aspell because that program does not support
+  supplemental dictionaries like hunspell
 * Regenerate auto* files with current toolchain
 
 

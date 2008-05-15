@@ -1158,6 +1158,7 @@ Nortriptylin/S
 Noscapin/S
 Nystatin/S
 Obidoximchlorid/S
+Octenidin/S
 Octenidindihydrochlorid/S
 Octocrylene
 Octreotid/S
@@ -1290,6 +1291,7 @@ Policresulen
 Polidocanol/S
 Polyacrylsäure
 Polyethylenwachs
+Polyhexanid/S
 Polymyxin B
 Polysulfonsäure
 Polyvidon/S

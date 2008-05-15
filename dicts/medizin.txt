@@ -159,7 +159,7 @@ Aderhautamotio
 Aderhautdehnungsherd/EPS
 Aderhäute/N
 Aderhauthämangiom/EPS
-Aderhauthämatom/EPS
+Aderhauthämatom/EPST
 Aderhautnävus
 Aderhautruptur/P
 Adhärenz/P
@@ -225,6 +225,7 @@ Agarosegel/EPS
 Agarplatte/N
 Agenesie/N
 Agens
+Agenzien
 Ageusie/N
 Aggravation/P
 Aggregation/P
@@ -323,6 +324,7 @@ Aldosteronsekretion/P
 Aleukämie/N
 Alexie/N
 Alexithymie/N
+Alginat/EPST
 Algodystrophie/N
 Algomenorrhoe/N
 Algoneurodystrophie/N
@@ -361,6 +363,7 @@ Allergenexposition/P
 Allergenextrakt/EPST
 Allergentest/PS
 Allergiediathese/N
+Allergiepotenzial/EPST
 Allergiker/FN
 Allergodermie/N
 Allergologe/FN
@@ -430,6 +433,7 @@ Aminoazidopathie/N
 Aminoazidurie/N
 Aminoglykosid/EPS
 Aminogruppe/N
+Aminopenicillin/EPST
 Aminophenol/EPS
 Aminosäuremangelanämie/N
 Aminosäurenstoffwechselstörung/P
@@ -508,6 +512,7 @@ Anfallsleiden/S
 Anfärbung/P
 Angiitiden
 Angiitis
+Angiogenese/N
 Angiolipom/EPS
 Angiologe/FN
 Angiologie
@@ -562,6 +567,7 @@ Antiasthmatika
 Antiasthmatikum/S
 Antibiogramm/EPS
 Antibiose/N
+Antibiotikatherapie/N
 Anticholinergika
 Anticholinergikum/S
 Antidepressiva
@@ -713,17 +719,20 @@ Aufreinigung/P
 Aufzweigung/P
 Augapfelkontusion/P
 Augenbewegung/P
-Augenhämatom/EPS
+Augenhämatom/EPST
 Augenlinse/N
 Augenrötung/P
 Ausbreitungsgebiet/EPS
+Ausheilung/P
 Auskultation/P
 Auskultationsbefund/EPST
 Ausprägungsform/PS
 Ausprägungsgrad/EPS
+Ausreifung/P
 Ausschabung/P
 Ausschwemmung/P
 Ausstülpung/P
+Austrocknung/P
 Auswärtsstrom/ST
 Auswärtsströme/N
 Auswurfsymptomatik
@@ -874,6 +883,7 @@ Boosterung/P
 Borborygmus
 Borrelien
 Borreliose/N
+Borsäure
 Bradyarrhythmie/N
 Bradykardie/N
 Bradykinesie/N
@@ -882,7 +892,7 @@ Brechkraft
 Brechkraftapparat/EPST
 Brechkräfte/N
 Brechreiz/EPT
-Brillenhämatom/EPS
+Brillenhämatom/EPST
 Bronchialkarzinom/EPS
 Bronchiektasen
 Bronchiektasie/N
@@ -909,6 +919,7 @@ Bulimie/N
 Bursitiden
 Bursitis
 Calcaneussporn/PS
+calor
 Campylobacterinfektion/P
 Candida
 Candidamykose/N
@@ -926,6 +937,7 @@ Carotisdissektion/P
 Carotissinus
 Cauda
 Cephalgie/N
+Cephalosporin/EPST
 Cerebralparese/N
 Cerumen
 Ceruminalpfropf/P
@@ -933,6 +945,7 @@ Cervix
 Chalazion
 Chemo
 Chemorezeptor/PS
+Chemotaxis
 Chemotherapeutika
 Chemotherapeutikum/S
 Chirotherapie/N
@@ -959,6 +972,7 @@ Chorionkarzinom/EPS
 Chromatin/S
 Chromosomensatz/T
 Chromosomensätze/N
+Chronifizierung/P
 Chronotropie/N
 Chymotrypsin
 Circulus
@@ -1019,16 +1033,20 @@ Dauermedikation/P
 Daumenfraktur/P
 Daumengrundgelenk/EPS
 Debilität
+Debridement/S
 Deckplatte/N
 Deckplatteneinbruch/S
 Deckplatteneinbrüche/N
 Deckplattensklerosierung/P
 Defäkation/P
+Defektverschluss/T
+Defektverschlüsse/N
 Defibrillation/P
 Defizienz/P
 Deformierung/P
 Degradation/P
 Degradationsprodukt/EPS
+Dehiszenz/P
 Dehnungsbehandlung/P
 Dehydration
 Dekompensation/P
@@ -1067,6 +1085,7 @@ Desensibilisierung/P
 Desensibilisierungsbehandlung/P
 Desensibilisierungsberatung/P
 Desinfiziens
+Desinfizienzien
 Desorientierung/P
 Desoxynukleotid/EPS
 Desoxyribonukleinsäure/N
@@ -1103,6 +1122,7 @@ Diuretikum/S
 Divertikulitiden
 Divertikulitis
 Divertikulose/N
+dolor
 Doppelbestimmung/P
 Doppler/S
 Dosen
@@ -1158,6 +1178,7 @@ Einschlafschwierigkeit/P
 Einschwielung/P
 Einwärtsstrom/ST
 Einwärtsströme/N
+Einwirkzeit/P
 Einzelwert/EPS
 Einziehung/P
 Eisenmangelanämie/N
@@ -1229,6 +1250,7 @@ Entziehung/P
 Entzugssymptomatik/P
 Entzugssyndrom/EPS
 Entzündung/P
+Entzündungsparameter/N
 Enurese
 Enuresis
 Enzephalitiden
@@ -1253,6 +1275,7 @@ Epistaxis
 Epithel/EPS
 Epitheleinwachsung/P
 Epithelgewebe/NS
+Epithelialisierung/P
 Epitheliom/EPS
 Eppendorf
 Eppendorfgefäß/EPT
@@ -1291,6 +1314,7 @@ Escherichia
 Ethidiumbromid/S
 Evakuation/P
 Evalution/P
+Evidenzgrad/EPST
 Exanthem/EPS
 Exanthema
 Exazerbation/P
@@ -1318,6 +1342,7 @@ Exsudation/P
 Extraktion/P
 Extrasystole/N
 Extrauteringravidität/P
+Extrazellulärmatrix
 Extubation/P
 Exzision/P
 Exzitation/P
@@ -1337,7 +1362,14 @@ Femtolaser/NS
 Femtosekundenlaser/NS
 Fernpunkt/EPST
 Fibrille/N
+Fibrin/EPST
+Fibrinabbauprodukt/EPST
+Fibrinolyse/N
+Fibrinolysesystem/EPST
+Fibrinvernetzung/P
+Fibroblast/PS
 Fibrose/N
+Fluorochinolon/EPST
 Flüssigkeitsfilm/EPS
 Foetor/S
 Folgekrankheit/P
@@ -1365,6 +1397,7 @@ Gaumenmandel/N
 Geburtsgewicht/EPS
 Gedeihstörung/P
 Gefäßfehler/NS
+Gefäßproliferation/P
 Gefrierschnitt/EPS
 Gefühlsspektrum
 Gehirnanhangsdrüse/N
@@ -1379,6 +1412,7 @@ Genlokus
 Genmutation/P
 Gensequenz/P
 Gensonde/N
+Gentianaviolett/S
 Gerinnung/P
 Gerinnungsprotein/EPS
 Geschlechterverhältnis/Q
@@ -1389,9 +1423,13 @@ Gesichtsrötung/P
 Gesichtsschwitzen
 Gestagen/EPS
 Gewebeasservierung/P
+Gewebedurchtrennung/P
 Gewebeentnahme/N
+Gewebenekrose/N
 Gewebeprobe/N
+Gewebsdurchtrennung/P
 Gewebsflüssigkeit/P
+Gewebsnekrose/N
 Gewichtszunahme/N
 Giftigkeit/P
 Glaskörperabhebung/P
@@ -1400,6 +1438,7 @@ Glyceraldehyd/S
 Glycin/S
 Gonorrhoe/N
 Graft
+Granulationsgewebe/N
 Granulozyt/PS
 Gravidität/P
 Größenbestimmung/P
@@ -1415,7 +1454,7 @@ Halo/S
 Haltungsschaden/S
 Haltungsschäden
 Hämangiom/EPS
-Hämatom/EPS
+Hämatom/EPST
 Hämodynamik/P
 Hämoglobin/EPS
 Hämokkult
@@ -1426,6 +1465,8 @@ Hämostase/N
 Haschischöl/EPS
 Hauptschlagader/N
 Hautbiopsie/N
+Hautintegument/S
+Hauttransplantat/EPST
 Heilungschance/N
 Heilverlauf/ST
 Heilverläufe/N
@@ -1509,6 +1550,8 @@ Hybridisierungslösung/P
 Hybridisierungssignal/EPS
 Hydration
 Hydrocephalus
+Hydrogel/EPST
+Hydrokolloid/EPST
 Hydrolyse/N
 Hydroxylierung/P
 Hydrozephalus
@@ -1578,6 +1621,7 @@ Ikterus
 Ileitiden
 Ileitis
 Ileus
+Imbibierung/P
 Immobilisation/P
 Immunfluoreszenz/P
 Immunglobulin/EPS
@@ -1595,6 +1639,7 @@ Indikationskriterien
 Indikationskriterium/S
 Indikationsstellung/P
 Induration/P
+Infektabwehr
 Infiltration/P
 Inflammation/P
 Influenza
@@ -1615,6 +1660,7 @@ Insomnie/N
 Instillation/P
 Insuffizienz/P
 Insult/EPS
+Integument/S
 Intentionstremor/S
 Interkostalraum/STp
 Interleukin/EPS
@@ -1657,6 +1703,7 @@ Kaliumion/PS
 Kaliumkanal/S
 Kaliumkanäle/N
 Kaliumpassage/N
+Kaliumpermanganat/S
 Kaliumstrom/S
 Kaliumströme/N
 Kalzifikation/P
@@ -1675,6 +1722,7 @@ Kaninchenmyokard/S
 Kanüle/N
 Kanzerogen/EPS
 Kapillare/N
+Kapillarsprossen
 Kapselsack/S
 Kapselsäcke/N
 Kapsulotomie/N
@@ -1707,6 +1755,7 @@ Keloid/EPS
 Kephalalgie/N
 Keratektasie/N
 Keratektomie/N
+Keratinozyt/PS
 Keratitiden
 Keratitis
 Keratokonjunktivitiden
@@ -1719,11 +1768,13 @@ Kinderarzt/T
 Klappenklick/S
 Kloake/N
 Klysma
+Koagel/NS
 Koagulation
 Koilonychie/N
 Kolitiden
 Kolitis
 Kollagen/EPS
+Kollagenbasis
 Kolobom/EPS
 Kolon/S
 Kolonkarzinom/EPS
@@ -1909,6 +1960,7 @@ Malabsorption
 Malaise/N
 Malformation/P
 Mamma/E
+Mangeldurchblutung/P
 Mannit
 Manuskriptdaten
 Marker/NS
@@ -1938,6 +1990,7 @@ Meningitis
 Menopause/N
 Menorrhagie/N
 Meridian/EPST
+Metaanalyse/N
 Metabolisierung/P
 Metabolismus
 Metabolit/EPS
@@ -1968,6 +2021,7 @@ Mitralklappe/N
 Mizelle/N
 Mobilisierung/P
 Modulator/PS
+Molekularbiologie/N
 Molekulargewichtsstandard/S
 Monitoring/S
 Mononukleose/N
@@ -1980,6 +2034,7 @@ Mukolytika
 Mukolytikum/S
 Mukosa
 Mukus
+Mullkompresse/N
 Multifokallinse/N
 Multiinfarktdemenz/P
 Multimer/EPS
@@ -2016,6 +2071,7 @@ Myositis
 Myozyt/PS
 Nachbeobachtungszeitraum/ST
 Nachbeobachtungszeiträume/N
+Nachblutung/P
 Nachkorrektur/P
 Nachstar/S
 Nachweisgrenze/N
@@ -2024,6 +2080,8 @@ Nachweisverfahren/S
 Naheinstellung/P
 Nährstoffversorgung/P
 Nahsehfähigkeit/P
+Nahtmaterial/S
+Nahtmaterialien
 Narbenbildung/P
 Natriumion/PS
 Natriurie
@@ -2074,11 +2132,13 @@ Oberflächenbehandlung/P
 Oberflächendaten
 Oberflächenkrümmung/P
 Obesitas
+Objektivierung/P
 Observation/P
 Obsession/P
 Obstipation/P
 Obstruktion/P
 Ödem/EPS
+Ödembildung/P
 Odor
 Öffnungsfehler/N
 Okklusion/P
@@ -2203,6 +2263,8 @@ Perspiratio
 Pertussis
 Pessar/S
 Petechie/N
+Pflasterverband/S
+Pflasterverbände/N
 Phagozytose/N
 Phänotyp/PS
 Pharmaka
@@ -2227,6 +2289,7 @@ Pia
 Pigmentierung/P
 Pityriasis
 Pixeleinheit/P
+Plasmabestandteil/EPST
 Plasmaexpander/NS
 Plasmaprotein/EPS
 Plasmid/EPS
@@ -2246,6 +2309,7 @@ Plexus
 Pneumonie/N
 Pneumopathie/N
 Pneumothorax
+Podologe/FN
 Poliomyelitiden
 Poliomyelitis
 Polyarthritiden
@@ -2278,6 +2342,7 @@ Preload/S
 Presbyopie/N
 Presbyopiebehandlung/P
 Priapismus
+Primärversorgung/P
 Primer/NS
 Primerpaar/EPS
 Prion/PS
@@ -2373,6 +2438,7 @@ Regurgitation/P
 Rehabilitation/P
 Rehydratation/P
 Reinfektion/P
+Reißfestigkeit/P
 Reizbildung/P
 Reizleitungssystem/EPS
 Reizüberflutung/P
@@ -2433,8 +2499,10 @@ Röntgenologie
 Röntgenveränderung/P
 Rötung/P
 Rubella
+rubor
 Ruhepotenzial/PS
 Ruptur/P
+Salbengemisch/EPT
 Salivation
 Salizylismus
 Salpingitiden
@@ -2444,6 +2512,8 @@ Sarkom/EPS
 Sättigungsdosen
 Sättigungsdosis
 Sauerstoffgehalt/ST
+Saugkraft
+Saugkräfte/N
 Säuglingszeit/P
 Schädelfraktur/P
 Schädelhirntrauma/S
@@ -2478,6 +2548,7 @@ Sedativum/S
 Sedierung/P
 Sedimentation/P
 Sekretretention/P
+Sekundärinfektion/P
 Selbstheilungskraft
 Selbstheilungskräfte/N
 Selbstheilungsprozess/EPT
@@ -2550,6 +2621,7 @@ Standardkriterium/S
 Standardreihe/N
 Staphylococcus
 Staphylokokken
+Staphylokokkus
 Stase/N
 Steatorrhoe/N
 Steatose/N
@@ -2589,6 +2661,7 @@ Studienunterstützung/P
 Stupor
 Subarachnoidalblutung/P
 Subarachnoidea
+Subkutangewebe/N
 Subtyp/PS
 Suizid/S
 Suizidgefahr
@@ -2691,6 +2764,8 @@ Transkriptionspuffer/S
 Translation/P
 Transplantat/EPS
 Transplantatherz/P
+Transplantatmaterial/S
+Transplantatmaterialien
 Transposition/P
 Transsudat/EPS
 Transsudation/P
@@ -2709,6 +2784,7 @@ Troponin/S
 Truncus
 Tuberkulostatika
 Tuberkulostatikum/S
+tumor
 Tumormarker/NS
 Turbohaler/S
 Tympanum
@@ -2725,6 +2801,7 @@ Ulcus
 Ulkus
 Ulzera
 Ulzeration/P
+Umstrukturierungsprozess/EPT
 Unit/S
 Universitätsklinikum/S
 Untersuchung/P
@@ -2833,9 +2910,11 @@ Yersinia
 Yersiniose/N
 Zellauswahl/P
 Zellbestandteil/EPS
+Zelldetritus
 Zellinnere/N
 Zellkultur/P
 Zellmembran/P
+Zellrezeptor/PS
 Zellstruktur/P
 Zelltyp/PS
 Zellulitiden
@@ -2858,6 +2937,7 @@ Zystitiden
 Zystitis
 Zystoskopie/N
 Zytochrom/EPS
+Zytokin/EPS
 Zytologe/FN
 Zytologie/N
 Zytoplasma

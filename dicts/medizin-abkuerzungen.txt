@@ -57,6 +57,7 @@ CEA
 cGMP
 CK
 CLL
+CME
 CML
 CMV
 CNBD
@@ -70,12 +71,14 @@ dB
 DCM
 DNA
 DNase
+DOI
 dpt
 EBV
 EDTA
 EEG
 EMBL
 EMG
+ESBL
 ESWL
 GAPDH
 GERD
@@ -104,6 +107,7 @@ ml
 mmHg
 MR
 mRNA
+MRSA
 MRT
 mV
 ng

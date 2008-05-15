@@ -1,5 +1,5 @@
-medicalterms trunk
-==================
+medicalterms-20080515
+=====================
 
 * Support a supplemental hunspell dictionary which needs a "base"
   dictionary

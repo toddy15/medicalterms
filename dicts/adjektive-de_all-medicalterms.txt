@@ -1,4 +1,4 @@
-# This file lists medical terms (verbs and adjectives) in German
+# This file lists medical adjectives in German
 #
 # Copyright (C) 2005-2008 Tobias Toedter <t.toedter@gmx.net>
 #
@@ -25,24 +25,17 @@ abdominosakral/A
 abdominouterin/A
 abducens
 abductor
-abduzieren/DIOXY
 aberrant/A
-aberrieren/DIXY
 abgangsfähig/A
 abgrenzbar/A
 abhusten
 abklärungsbedürftig/A
-abladieren/DIOXY
 ablativ/A
 aboral/A
 abortiv/A
 abpunktiert/A
 abscedens
-abschwellen/DY
 absoluta
-abstillen/DY
-abszedieren/DIOXY
-abzentrifugieren/DIOXY
 accessorius
 acetabuli
 acetonämisch/A
@@ -57,7 +50,6 @@ acutissima
 acutus
 adductor
 adductus
-adduzieren/DIOXY
 adenoid/A
 adenomatoid/A
 adenomatös/A
@@ -72,7 +64,6 @@ adrenerg/A
 adrenergisch/A
 adrenocorticotrop/A
 adrenogenital/A
-adstringieren/DIOXY
 adult/A
 aerob/A
 aeruginosa
@@ -94,11 +85,9 @@ akantholytisch/A
 akinetisch/A
 akkommodativ/A
 akontraktil/A
-akquirieren/DIOXY
 akrolentiginös/A
 aktinisch/A
 aktinomykotisch/A
-akzelerieren/DIOXY
 akzentuiert/AC
 akzessorisch/A
 akzidentell/A
@@ -108,7 +97,6 @@ albicans
 aleukämisch/A
 alexithym/A
 alimentär/A
-alkalisieren/DIOXY
 alkaloid/A
 alkoholassoziiert/A
 alkoholbedingt/A
@@ -117,7 +105,6 @@ alkoholinduziert/A
 alkoholintoxikiert/A
 alkoholkrank/A
 alkoholtoxisch/A
-alkylieren/DIOXY
 altersassoziiert/A
 altersatrophisch/A
 altersentsprechend/A
@@ -135,7 +122,6 @@ amentiell/A
 amnestisch/A
 amphetaminähnlich/A
 amplifikatorisch/A
-amplifizieren/DIOXY
 ampullaris
 amputationsgefährdet/A
 amyloid/A
@@ -147,10 +133,8 @@ analgetisch/A
 anamnestisch/A
 anaphylaktisch/A
 anaplastisch/A
-anästhesieren/DIOXY
 anästhesiologisch/A
 anästhetisch/A
-anästhetisieren/DIOXY
 anastomosiert/A
 anbehandelt/A
 androgen/A
@@ -161,7 +145,6 @@ anfallsfrei/A
 anfallskontrollierend/A
 anfallsprophylaktisch/A
 anfallsweise/A
-anfärben/DIXY
 anginös/A
 angiologisch/A
 angioneurotisch/A
@@ -245,7 +228,6 @@ apikal/A
 aplastisch/A
 apoplektisch/A
 approximal/A
-äquilibrieren/DIOXY
 arrhythmisch/A
 arrhythmogen/A
 arteriell/A
@@ -287,7 +269,6 @@ auskultierbar/A
 autoimmun/A
 autoimmunologisch/A
 autolog/A
-autolysieren/DIOXY
 autosomal/A
 avital/A
 axial/A
@@ -311,7 +292,6 @@ biiliacal/A
 bildgebend/A
 biliär/A
 biophysikalisch/A
-biopsieren/DIOXY
 biphasisch/A
 bipolar/A
 biventrikulär/A
@@ -324,7 +304,6 @@ bronchial/A
 bronchodilatatorisch/A
 bronchokonstriktorisch/A
 bronchopulmonal/A
-bronchoskopieren/DOIXY
 bukkal/A
 bukkopharyngeal/A
 bulbär/A
@@ -348,7 +327,6 @@ choreatisch/A
 choreiform/A
 chromosomal/A
 chronica
-chronifizieren/DIOXY
 chronotrop/A
 circadian/A
 coli
@@ -367,23 +345,18 @@ cruris
 cutan/A
 cutaneum
 darmpathogen/A
-debridieren/DIOXY
 deformans
 degenerativ/A
-dekantieren/DIOXY
 dekompensiert/A
 delirant/A
 denaturiert/A
 dendritisch/A
 densitometrisch/A
-depolarisieren/DIXY
 depolarisiert/A
 dermatologisch/A
 descendens
-deszendieren/DIOXY
 dextra
 dextroponiert/A
-dezelerieren/DIOXY
 diastolisch/A
 different/A
 differentialdiagnostisch/A
@@ -392,8 +365,6 @@ digestiv/A
 dilatativ/A
 dilatiert/A
 diskoidal/A
-disseminieren/DIOXY
-dissimulieren/DIOXY
 distal/A
 distanzlos/A
 diurnus
@@ -420,7 +391,6 @@ elektiv/A
 elektronenmikroskopisch/A
 elektrophoretisch/A
 elektrophysiologisch/A
-eluieren/DIOXY
 embolisch/A
 emotionsbezogen/A
 emulgiert/A
@@ -447,8 +417,6 @@ evidenzbasiert/A
 exazerbiert/A
 excimerchirurgisch/A
 exokrin/A
-explantieren/DIOXY
-exprimieren/DIOXY
 exsudativ/A
 externa
 extradural/A
@@ -462,7 +430,6 @@ faltbar/A
 fehlverheilt/A
 fermentativ/A
 fibrotisch/A
-filtrieren/DIOXY
 flächenhaft/A
 flächig/A
 fluoreszierend/A
@@ -479,7 +446,6 @@ gramnegativ/A
 grampositiv/A
 granulomatös/A
 granulosa
-grimassieren/DIOXY
 grüblerisch/A
 halbsynthetisch/A
 hämatologisch/A
@@ -506,7 +472,6 @@ hormonal/A
 hormonblockierend/A
 humeroskapulär/A
 humoral/A
-hybridisieren/DIOXY
 hydroaktiv/A
 hydrophil/A
 hydrophob/A
@@ -536,12 +501,9 @@ immunologisch/A
 immunsuppressiv/A
 infaust/A
 infektiös/A
-infundieren/DIOXY
 inguinal/A
-inhibieren/DIOXY
 inhibitorisch/A
 iniectabilia
-inkubieren/DIOXY
 inoperabel/A
 inotrop/A
 insipidus
@@ -599,7 +561,6 @@ kaudal/A
 keratolytisch/A
 ketoazidotisch/A
 klitoridal/A
-klonieren/DIOXY
 klonisch/A
 kognitionsbezogen/A
 kolloid/A
@@ -609,7 +570,6 @@ koloskopisch/A
 komatös/A
 kompensiert/A
 komplikationslos/A
-konfundieren/DIXY
 kongenital/A
 konjugiert/A
 konjunktival/A
@@ -633,7 +593,6 @@ kurativ/A
 kutan/A
 lacrimalis
 lamellär/A
-lamellieren/DIOXY
 lanzinierend/A
 laryngoskopisch/A
 lebensrettend/A
@@ -642,11 +601,9 @@ letal/A
 leukämisch/A
 leukopenisch/A
 leukozytär/A
-ligieren/DIOXY
 limbal/A
 limbisch/A
 limbusnah/A
-linearisieren/DIOXY
 linksventrikulär/A
 lipophil/A
 logopädisch/A
@@ -658,8 +615,6 @@ lumbal/A
 luteum
 lymphatisch/A
 lymphozytär/A
-lyophilisieren/DIOXY
-lysieren/DIOXY
 lytisch/A
 magensaftresistent/A
 major
@@ -682,7 +637,6 @@ menstrual/A
 menstruell/A
 mesenterial/A
 metabolisch/A
-metastasieren/DIOXY
 mikrosomal/A
 miotisch/A
 mittelbar/A
@@ -740,11 +694,9 @@ normalverteilt/A
 normotensiv/A
 nosokomial/A
 nummulär/A
-obliterieren/DIOXY
 obstipiert/A
 obstruktiv/A
 occipitalis
-okkludieren/DIOXY
 okular/A
 onkogen/A
 onkolytisch/A
@@ -771,7 +723,6 @@ pathogen/A
 pathophysiologisch/A
 pectoris
 pedis
-pelletieren/DIOXY
 pepticum
 peptisch/A
 perianal/A
@@ -785,7 +736,6 @@ perivaskulär/A
 perkutan/A
 perniziös/A
 peroral/A
-persistieren/DIOXY
 petit
 pflegerisch/A
 phak/A
@@ -796,11 +746,9 @@ physikochemisch/A
 physiologischerweise
 physiotherapeutisch/A
 pigmentbildend/A
-pipettieren/DIOXY
 plasmidtragend/A
 plethysmographisch/A
 pleuritisch/A
-polytronisieren/DIOXY
 polyvalent/A
 posterior
 postmenopausal/A
@@ -819,7 +767,6 @@ prämenstruell/A
 pränatal/A
 präoperativ/A
 präsynaptisch/A
-präzipitieren/DIOXY
 presbyop/A
 progredient/A
 proliferativ/A
@@ -841,7 +788,6 @@ quartär/A
 racemosa
 radikulär/A
 radiogen/A
-randomisieren/DIOXY
 rechtsventrikulär/A
 refraktär/A
 refraktiv/A
@@ -855,15 +801,12 @@ rekurrierend/A
 renal/A
 renovaskulär/A
 repetitiv/A
-repolarisieren/DIOXY
 residual/A
 resistent/A
 resorptiv/A
 respiratorisch/A
-resuspendieren/DIOXY
 retardiert/A
 retinal/A
-retransplantatieren/DIOXY
 retrobulbär/A
 retrograd/A
 retrosternal/A
@@ -883,16 +826,12 @@ schizoaffektiv/A
 schlaganfallähnlich/A
 schmerzfrei/A
 schmerzgeplagt/A
-sedieren/DIOXY
 seitenkonstant/A
 sense
 sensomotorisch/A
 sensoriell/A
-sequenzieren/DIOXY
 serologisch/A
-sezernieren/DIOXY
 sigmoidal/A
-silanisieren/DIOXY
 simplex
 situ
 situational/A
@@ -906,7 +845,6 @@ spermizid/A
 spinal/A
 squamös/A
 stehengelassen/A
-stenosieren/DIOXY
 steroidal/A
 stimulatorisch/A
 stöchiometrisch/A
@@ -954,7 +892,6 @@ tracheobronchial/A
 transdermal/A
 transient/A
 transitorisch/A
-transkribieren/DIOXY
 transkutan/A
 transmembranös/A
 transurethral/A
@@ -964,7 +901,6 @@ trophisch/A
 tuberkular/A
 tubulär/A
 tumorartig/A
-überschichten/DIOXY
 ulzerogen/A
 unilateral/A
 univentrikulär/A
@@ -1002,7 +938,6 @@ walnussgroß/A
 wassergesättigt/A
 wellenfrontgeführt/A
 zellvermittelt/A
-zentrifugieren/DIOXY
 zerebellär/A
 zerebral/A
 zerebrospinal/A
@@ -1011,7 +946,6 @@ zermörsert/A
 zervikal/A
 zirkulär/A
 zoster
-zusammenpipettieren/DIOXY
 zweizeitig/A
 zyanotisch/A
 zystisch/A

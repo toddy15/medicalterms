@@ -3,7 +3,7 @@ README for medicalterms
 
 The goal of this package is to create specialized dictionaries for medical
 terms used in various languages. Those dictionaries can be used easily with
-aspell, an advanced spellchecker.
+hunspell, an advanced spellchecker.
 
 As of now, German is the only supported language. If you'd like to contribute
 to the development of the package medicalterms, please contact me. You can
@@ -23,17 +23,19 @@ August 1, 1998, and "both" will include both spellings. The configuration
 defaults to "new".
 
 
-How to use the new dictionary with aspell
-=========================================
+How to use the new dictionary with hunspell
+===========================================
 
 Assume that you have checked your files this way:
 
-$ aspell --lang=de check myfile.txt
+$ hunspell -d de_DE myfile.txt
 
-You only need one more command line option to get rid of all the warnings
-about unknown medical terms:
+You only need to add the new dictionary to the command line to get rid of
+all the warnings about unknown medical terms:
 
-$ aspell --lang=de --add-variety=medical check myfile.txt
+$ hunspell -d de_DE,de_med myfile.txt
+
+Please note that this requires hunspell 1.2.2 or later.
 
 
 Access to the source code repository
@@ -52,4 +54,4 @@ $ bzr branch http://bazaar.launchpad.net/~toddy/medicalterms/trunk
 Now you can start hacking away -- don't forget to send your patches to me!
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Tue, 25 Mar 2008 19:16:51 +0100
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 30 May 2008 10:08:33 +0200

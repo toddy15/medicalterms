@@ -90,6 +90,28 @@ uninstall-de_med.dic:
 
 
 #####################################################################
+# Create a tarball for igerman98 contrib directory
+#####################################################################
+
+.PHONY: igerman-contrib
+igerman-contrib:
+	mkdir $@
+	mkdir $@/dicts
+	cp $(srcdir)/dicts/*txt $@/dicts
+	for wordlist in $@/dicts/*txt; do \
+		$(srcdir)/bin/get_words $$wordlist > tmp; \
+		$(srcdir)/bin/convert_to_igerman98 tmp > $$wordlist; \
+		$(ASPELL) conv UTF-8 ISO-8859-1 < $$wordlist > tmp; \
+		mv tmp $$wordlist; \
+	done
+	$(ASPELL) conv UTF-8 ISO-8859-1 < README.medicalterms \
+		> $@/README.medicalterms
+	cd $@ && tar czf $(PACKAGE_TARNAME)-igerman98-$(PACKAGE_VERSION).tar.gz *
+	mv $@/$(PACKAGE_TARNAME)-igerman98-$(PACKAGE_VERSION).tar.gz .
+	rm -rf $@
+
+
+#####################################################################
 # This is for creating a release tarball which is signed
 #####################################################################
 

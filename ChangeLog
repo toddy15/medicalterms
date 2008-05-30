@@ -2,6 +2,7 @@ medicalterms trunk
 ==================
 
 * Update README to mention hunspell instead of aspell
+* Rename wordlist files to match the naming scheme of igerman98
 
 
 medicalterms-20080515

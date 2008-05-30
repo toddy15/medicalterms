@@ -24,12 +24,12 @@ SUBDIRS = bin dicts
 CLEANFILES = german-medical \
 	de_med.dic
 
-export LISTS = medizin.txt \
-	medizin-verben-adjektive.txt \
-	medizin-abkuerzungen.txt \
-	medizin-ergaenzungen.txt \
-	medizin-namen.txt \
-	medizin-wirkstoffe.txt
+export LISTS = medizin-xx-de_all-medicalterms.txt \
+	adjektive-de_all-medicalterms.txt \
+	abkuerzungen-x-de_all-medicalterms.txt \
+	ergaenzungen-xx-de_all-medicalterms.txt \
+	namen-x-de_all-medicalterms.txt \
+	wirkstoffe-x-de_all-medicalterms.txt
 
 
 all-local: german-medical de_med.dic

@@ -136,8 +136,8 @@ target_alias = @target_alias@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 EXTRA_DIST = $(LISTS) \
-	medizin-n.txt \
-	medizin-a.txt
+	medizin-n-de_all-medicalterms.txt \
+	medizin-a-de_all-medicalterms.txt
 
 all: all-am
 

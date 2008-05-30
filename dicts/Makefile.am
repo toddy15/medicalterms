@@ -20,5 +20,5 @@
 #
 
 EXTRA_DIST = $(LISTS) \
-	medizin-n.txt \
-	medizin-a.txt
+	medizin-n-de_all-medicalterms.txt \
+	medizin-a-de_all-medicalterms.txt

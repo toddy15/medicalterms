@@ -135,7 +135,7 @@ sysconfdir = @sysconfdir@
 target_alias = @target_alias@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-EXTRA_DIST = find_dups get_words sort_file
+EXTRA_DIST = find_dups get_words sort_file convert_to_igerman98
 all: all-am
 
 .SUFFIXES:

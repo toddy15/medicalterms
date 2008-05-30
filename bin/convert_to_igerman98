@@ -1,0 +1,81 @@
+#!/usr/bin/env perl
+#
+# Script for changing all umlauts in dictionary words from the specified
+# files
+#
+# Copyright (C) 2008 Tobias Toedter <t.toedter@gmx.net>
+#
+# This file is part of Medicalterms.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+use warnings;
+use strict;
+
+use Getopt::Long;
+
+sub version
+{
+	my $filename = substr($0, rindex($0, "/") + 1);
+	print "$filename version 0.1\n";
+	print "Copyright (C) 2008 Tobias Toedter <t.toedter\@gmx.net>\n";
+}
+
+sub usage
+{
+	my $filename = substr($0, rindex($0, "/") + 1);
+	&version;
+	print "\nThis utility converts all umlauts  from the specified files, to be used\n";
+	print "with igerman98.\n\n";
+	print "Usage: $filename [file_1.txt ... file_n.txt]\n";
+}
+
+my $help;
+my $version;
+my $options = GetOptions(
+	"help" => \$help,
+	"version" => \$version)
+	or exit;
+
+if ($version) {
+	&version;
+	exit;
+};
+if ($help) {
+	&usage;
+	exit;
+};
+
+# the start of the actual program
+foreach my $file (@ARGV) {
+	open FILE, "< $file"
+		or die "Could not open $file: $!\n";
+	while (<FILE>) {
+		# prints the whole file except the comments
+		# and empty lines, although those should not
+		# be there in the first place
+		next if /^\s*#/;
+		next if /^$/;
+		s/ä/a"/g;
+		s/ö/o"/g;
+		s/ü/u"/g;
+		s/Ä/A"/g;
+		s/Ö/O"/g;
+		s/Ü/U"/g;
+		s/ß/sS/g;
+		print;
+	}
+	close FILE;
+}

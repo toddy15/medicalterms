@@ -9,18 +9,10 @@ As of now, German is the only supported language. If you'd like to contribute
 to the development of the package medicalterms, please contact me. You can
 find the latest version on <https://launchpad.net/medicalterms>.
 
-
-Configuration options
-=====================
-
-The configure script currently accepts the following option:
-
---enable-orthography=<new|old|both>
-
-You can use this option to select which spelling variant should be included
-in the dictionary. "old" is the old orthography, "new" the variant as of
-August 1, 1998, and "both" will include both spellings. The configuration
-defaults to "new".
+The dictionary supports old and new spelling variants. Currently, however,
+only the new variant is generated for hunspell. There's currently no
+configuration option to use the old orthography or both variants
+simultaneously.
 
 
 How to use the new dictionary with hunspell
@@ -54,4 +46,4 @@ $ bzr branch http://bazaar.launchpad.net/~toddy/medicalterms/trunk
 Now you can start hacking away -- don't forget to send your patches to me!
 
 
- -- Tobias Toedter <t.toedter@gmx.net>  Fri, 30 May 2008 10:08:33 +0200
+ -- Tobias Toedter <t.toedter@gmx.net>  Fri, 20 Jun 2008 16:26:56 +0200

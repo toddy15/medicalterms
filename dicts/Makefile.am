@@ -19,6 +19,13 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-EXTRA_DIST = $(LISTS) \
+EXTRA_DIST = \
+	abkuerzungen-x-de_all-medicalterms.txt \
+	adjektive-de_all-medicalterms.txt \
+	ergaenzungen-xx-de_all-medicalterms.txt \
+	medizin-a-de_all-medicalterms.txt \
 	medizin-n-de_all-medicalterms.txt \
-	medizin-a-de_all-medicalterms.txt
+	medizin-xx-de_all-medicalterms.txt \
+	namen-x-de_all-medicalterms.txt \
+	verben-de_all-medicalterms.txt \
+	wirkstoffe-x-de_all-medicalterms.txt

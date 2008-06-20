@@ -24,15 +24,9 @@ SUBDIRS = bin dicts
 CLEANFILES = german-medical \
 	de_med.dic
 
-export LISTS = \
-	abkuerzungen-x-de_all-medicalterms.txt \
-	adjektive-de_all-medicalterms.txt \
-	ergaenzungen-xx-de_all-medicalterms.txt \
-	medizin-xx-de_all-medicalterms.txt \
-	namen-x-de_all-medicalterms.txt \
-	verben-de_all-medicalterms.txt \
-	wirkstoffe-x-de_all-medicalterms.txt
 
+PLAIN_LISTS = $(shell find dicts/ -name "*txt" ! -name "*-xx-*" ! -name "*-a-*")
+COMPOUND_LISTS = $(shell find dicts/ -name "*txt" -name "*-xx-*")
 
 all-local: german-medical de_med.dic
 
@@ -47,7 +41,7 @@ uninstall-local: uninstall-german-medical uninstall-de_med.dic
 
 # Generates a complete wordlist without TeX ligatures in ISO-8859-1 encoding
 german-medical:
-	$(srcdir)/bin/get_words $(addprefix $(srcdir)/dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
+	$(srcdir)/bin/get_words $(PLAIN_LISTS) $(COMPOUND_LISTS) | \
 	$(PERL) -pe 's/qq//g' | \
 	$(SORT) -u | \
 	$(ASPELL) expand --encoding=UTF-8 --lang=de | \
@@ -70,14 +64,28 @@ uninstall-german-medical:
 #####################################################################
 
 de_med.dic:
-	$(srcdir)/bin/get_words $(addprefix $(srcdir)/dicts/, $(LISTS) $(ADDITIONAL_LISTS)) | \
+# Get all plain list words
+	$(srcdir)/bin/get_words $(PLAIN_LISTS) | \
 	$(PERL) -pe 's/qq//g' | \
-	$(SORT) -u | \
+	$(SORT) -u > $@.plain.tmp
+# Get all compoundable list words
+	$(srcdir)/bin/get_words $(COMPOUND_LISTS) | \
+	$(PERL) -pe 's/qq//g' | \
+	$(PERL) -pe "if (/\//) {s,$$,m,} else {s,$$,/m,}" | \
+	$(SORT) -u > $@.compound.tmp
+# Add lowercase compoundable words
+	$(srcdir)/bin/get_words $(COMPOUND_LISTS) | \
+	$(PERL) -pe 's/qq//g' | \
+	$(PERL) -ne 'tr/ÄÖÜ/äöü/; print lcfirst;' | \
+	$(PERL) -pe "if (/\//) {s,$$,ozm,} else {s,$$,/ozm,}" | \
+	$(SORT) -u > $@.compound.lower.tmp
+# Create list for all words
+	cat $@.plain.tmp $@.compound.tmp $@.compound.lower.tmp | \
 	$(ASPELL) conv UTF-8 ISO-8859-1 | \
 	LANG=de_DE $(SORT) -u > $@.tmp
 	wc -l < $@.tmp > $@
 	cat $@.tmp >> $@
-	rm -f $@.tmp
+	rm -f $@.tmp $@.plain.tmp $@.compound.tmp $@.compound.lower.tmp
 
 .PHONY: install-de_med.dic
 install-de_med.dic: de_med.dic

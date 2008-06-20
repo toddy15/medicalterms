@@ -5,7 +5,8 @@ medicalterms trunk
 * Rename wordlist files to match the naming scheme of igerman98
 * Add script to convert wordlists to igerman98 format
 * Add new Makefile target to create a contrib tarball for
-  igerman98
+  igerman98. Please note that the support of igerman98 is
+  currently considered to be in alpha status.
 
 
 medicalterms-20080515

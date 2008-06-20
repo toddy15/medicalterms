@@ -66,6 +66,7 @@ Abschlussmedikation/P
 Abschuppung/P
 Abschwellung/P
 Absence/N
+Absenceepilepsie/N
 Absentia
 Absenz/P
 Absiedelung/P
@@ -486,6 +487,7 @@ Analschleimhaut
 Analsphinkter/S
 Analsphinkterinsuffizienz/P
 Anämie/N
+Anamneseerhebung/P
 Anankasmus
 Anaphylaxie/N
 Anaphylaxiegefahr/P
@@ -507,8 +509,18 @@ Aneurysma/S
 Aneurysmaclip/S
 Aneurysmaruptur/P
 Aneurysmen
+Anfallsbeginn/S
+Anfallsdauer
 Anfallsdekompensation/P
+Anfallsform/P
+Anfallsfreiheit/P
+Anfallsfrequenz/P
 Anfallsleiden/S
+Anfallsreduktion/P
+Anfallsserie/N
+Anfallssymptomatik/P
+Anfallstyp/P
+Anfallsunterbrechung/P
 Anfärbung/P
 Angiitiden
 Angiitis
@@ -686,6 +698,7 @@ Arthroskopie/N
 Aryknorpel/S
 Arzneimittelexanthem/EPS
 Asepsis
+Asphyxie/N
 Aspirationsneigung/P
 Assay/S
 Asthenie/N
@@ -830,6 +843,7 @@ Berufstauglichkeitsberatung/P
 Berufsverband/P
 Berufsverbände/N
 Beschäftigungstherapie/N
+Beschulungsform/P
 Beta
 Betablocker/NS
 Betarezeptorenblocker/NS
@@ -839,6 +853,8 @@ Bewegungseinschränkung/P
 Bewegungskontrolle/N
 Bewegungspädagoge/NF
 Bewegungsstörung/P
+Bewegungssturm/ST
+Bewegungsstürme/N
 Bewegungstherapeut/FP
 Bewegungsunruhe/N
 Beziehungsperson/P
@@ -1189,6 +1205,7 @@ Ekchymose/N
 Eklampsie/N
 Ektopie/N
 Elastase/N
+Elektrolyt/EPS
 Elektronenmikroskop/EPS
 Elektrophorese/N
 Elektrophysiologe/FN
@@ -1234,6 +1251,7 @@ Enterokolitiden
 Enterokolitis
 Enteropathie/N
 Entgiftung/P
+Entität/P
 Entspannungstherapie/N
 Entspannungsverfahren/S
 Entwicklungsaufqqfälligkeit/P
@@ -1270,6 +1288,15 @@ Epiglottitiden
 Epiglottitis
 Epikrise/N
 Epilation/P
+Epilepsie/N
+Epilepsiebehandlung/P
+Epilepsiechirurgie/N
+Epilepsierisiko/S
+Epilepsiesyndrom/EPS
+Epilepsiezentren
+Epilepsiezentrum/S
+Epileptologe/FN
+Epileptologie/N
 Episiotomie/N
 Epistaxis
 Epithel/EPS
@@ -1314,7 +1341,9 @@ Escherichia
 Ethidiumbromid/S
 Evakuation/P
 Evalution/P
+Evidenzbasis
 Evidenzgrad/EPST
+Evidenzklasse/N
 Exanthem/EPS
 Exanthema
 Exazerbation/P
@@ -1369,6 +1398,8 @@ Fibrinolysesystem/EPST
 Fibrinvernetzung/P
 Fibroblast/PS
 Fibrose/N
+Fieberkrampf/ST
+Fieberkrämpfe/N
 Fluorochinolon/EPST
 Flüssigkeitsfilm/EPS
 Foetor/S
@@ -1379,6 +1410,9 @@ Fortbildungsartikel/NS
 Fortpflanzung/P
 Fortpflanzungsreife
 Fragmentlänge/N
+Frontallappen/S
+Frontallappenanfall/ST
+Frontallappenanfälle/N
 Früherkennungsuntersuchung
 Fünfjahresheilung
 Funktionsstörung/P
@@ -1407,6 +1441,7 @@ Gelelektrophorese/N
 Gelstück/EPS
 Geltasche/N
 Gendatenbank/P
+Generalisation/P
 Genexpression/P
 Genlokus
 Genmutation/P
@@ -1462,6 +1497,8 @@ Hämophilie/N
 Hämoptoe/N
 Hämorrhagie/N
 Hämostase/N
+Handautomatismen
+Handautomatismus
 Haschischöl/EPS
 Hauptschlagader/N
 Hautbiopsie/N
@@ -1479,9 +1516,13 @@ Hepatitis
 Hepatom/EPS
 Hepatomegalie/N
 Hepatosplenomegalie/N
+Herdanfall/ST
+Herdanfälle/N
 Heredität/P
 Hernie/N
 Herpes
+Herpesenzephalitiden
+Herpesenzephalitis
 Herstellerangabe/N
 Herzachse/N
 Herzaktion/P
@@ -1615,6 +1656,7 @@ Hypovitaminose/N
 Hypovolämie/N
 Hypoxämie/N
 Hypoxie/N
+Hypsarrhythmie/N
 Hysterektomie/N
 Ichthyosis
 Ikterus
@@ -1639,6 +1681,7 @@ Indikationskriterien
 Indikationskriterium/S
 Indikationsstellung/P
 Induration/P
+Infektabhängigkeit/P
 Infektabwehr
 Infiltration/P
 Inflammation/P
@@ -1696,6 +1739,7 @@ Isoamylalkohol/S
 Isoform/P
 Jejunum/S
 Juckreiz/T
+Jugendlichenalter/S
 Jugularispunktion/P
 Jugulum
 Kachexie/N
@@ -1727,6 +1771,7 @@ Kapselsack/S
 Kapselsäcke/N
 Kapsulotomie/N
 Karbunkel/S
+Kardinalsymptom/EPST
 Kardiogramm/EPS
 Kardiomegalie/N
 Kardiomyopathie/N
@@ -1766,7 +1811,12 @@ Kernspintomogramm/EPS
 Ketoazidose/N
 Kinderarzt/T
 Klappenklick/S
+Klassifikationsvorschlag/S
+Klassifikationsvorschläge/N
+Kleinkindalter/S
 Kloake/N
+Kloni
+Klonus
 Klysma
 Koagel/NS
 Koagulation
@@ -1916,6 +1966,7 @@ Lipoprotein/EPS
 Lipoproteinämie/N
 Liposom/PS
 Liquor/S
+Liquordiagnostik/P
 Literaturaufarbeitung/P
 Livedo
 Livor
@@ -1929,6 +1980,7 @@ Lokalanästhetika
 Lokalanästhetikum/S
 Lokalrezidiv/EPS
 Lumbago
+Lumbalpunktion/P
 Lumen
 Lumina
 Lungendurchblutung/P
@@ -1961,6 +2013,7 @@ Malaise/N
 Malformation/P
 Mamma/E
 Mangeldurchblutung/P
+Manifestationsgipfel/S
 Mannit
 Manuskriptdaten
 Marker/NS
@@ -1987,6 +2040,8 @@ Melanose/N
 Menarche/N
 Meningitiden
 Meningitis
+Meningoenzephalitiden
+Meningoenzephalitis
 Menopause/N
 Menorrhagie/N
 Meridian/EPST
@@ -2098,8 +2153,12 @@ Nephrolith
 Nephropathie/N
 Nervi
 Nervus
+Nesteln/S
 Netzhautablösung/P
 Netzhäute/N
+Neugeborenenalter/S
+Neugeborenenanfall/ST
+Neugeborenenanfälle/N
 Neuralgie/N
 Neuraltherapie/N
 Neurasthenie/N
@@ -2112,6 +2171,8 @@ Neuroleptanalgesie/N
 Neuroleptika
 Neuroleptikum/S
 Neuron/EPS
+Neuropädiater/FN
+Neuropädiatrie/N
 Neuropathie/N
 Neurotransmitter/NS
 Neurowissenschaftler/FNS
@@ -2142,6 +2203,7 @@ Obstruktion/P
 Odor
 Öffnungsfehler/N
 Okklusion/P
+Okzipitallappen/S
 Oligomenorrhoe/N
 Oligonukleotid/EPS
 Oligurie/N
@@ -2230,9 +2292,13 @@ Paronychie/N
 Parotis
 Parotitiden
 Parotitis
+Partialanfall/ST
+Partialanfälle/N
+Partialepilepsie/N
 Pathogenese/N
 Pathomechanismen
 Pathomechanismus
+Pathophysiologie/N
 Patientencharakteristik/P
 Patientengruppe/N
 Patientenkollektiv/EPS
@@ -2252,6 +2318,7 @@ Periduralanästhesie/N
 Perikard/S
 Perikarditiden
 Perikarditis
+Perioralregion/P
 Peristaltik
 Peritonitiden
 Peritonitis
@@ -2266,6 +2333,7 @@ Petechie/N
 Pflasterverband/S
 Pflasterverbände/N
 Phagozytose/N
+Phakomatose/N
 Phänotyp/PS
 Pharmaka
 Pharmakodynamik/P
@@ -2367,6 +2435,7 @@ Prothrombin/S
 Protozoon
 Protrusion
 Provitamin/EPS
+Provokationstechnik/P
 Pruritus
 Pseudobulbärparalyse/N
 Pseudotumor/EPS
@@ -2396,6 +2465,7 @@ Pyelitiden
 Pyelitis
 Pyelonephritiden
 Pyelonephritis
+Pyknolepsie/N
 Pylorus
 Pyodermie/N
 Pyrexie/N
@@ -2472,6 +2542,7 @@ Retransplantation/P
 Rezeptor/PS
 Rezeptorantagonist/P
 Rezidiv/EPS
+Rezidivprophylaxe/N
 Rezipient/PS
 Rhabdomyosarkom/EPS
 Rhagade/N
@@ -2637,6 +2708,7 @@ Stimmlippe/N
 Stimmungsschwankung/P
 Stimulans
 Stimulantien
+Stimulanzientherapie/N
 Stöchiometrie/N
 Stoma
 Stomatitiden
@@ -2696,6 +2768,8 @@ Tandemkanäle/N
 Teilgebiet/EPST
 Teleangiektasie/N
 Telomerregion/P
+Temporallappen/S
+Temporallappenepilepsie/N
 Tendinitiden
 Tendinitis
 Tenesmen
@@ -2827,6 +2901,7 @@ Vaginismus
 Vagolytika
 Vagolytikum/S
 Vagotonie/N
+Vagusnervstimulation/P
 Vakuumzentrifuge/N
 Vakzin/EPS
 Vakzination/P
@@ -2861,6 +2936,7 @@ Vergleichsgruppe/N
 Verlegenheitsbewegungen
 Verletzung/P
 Vernarbung/P
+Versivbewegung/P
 Versuchsaufbau/S
 Versuchsaufbauten
 Verteilungsmuster/NS
@@ -2869,6 +2945,7 @@ Verwirrtheit
 Verwirrtheitszustand
 Verwirrtheitszustände/N
 Vigilanz
+Vigilanzstörung/P
 Virilisierung/P
 Visusreduktion/P
 Vitalkapazität/P
@@ -2895,10 +2972,13 @@ Wasseransammlung/P
 Wellenfront/P
 Wellenlängenbereich/EPST
 Wellennatur
+Wendebewegung/P
 Wiederholungsrisiko/S
 Wilms
 Wirbelkörperanomalie/N
 Wirkdauer/N
+Wirkdosen
+Wirkdosis
 Wortfindung
 Wundheilung/P
 Wundheilungsstörung/P

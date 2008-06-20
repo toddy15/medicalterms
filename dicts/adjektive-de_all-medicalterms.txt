@@ -108,9 +108,11 @@ alkoholtoxisch/A
 altersassoziiert/A
 altersatrophisch/A
 altersentsprechend/A
+altersgebunden/A
 altersgerecht/A
 alterssichtig/A
 altersspezifisch/A
+altersunabhängig/A
 alterungsbedingt/A
 alveolär/A
 alveolaris
@@ -144,6 +146,7 @@ anfallsartig/A
 anfallsfrei/A
 anfallskontrollierend/A
 anfallsprophylaktisch/A
+anfallsverdächtig/A
 anfallsweise/A
 anginös/A
 angiologisch/A
@@ -241,6 +244,7 @@ artikulär/A
 ascendens
 aseptisch/A
 asphärisch/A
+astatisch/A
 asthenisch/A
 asthmatisch/A
 asthmatoid/A
@@ -266,6 +270,7 @@ aurium
 ausgekugelt/A
 auskultatorisch/A
 auskultierbar/A
+aussagekräftig/AC
 autoimmun/A
 autoimmunologisch/A
 autolog/A
@@ -291,6 +296,7 @@ bifokal/A
 biiliacal/A
 bildgebend/A
 biliär/A
+bioelektrisch/A
 biophysikalisch/A
 biphasisch/A
 bipolar/A
@@ -329,6 +335,7 @@ chromosomal/A
 chronica
 chronotrop/A
 circadian/A
+clusterhaft/A
 coli
 colli
 communis
@@ -355,6 +362,7 @@ densitometrisch/A
 depolarisiert/A
 dermatologisch/A
 descendens
+desorientiert/AC
 dextra
 dextroponiert/A
 diastolisch/A
@@ -376,6 +384,7 @@ dromotrop/A
 druckbelastet/A
 drüsig/A
 duodeni
+dysontogenetisch/A
 dysphagisch/A
 dystop/A
 dystroph/A
@@ -406,6 +415,8 @@ epidemiologisch/A
 epidermal/A
 epidural/A
 epigastrisch/A
+epilepsiechirurgisch/A
+epilepticus
 epileptisch/A
 epiphysär/A
 epitheloidzellig/A
@@ -427,13 +438,16 @@ extrazellulär/A
 fachübergreifend/A
 facialis
 faltbar/A
+febril/A
 fehlverheilt/A
 fermentativ/A
 fibrotisch/A
 flächenhaft/A
 flächig/A
 fluoreszierend/A
+fokal/A
 formgleich/A
+frühkindlich/A
 fünfschichtig/A
 funikulär/A
 gastroösophageal/A
@@ -476,6 +490,7 @@ hydroaktiv/A
 hydrophil/A
 hydrophob/A
 hyperbar/A
+hypermotorisch/A
 hyperopisch/A
 hyperplastisch/A
 hyperpolarisiert/A
@@ -500,6 +515,7 @@ immunogen/A
 immunologisch/A
 immunsuppressiv/A
 infaust/A
+infektabhängig/A
 infektiös/A
 inguinal/A
 inhibitorisch/A
@@ -509,8 +525,10 @@ inotrop/A
 insipidus
 insuffizient/A
 integumental/A
+intensivmedizinisch/A
 interdigital/A
 interexperimentell/A
+interiktal/A
 interindividuell/A
 interkalierend/A
 interkostal/A
@@ -560,6 +578,7 @@ katabol/A
 kaudal/A
 keratolytisch/A
 ketoazidotisch/A
+ketogen/A
 klitoridal/A
 klonisch/A
 kognitionsbezogen/A
@@ -576,6 +595,7 @@ konjunktival/A
 konnatal/A
 kontraindiziert/A
 konvaleszent/A
+konvulsiv/A
 koronar/A
 körpereigen/A
 körperfremd/A
@@ -589,12 +609,14 @@ krankheitsbedingt/A
 krankheitsbezogen/A
 krebsverdächtig/A
 kristalloid/A
+kryptogen/A
 kurativ/A
 kutan/A
 lacrimalis
 lamellär/A
 lanzinierend/A
 laryngoskopisch/A
+läsionell/A
 lebensrettend/A
 lentikular/A
 letal/A
@@ -636,6 +658,7 @@ mellitus
 menstrual/A
 menstruell/A
 mesenterial/A
+mesial/A
 metabolisch/A
 mikrosomal/A
 miotisch/A
@@ -646,6 +669,7 @@ molekularbiologisch/A
 monatig/A
 monofokal/A
 monoklonal/A
+morgendlich/A
 morphinagonistisch/A
 morphinantagonistisch/A
 mukokutan/A
@@ -659,6 +683,7 @@ myelotoxisch/A
 mykologisch/A
 mykotisch/A
 myokardial/A
+myoklonisch/A
 myopisch/A
 myozytär/A
 narkotisch/A
@@ -675,6 +700,7 @@ nephrotoxisch/A
 neural/A
 neurodegenerativ/A
 neurohumoral/A
+neurometabolisch/A
 neuromuskulär/A
 neuroparalytisch/A
 neuropathologisch/A
@@ -693,17 +719,20 @@ nonparametrisch/A
 normalverteilt/A
 normotensiv/A
 nosokomial/A
+notfallmäßig/A
 nummulär/A
 obstipiert/A
 obstruktiv/A
 occipitalis
 okular/A
+okzipital/A
 onkogen/A
 onkolytisch/A
 onkotisch/A
 ophthalmologisch/A
 orbital/A
 oris
+oroalimentär/A
 orofazial/A
 orthostatisch/A
 ösophageal/A
@@ -750,7 +779,9 @@ plasmidtragend/A
 plethysmographisch/A
 pleuritisch/A
 polyvalent/A
+postentzündlich/A
 posterior
+postiktal/A
 postmenopausal/A
 postnatal/A
 postoperativ/A
@@ -759,6 +790,7 @@ postprandial/A
 postsynaptisch/A
 posttranslational/A
 posttraumatisch/A
+postural/A
 präkanzerös/A
 präklinisch/A
 präkordial/A
@@ -770,7 +802,9 @@ präsynaptisch/A
 presbyop/A
 progredient/A
 proliferativ/A
+prolongiert/A
 propulsiv/A
+prospektiv/A
 protektiv/A
 proteolytisch/A
 proximal/A
@@ -809,6 +843,7 @@ retardiert/A
 retinal/A
 retrobulbär/A
 retrograd/A
+retrospektiv/A
 retrosternal/A
 revers/A
 rezessiv/A
@@ -826,6 +861,7 @@ schizoaffektiv/A
 schlaganfallähnlich/A
 schmerzfrei/A
 schmerzgeplagt/A
+seitenbetont/A
 seitenkonstant/A
 sense
 sensomotorisch/A
@@ -878,7 +914,9 @@ teratogen/A
 teratologisch/A
 terminal/A
 testikulär/A
+testpsychologisch/A
 therapierefraktär/A
+therapieresistent/A
 therapiert/A
 thorakal/A
 thrombotisch/A
@@ -899,11 +937,14 @@ trivalent/A
 trizyklisch/A
 trophisch/A
 tuberkular/A
+tuberös/A
 tubulär/A
 tumorartig/A
 ulzerogen/A
+unbeeinträchtigt/A
 unilateral/A
 univentrikulär/A
+unprovoziert/A
 urogenital/A
 urologisch/A
 uteri
@@ -938,6 +979,7 @@ walnussgroß/A
 wassergesättigt/A
 wellenfrontgeführt/A
 zellvermittelt/A
+zentrotemporal/A
 zerebellär/A
 zerebral/A
 zerebrospinal/A

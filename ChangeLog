@@ -7,6 +7,7 @@ medicalterms trunk
 * Add new Makefile target to create a contrib tarball for
   igerman98. Please note that the support of igerman98 is
   currently considered to be in alpha status.
+* Add new words
 
 
 medicalterms-20080515

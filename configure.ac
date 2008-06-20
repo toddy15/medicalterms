@@ -25,17 +25,17 @@ AM_INIT_AUTOMAKE([foreign])
 
 
 # Enable the selection of different orthographies
-ADDITIONAL_LISTS=medizin-n.txt
+ADDITIONAL_LISTS=medizin-n-de_all-medicalterms.txt
 AC_ARG_ENABLE(orthography,
 	AS_HELP_STRING([--enable-orthography=new],
 	[specify the orthography (valid values are 'old', 'new', and 'both'. Defaults to 'new')]),
 	[ac_cv_use_orthography=$enableval],
 	[ac_cv_use_orthography=new])
 if test "$ac_cv_use_orthography" = old; then
-	ADDITIONAL_LISTS=medizin-a.txt
+	ADDITIONAL_LISTS=medizin-a-de_all-medicalterms.txt
 fi
 if test "$ac_cv_use_orthography" = both; then
-	ADDITIONAL_LISTS="medizin-n.txt medizin-a.txt"
+	ADDITIONAL_LISTS="medizin-n-de_all-medicalterms.txt medizin-a-de_all-medicalterms.txt"
 fi
 AC_SUBST(ADDITIONAL_LISTS)
 

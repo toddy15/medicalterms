@@ -2164,7 +2164,7 @@ am__tar='${AMTAR} chof - "$$tardir"'; am__untar='${AMTAR} xf -'
 
 
 # Enable the selection of different orthographies
-ADDITIONAL_LISTS=medizin-n.txt
+ADDITIONAL_LISTS=medizin-n-de_all-medicalterms.txt
 # Check whether --enable-orthography was given.
 if test "${enable_orthography+set}" = set; then
   enableval=$enable_orthography; ac_cv_use_orthography=$enableval
@@ -2173,10 +2173,10 @@ else
 fi
 
 if test "$ac_cv_use_orthography" = old; then
-	ADDITIONAL_LISTS=medizin-a.txt
+	ADDITIONAL_LISTS=medizin-a-de_all-medicalterms.txt
 fi
 if test "$ac_cv_use_orthography" = both; then
-	ADDITIONAL_LISTS="medizin-n.txt medizin-a.txt"
+	ADDITIONAL_LISTS="medizin-n-de_all-medicalterms.txt medizin-a-de_all-medicalterms.txt"
 fi
 
 

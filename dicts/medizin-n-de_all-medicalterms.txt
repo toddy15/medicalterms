@@ -34,6 +34,8 @@ Cholangiografie/N
 Computertomografie/N
 computertomografisch/A
 Coronarangiografie/N
+Differenzialdiagnose/N
+differenzialdiagnostisch/A
 Dopplerechokardiografie/N
 Echografie/N
 Echokardiografie/N
@@ -42,6 +44,8 @@ Elektrokardiografie/N
 Essschwierigkeit/P
 Essstörung/P
 Fresszelle/N
+Ganzkörperplethysmografie/N
+ganzkörperplethysmografisch/A
 Gefäßmissbildung/P
 Kernspintomograf/PS
 Kernspintomografie/N

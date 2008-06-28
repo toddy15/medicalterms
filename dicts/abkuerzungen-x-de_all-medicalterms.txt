@@ -55,6 +55,7 @@ cANCA
 CCT
 cDNA
 CEA
+CF
 cGMP
 CK
 CLL
@@ -62,6 +63,7 @@ CME
 CML
 CMV
 CNBD
+COPD
 cRNA
 CRP
 CSE
@@ -72,8 +74,10 @@ dB
 DCM
 DNA
 DNase
+DNCG
 DOI
 dpt
+Dr.
 EBV
 EDTA
 EEG
@@ -81,6 +85,9 @@ EMBL
 EMG
 ESBL
 ESWL
+FEV
+FVK
+µg
 GAPDH
 GERD
 GOT
@@ -103,6 +110,7 @@ LASEK
 LASIK
 LDH
 LWS
+med.
 MEDLINE
 mg
 ml
@@ -115,6 +123,8 @@ mV
 ng
 nm
 NMR
+NO
+NSAR
 nt
 NYHA
 OP
@@ -146,6 +156,7 @@ STD
 TENS
 tRNA
 UTP
+VK
 VSD
 WHO
 ZEEP

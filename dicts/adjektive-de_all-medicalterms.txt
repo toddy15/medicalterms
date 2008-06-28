@@ -105,6 +105,9 @@ alkoholinduziert/A
 alkoholintoxikiert/A
 alkoholkrank/A
 alkoholtoxisch/A
+allergenspezifisch/A
+allergenunabhängig/A
+allergologisch/A
 altersassoziiert/A
 altersatrophisch/A
 altersentsprechend/A
@@ -246,6 +249,7 @@ aseptisch/A
 asphärisch/A
 astatisch/A
 asthenisch/A
+asthmabezogen/A
 asthmatisch/A
 asthmatoid/A
 asthmoid/A
@@ -289,6 +293,7 @@ befruchtungsfähig/A
 beidseits
 beinbetont/A
 benigne/A
+berufsbedingt/A
 beurteilbar/A
 bewegungsarm/A
 bewegungsfaul/A
@@ -380,6 +385,7 @@ doppelblind/A
 doppelsträngig/A
 dorsal/A
 dorsalis
+dreiteilig/A
 dromotrop/A
 druckbelastet/A
 drüsig/A
@@ -392,6 +398,7 @@ echoarm/A
 echodicht/A
 echoreich/A
 eingewogen/A
+einteilig/A
 einzeitig/A
 einzelsträngig/A
 ektop/A
@@ -428,6 +435,7 @@ evidenzbasiert/A
 exazerbiert/A
 excimerchirurgisch/A
 exokrin/A
+exspiratorisch/A
 exsudativ/A
 externa
 extradural/A
@@ -518,11 +526,13 @@ infaust/A
 infektabhängig/A
 infektiös/A
 inguinal/A
+inhalativ/A
 inhibitorisch/A
 iniectabilia
 inoperabel/A
 inotrop/A
 insipidus
+inspiratorisch/A
 insuffizient/A
 integumental/A
 intensivmedizinisch/A
@@ -546,6 +556,7 @@ intrakutan/A
 intramuskulär/A
 intraokular/A
 intrathekal/A
+intrathorakal/A
 intravaskulär/A
 intrazellulär/A
 intrazerebral/A
@@ -634,6 +645,7 @@ lordosiert/A
 luetisch/A
 luftdurchlässig/A
 lumbal/A
+lungenfunktionell/A
 luteum
 lymphatisch/A
 lymphozytär/A
@@ -778,6 +790,7 @@ pigmentbildend/A
 plasmidtragend/A
 plethysmographisch/A
 pleuritisch/A
+pneumologisch/A
 polyvalent/A
 postentzündlich/A
 posterior
@@ -791,6 +804,7 @@ postsynaptisch/A
 posttranslational/A
 posttraumatisch/A
 postural/A
+präbronchodilatatorisch/A
 präkanzerös/A
 präklinisch/A
 präkordial/A
@@ -901,6 +915,8 @@ suppressiv/A
 supraventrikulär/A
 sympatisch/A
 symptomatisch/A
+symptomfrei/A
+symptomorientiert/A
 synaptisch/A
 synergistisch/A
 synovial/A
@@ -968,6 +984,7 @@ vertebral/A
 verteilungsfrei/A
 vesikulär/A
 vestibulär/A
+vierteilig/A
 viral/A
 viszeral/A
 vital/A
@@ -986,8 +1003,10 @@ zerebrospinal/A
 zerebrovaskulär/A
 zermörsert/A
 zervikal/A
+zirkadian/A
 zirkulär/A
 zoster
+zweiteilig/A
 zweizeitig/A
 zyanotisch/A
 zystisch/A

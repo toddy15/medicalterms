@@ -310,6 +310,8 @@ Aktivkohle
 Akupressur/P
 Akustikus
 Akustikusneurinom/EPS
+Akutbeschwerde/N
+Akutintervention/P
 Akzentuierung/P
 Akzessoriusaffektion/P
 Akzessoriusparese/N
@@ -702,7 +704,19 @@ Asphyxie/N
 Aspirationsneigung/P
 Assay/S
 Asthenie/N
+Asthma/S
 Asthmaanamnese/N
+Asthmaanfall/S
+Asthmaanfälle/N
+Asthmabehandlung/P
+Asthmabeschwerde/N
+Asthmaform/P
+Asthmakontrolle/N
+Asthmamanagement/S
+Asthmasterblichkeit/P
+Asthmasymptom/EPST
+Asthmatherapie/N
+Asthmatiker/FN
 Astigmatismen
 Astigmatismus
 Astigmatismusentwicklung/P
@@ -844,6 +858,7 @@ Berufsverband/P
 Berufsverbände/N
 Beschäftigungstherapie/N
 Beschulungsform/P
+Bestwert/EPST
 Beta
 Betablocker/NS
 Betarezeptorenblocker/NS
@@ -913,9 +928,11 @@ Bronchialkarzinom/EPS
 Bronchiektasen
 Bronchiektasie/N
 Bronchien
+Bronchiole/N
 Bronchiolitiden
 Bronchiolitis
 Bronchodilatation/P
+Bronchodilatator/PS
 Bronchokonstriktion/P
 Bronchopneumonie/N
 Bronchoskop/EPS
@@ -1014,13 +1031,16 @@ Coma
 Commotio
 Compliance
 Condyloma
+Controllerdauermedikation/P
+Controllerdauertherapie/N
+Controllermedikation/P
 Contusio
 Coping/S
 Cor
 Cornea
 Coronarinsuffizienz/P
 Corpus
-Corticosteroid/EPS
+Corticosteroid/EPST
 Cortison/S
 Costa
 Coxa
@@ -1030,6 +1050,7 @@ Coxitiden
 Coxitis
 Crampi
 Creatinkinase
+Cromon/EP
 Cryptosporidieninfektion/P
 Cutis
 Cystitiden
@@ -1121,6 +1142,7 @@ Diathese/N
 Dickdarmerkrankung/P
 Dickdarmflora
 Differenzierung/P
+Diffusionskapazität/P
 Digitalis
 Digitalisspiegel/NS
 Digitoxinspiegel/NS
@@ -1244,6 +1266,7 @@ Endothelzellverlust/EPST
 Endothelzellzahl/P
 Endvolumen
 Endvolumina
+Engegefühl/EPS
 Enkopresis
 Enteritiden
 Enteritis
@@ -1268,6 +1291,7 @@ Entziehung/P
 Entzugssymptomatik/P
 Entzugssyndrom/EPS
 Entzündung/P
+Entzündungshemmer/NS
 Entzündungsparameter/N
 Enurese
 Enuresis
@@ -1343,6 +1367,7 @@ Evakuation/P
 Evalution/P
 Evidenzbasis
 Evidenzgrad/EPST
+Evidenzkategorie/N
 Evidenzklasse/N
 Exanthem/EPS
 Exanthema
@@ -1351,6 +1376,7 @@ Excimer/S
 Excimerbehandlung/P
 Exfoliation/P
 Exfoliativzytologie/N
+Exhalat/EPST
 Exitus
 Exkretion/P
 Exophthalmus
@@ -1400,6 +1426,7 @@ Fibroblast/PS
 Fibrose/N
 Fieberkrampf/ST
 Fieberkrämpfe/N
+Fixkombination/P
 Fluorochinolon/EPST
 Flüssigkeitsfilm/EPS
 Foetor/S
@@ -1466,9 +1493,12 @@ Gewebsdurchtrennung/P
 Gewebsflüssigkeit/P
 Gewebsnekrose/N
 Gewichtszunahme/N
+Giemen/S
 Giftigkeit/P
 Glaskörperabhebung/P
 Glaukom/S
+Glucocorticosteroid/EPST
+Glukokortikosteroid/EPST
 Glyceraldehyd/S
 Glycin/S
 Gonorrhoe/N
@@ -1619,6 +1649,7 @@ Hyperostose/N
 Hyperparathyreoidismus
 Hyperplasie/N
 Hyperpolarisation/PS
+Hyperreagibilität/P
 Hyperreflexie/N
 Hypersekretion/P
 Hypersensitivität/P
@@ -1688,7 +1719,10 @@ Inflammation/P
 Influenza
 Infusion/P
 Ingestion/P
+Inhalationstechnik/P
+Inhalator/PS
 Inhibition/P
+Initialtherapie/N
 Inkarzeration/P
 Inkompetenz/P
 Inkorporation/P
@@ -1782,6 +1816,7 @@ Karotisstenose/N
 Karzinogen/EPS
 Karzinogenese/N
 Karzinom/EPS
+Kasuistik/P
 Katabolismus
 Katalyse/N
 Katamnese/N
@@ -1796,6 +1831,7 @@ Kationenkanäle/N
 Kationenstrom/S
 Kationenströme/N
 Katzenherz/PT
+Kehlkopfveränderung/P
 Keloid/EPS
 Kephalalgie/N
 Keratektasie/N
@@ -1814,6 +1850,7 @@ Klappenklick/S
 Klassifikationsvorschlag/S
 Klassifikationsvorschläge/N
 Kleinkindalter/S
+Klinikum/S
 Kloake/N
 Kloni
 Klonus
@@ -1876,7 +1913,7 @@ Koronarinsuffizienz/P
 Körperbehaarung
 Korrekturverfahren/S
 Kortex
-Kortikosteroid/EPS
+Kortikosteroid/EPST
 Kortison/S
 Kosmetikum/S
 Koxalgie/N
@@ -1937,6 +1974,7 @@ Leukämie/N
 Leukenzephalopathie/N
 Leukopenie/N
 Leukoplakie/N
+Leukotrien/EPS
 Leukozyt/PS
 Leukozytopenie/N
 Leukozytose/N
@@ -2066,7 +2104,8 @@ Miktion
 Mimetika
 Mimetikum/S
 Mineralisation/P
-Mineralokortikoid/EPS
+Mineralocorticoid/EPST
+Mineralokortikoid/EPST
 Minipräparation/P
 Mischgeschwulst
 Mischgeschwülste/N
@@ -2339,6 +2378,7 @@ Pharmaka
 Pharmakodynamik/P
 Pharmakokinetik/P
 Pharmakon/S
+Pharmakotherapie/N
 Pharyngitiden
 Pharyngitis
 Pharynx
@@ -2374,6 +2414,8 @@ Pleura
 Pleuritiden
 Pleuritis
 Plexus
+Pneumologe/FN
+Pneumologie/N
 Pneumonie/N
 Pneumopathie/N
 Pneumothorax
@@ -2389,6 +2431,7 @@ Polyneuritiden
 Polyneuritis
 Polyneuropathie/N
 Polypeptid/EPS
+Polyposis
 Polytoxikomanie/N
 Polyurie/N
 Porenregion/P
@@ -2410,11 +2453,13 @@ Preload/S
 Presbyopie/N
 Presbyopiebehandlung/P
 Priapismus
+Prickhauttest/EPS
 Primärversorgung/P
 Primer/NS
 Primerpaar/EPS
 Prion/PS
 Procedere
+Prodromi
 Progredienz
 Proktitiden
 Proktitis
@@ -2436,6 +2481,7 @@ Protozoon
 Protrusion
 Provitamin/EPS
 Provokationstechnik/P
+Provokationstest/EPST
 Pruritus
 Pseudobulbärparalyse/N
 Pseudotumor/EPS
@@ -2487,6 +2533,7 @@ Räude
 Reabsorption/P
 Reagens
 Reagenzien
+Reagibilität/P
 Reaktionsansatz/T
 Reaktionsansätze/N
 Reaktionsgefäß/EPT
@@ -2499,6 +2546,7 @@ Rechtstyp/S
 Reduktionsfehlbildung/P
 Reentry
 Reflux/T
+Refluxkrankheit/P
 Refraktionsergebnis
 Refraktionsergebnisse/NS
 Refraktionsfehler/NS
@@ -2506,6 +2554,7 @@ Refraktionsschwankung/P
 Regenerationsfähigkeit/P
 Regurgitation/P
 Rehabilitation/P
+Rehabilitationsmaßnahme/N
 Rehydratation/P
 Reinfektion/P
 Reißfestigkeit/P
@@ -2518,6 +2567,8 @@ Rektumkarzinom/EPS
 Relaxans
 Relaxanzien
 Relaxationsinzision/P
+Reliever/SN
+Relievermedikation/P
 Remission/P
 Remodeling/S
 Renin/S
@@ -2526,6 +2577,7 @@ Reposition/P
 Resektion/P
 Residuen
 Residuum/S
+Resistance
 Resorption/P
 Restfehlsichtigkeit/P
 Restriktionsansatz/T
@@ -2539,6 +2591,7 @@ Retinoblastom/EPS
 Retinopathie/N
 Retraktion/P
 Retransplantation/P
+Reversibilitätstestung/P
 Rezeptor/PS
 Rezeptorantagonist/P
 Rezidiv/EPS
@@ -2559,6 +2612,7 @@ Rigidität/P
 Rigor
 Risikofaktor/PS
 Risikopatient/P
+Risikoreduktion/P
 Roborans
 Roboranzien
 Röhrchen
@@ -2608,6 +2662,7 @@ Schulmediziner/FNS
 Schwärzung/P
 Schwellenpotenzial/EPS
 Schweregrad/EPST
+Schweregradeinteilung/P
 Schwerhörigkeit/P
 Schwerketten
 Seborrhoe/N
@@ -2671,6 +2726,7 @@ Sphinkter/S
 Spinalanästhesie/N
 Spinalerkrankung/P
 Spinalkanal/S
+Spirometrie/N
 Spleißvariante/N
 Splenomegalie/N
 Spondylitiden
@@ -2703,6 +2759,7 @@ Stenose/N
 Sterbehilfe/N
 Steroid/EPS
 Stethoskop/EPS
+Stickoxid/EPS
 Stickstoff/S
 Stimmlippe/N
 Stimmungsschwankung/P
@@ -2742,6 +2799,7 @@ Supervision
 Supination
 Supplement/S
 Suppositorium
+Suppression/P
 Sura
 Surditas
 Suspension/P
@@ -2753,6 +2811,8 @@ Sympatholytikum/S
 Sympathomimetika
 Sympathomimetikum/S
 Symptomatologie/N
+Symptombesserung/P
+Symptomkontrolle/N
 Synkope/N
 Synovialitiden
 Synovialitis
@@ -2786,8 +2846,11 @@ Tetralogie/N
 Tetraplegie/N
 Thalamus
 Thalassämie/N
+Therapiedeeskalation/P
+Therapieverlaufskontrolle/N
 Thermoregulation/P
 Thorax
+Thoraxorgan/EPST
 Thromben
 Thromboembolie/N
 Thrombolytika
@@ -2979,6 +3042,8 @@ Wirbelkörperanomalie/N
 Wirkdauer/N
 Wirkdosen
 Wirkdosis
+Wirkeintritt/EPS
+Wirksamkeitsnachweis/EPT
 Wortfindung
 Wundheilung/P
 Wundheilungsstörung/P

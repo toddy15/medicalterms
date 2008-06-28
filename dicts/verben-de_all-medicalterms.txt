@@ -26,6 +26,7 @@ abszedieren/DIOXY
 abzentrifugieren/DIOXY
 adduzieren/DIOXY
 adstringieren/DIOXY
+aggravieren/DIOXY
 akquirieren/DIOXY
 akzelerieren/DIOXY
 alkalisieren/DIOXY

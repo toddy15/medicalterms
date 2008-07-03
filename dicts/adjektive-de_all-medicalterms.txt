@@ -278,6 +278,7 @@ aussagekräftig/AC
 autoimmun/A
 autoimmunologisch/A
 autolog/A
+autoreaktiv/A
 autosomal/A
 avital/A
 axial/A
@@ -384,6 +385,8 @@ doppelblind/A
 doppelsträngig/A
 dorsal/A
 dorsalis
+dosisabhängig/A
+dosisunabhängig/A
 dreiteilig/A
 dromotrop/A
 druckbelastet/A
@@ -428,6 +431,7 @@ epiphysär/A
 epitheloidzellig/A
 equina
 ergotherapeutisch/A
+erscheinungsfrei/A
 ethmoidalis
 euthyreot/A
 evidenzbasiert/A
@@ -439,11 +443,13 @@ exsudativ/A
 externa
 extradural/A
 extrakorporal/A
+extrakutan/A
 extrapyramidal/A
 extrarenal/A
 extrazellulär/A
 fachübergreifend/A
 facialis
+factiata
 faltbar/A
 febril/A
 fehlverheilt/A
@@ -457,6 +463,7 @@ formgleich/A
 frühkindlich/A
 fünfschichtig/A
 funikulär/A
+gastrointestinal/A
 gastroösophageal/A
 gelelektrophoretisch/A
 genomisch/A
@@ -467,6 +474,7 @@ gramnegativ/A
 grampositiv/A
 granulomatös/A
 granulosa
+grippal/A
 grüblerisch/A
 halbsynthetisch/A
 hämatologisch/A
@@ -489,8 +497,10 @@ histologisch/A
 hochsensitiv/A
 homolog/A
 homozygot/A
+hormonabhängig/A
 hormonal/A
 hormonblockierend/A
+hormonunabhängig/A
 humeroskapulär/A
 humoral/A
 hydroaktiv/A
@@ -622,6 +632,7 @@ kristalloid/A
 kryptogen/A
 kurativ/A
 kutan/A
+laborchemisch/A
 lacrimalis
 lamellär/A
 lanzinierend/A
@@ -760,6 +771,7 @@ parenteral/A
 parietal/A
 paroxysmal/A
 pathogen/A
+pathognomonisch/A
 pathophysiologisch/A
 pectoris
 pedis
@@ -822,6 +834,9 @@ protektiv/A
 proteolytisch/A
 proximal/A
 pruriginös/A
+pseudoallergenarm/A
+pseudoallergenreich/A
+pseudoallergisch/A
 pseudomembranös/A
 psychotisch/AC
 psychotrop/A
@@ -829,6 +844,7 @@ pulmonal/A
 punktförmig/A
 purulent/A
 pustulös/A
+pylori
 pyogen/A
 pyrogen/A
 quartär/A
@@ -874,6 +890,7 @@ schizoaffektiv/A
 schlaganfallähnlich/A
 schmerzfrei/A
 schmerzgeplagt/A
+schubweise/A
 seitenbetont/A
 seitenkonstant/A
 sense
@@ -897,11 +914,13 @@ stehengelassen/A
 steroidal/A
 stimulatorisch/A
 stöchiometrisch/A
+strichförmig/A
 stromal/A
 stromtragend/A
 stuporös/A
 subakut/A
 subarachnoidal/A
+subepidermal/A
 subepithelial/A
 subkapsulär/A
 subklinisch/A
@@ -960,8 +979,11 @@ unbeeinträchtigt/A
 unilateral/A
 univentrikulär/A
 unprovoziert/A
+unspezifisch/A
 urogenital/A
 urologisch/A
+ursachenorientiert/A
+urtikariell/A
 uteri
 vagal/A
 vaginal/A
@@ -994,6 +1016,7 @@ vorgekühlt/A
 walnussgroß/A
 wassergesättigt/A
 wellenfrontgeführt/A
+zeitverzögert/A
 zellvermittelt/A
 zentrotemporal/A
 zerebellär/A

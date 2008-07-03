@@ -908,6 +908,7 @@ Levetiracetam/S
 Levobunolol/S
 Levocabastin/S
 Levocarnitin/S
+Levocetirizin/S
 Levodopa/S
 Levofloxacin/S
 Levomenol/S

@@ -41,6 +41,7 @@ biopsieren/DIOXY
 bronchoskopieren/DOIXY
 chronifizieren/DIOXY
 debridieren/DIOXY
+degranulieren/DIOXY
 dekantieren/DIOXY
 depolarisieren/DIXY
 deszendieren/DIOXY
@@ -51,6 +52,7 @@ eluieren/DIOXY
 explantieren/DIOXY
 exprimieren/DIOXY
 filtrieren/DIOXY
+granulieren/DIOXY
 grimassieren/DIOXY
 hybridisieren/DIOXY
 infundieren/DIOXY
@@ -73,6 +75,7 @@ polytronisieren/DIOXY
 präzipitieren/DIOXY
 randomisieren/DIOXY
 repolarisieren/DIOXY
+resorbieren/DIOXY
 resuspendieren/DIOXY
 retransplantatieren/DIOXY
 sedieren/DIOXY

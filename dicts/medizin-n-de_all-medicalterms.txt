@@ -34,6 +34,8 @@ Cholangiografie/N
 Computertomografie/N
 computertomografisch/A
 Coronarangiografie/N
+Dermografie/N
+Dermografismus
 Differenzialdiagnose/N
 differenzialdiagnostisch/A
 Dopplerechokardiografie/N

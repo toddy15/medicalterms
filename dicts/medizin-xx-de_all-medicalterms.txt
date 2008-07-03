@@ -1117,7 +1117,6 @@ Dermatologie
 Dermatomykose/N
 Dermatophyt/PS
 Dermatose/N
-Dermographie/N
 Desensibilisierung/P
 Desensibilisierungsbehandlung/P
 Desensibilisierungsberatung/P

@@ -372,7 +372,6 @@ dextra
 dextroponiert/A
 diastolisch/A
 different/A
-differentialdiagnostisch/A
 diffusa
 digestiv/A
 dilatativ/A

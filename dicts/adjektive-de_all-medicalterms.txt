@@ -1,6 +1,6 @@
 # This file lists medical adjectives in German
 #
-# Copyright (C) 2005-2008 Tobias Toedter <t.toedter@gmx.net>
+# Copyright (C) 2005-2008 Tobias Quathamer <t.quathamer@gmx.net>
 #
 # This file is part of Medicalterms.
 #

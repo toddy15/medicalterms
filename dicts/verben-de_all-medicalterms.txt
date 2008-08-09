@@ -52,6 +52,7 @@ eluieren/DIOXY
 explantieren/DIOXY
 exprimieren/DIOXY
 filtrieren/DIOXY
+glukuronidieren/DIOXY
 granulieren/DIOXY
 grimassieren/DIOXY
 hybridisieren/DIOXY
@@ -83,6 +84,9 @@ sequenzieren/DIOXY
 sezernieren/DIOXY
 silanisieren/DIOXY
 stenosieren/DIOXY
+stratifizieren/DIOXY
+sulfatieren/DIOXY
+titrieren/DIOXY
 transkribieren/DIOXY
 überschichten/DIOXY
 zentrifugieren/DIOXY

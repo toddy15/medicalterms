@@ -312,6 +312,7 @@ Akustikus
 Akustikusneurinom/EPS
 Akutbeschwerde/N
 Akutintervention/P
+Akutschmerztherapie/N
 Akzentuierung/P
 Akzessoriusaffektion/P
 Akzessoriusparese/N
@@ -365,6 +366,7 @@ Allergenbelastung/P
 Allergenexposition/P
 Allergenextrakt/EPST
 Allergentest/PS
+Allergieanamnese/N
 Allergiediathese/N
 Allergiepotenzial/EPST
 Allergiker/FN
@@ -481,8 +483,12 @@ Analfissur/P
 Analfistel/N
 Analgesie/N
 Analgetika
+Analgetikabedarf/S
+Analgetikagabe/N
 Analgetikamischpräparat/EPST
+Analgetikaregime/S
 Analgetikum/S
+Analgosedierung/P
 Analkanal/ST
 Analprolaps
 Analschleimhaut
@@ -581,6 +587,7 @@ Antiasthmatika
 Antiasthmatikum/S
 Antibiogramm/EPS
 Antibiose/N
+Antibiotikabehandlung/P
 Antibiotikatherapie/N
 Anticholinergika
 Anticholinergikum/S
@@ -740,6 +747,8 @@ Atopie/N
 Atresie/N
 Atrium/S
 Atrophie/N
+Attackendauer/N
+Attackentherapie/N
 Aufhellung/P
 Aufmerksamkeitsstörung/P
 Aufnahmebefund/EPST
@@ -751,6 +760,7 @@ Augenhämatom/EPST
 Augenlinse/N
 Augenrötung/P
 Ausbreitungsgebiet/EPS
+Ausdauersport/S
 Ausheilung/P
 Auskultation/P
 Auskultationsbefund/EPST
@@ -909,6 +919,12 @@ Blutkörperchen/S
 Blutplättchen/S
 Blutungsgefahr/P
 Blutungsneigung/P
+Blutungsrisiko/S
+Boli
+Bolus
+Bolusanforderung/P
+Bolusdosen
+Bolusdosis
 Bolusgabe/N
 Bolusinjektion/P
 Boosterung/P
@@ -1038,6 +1054,7 @@ Controllerdauertherapie/N
 Controllermedikation/P
 Contusio
 Coping/S
+Copingstrategie/N
 Cor
 Cornea
 Coronarinsuffizienz/P
@@ -1055,6 +1072,7 @@ Creatinkinase
 Cromon/EP
 Cryptosporidieninfektion/P
 Cutis
+Cyclooxygenase/N
 Cystitiden
 Cystitis
 Cytochrom/EPS
@@ -1170,6 +1188,7 @@ Dosieraerosol/EPS
 Dosierung/P
 Dosierungsschema/S
 Dosierungsschemata
+Dosisempfehlung/P
 Dranginkontinenz
 Dreimonatskolik/P
 Dreipunktgang/S
@@ -1229,6 +1248,7 @@ Ekchymose/N
 Eklampsie/N
 Ektopie/N
 Elastase/N
+Elektroenzephalogramm/S
 Elektrolyt/EPS
 Elektronenmikroskop/EPS
 Elektrophorese/N
@@ -1297,6 +1317,7 @@ Entzündungshemmer/NS
 Entzündungsmediator/PS
 Entzündungsparameter/N
 Entzündungsreaktion/P
+Entzündungsschmerz/P
 Enurese
 Enuresis
 Enzephalitiden
@@ -1376,7 +1397,9 @@ Evidenzbasis
 Evidenzgrad/EPST
 Evidenzkategorie/N
 Evidenzklasse/N
+Evidenzlage/N
 Evidenzlevel/NS
+Evidenzniveau/S
 Exanthem/EPS
 Exanthema
 Exazerbation/P
@@ -1510,6 +1533,7 @@ Glucocorticoid/EPS
 Glucocorticosteroid/EPST
 Glukokortikoid/EPS
 Glukokortikosteroid/EPST
+Glutathionsynthesedefizit/EPS
 Glyceraldehyd/S
 Glycin/S
 Gonorrhoe/N
@@ -1540,6 +1564,7 @@ Hämorrhagie/N
 Hämostase/N
 Handautomatismen
 Handautomatismus
+Harnverhalt/S
 Haschischöl/EPS
 Hauptschlagader/N
 Hautbiopsie/N
@@ -1559,6 +1584,7 @@ Hepatitis
 Hepatom/EPS
 Hepatomegalie/N
 Hepatosplenomegalie/N
+Hepatotoxizität/P
 Herdanfall/ST
 Herdanfälle/N
 Heredität/P
@@ -1826,6 +1852,7 @@ Kardiomegalie/N
 Kardiomyopathie/N
 Kardiomyozyt/PS
 Kardiopathie/N
+Kardiotoxizität/P
 Karotis
 Karotisstenose/N
 Karzinogen/EPS
@@ -1873,6 +1900,7 @@ Klysma
 Koagel/NS
 Koagulation
 Kochsalzquaddel/N
+Kohlenhydratmalabsorption/P
 Koilonychie/N
 Kolitiden
 Kolitis
@@ -1922,8 +1950,10 @@ Konvulsion/P
 Konzentrationsbestimmung/P
 Kooperationsstudie/N
 Kopfschmerz/PT
+Kopfschmerzattacke/N
 Kopfschmerzerkrankung/P
 Kopfschmerzform/P
+Kopfschmerzphase/N
 Kopfschmerzsyndrom/EPS
 Koronarinsuffizienz/P
 Körperbehaarung
@@ -1933,6 +1963,8 @@ Kortikosteroid/EPST
 Kortison/S
 Kosmetikum/S
 Koxalgie/N
+Krampfleiden/S
+Krampfschwelle/N
 Krankengymnastik
 Krankheitsbeginn/S
 Krankheitsfreiheit
@@ -2059,6 +2091,7 @@ Lymphom/EPS
 Lymphsystem/EPS
 Lysozym/S
 Magendarmtrakt/ST
+Magnetresonanztomogramm/EPST
 Makrophage/N
 Makula
 Makuladegeneration/P
@@ -2111,6 +2144,11 @@ Meteorismus
 Methämoglobinämie/N
 Metrorrhagie/N
 Migräneanfall/Sp
+Migräneattacke/N
+Migräneprävalenz/P
+Migräneprophylaxe/N
+Migränetagebuch/TS
+Migränetagebücher/N
 Mikroglobulin/EPS
 Mikrokeratom/EPST
 Mikrospore/N
@@ -2138,6 +2176,8 @@ Molekulargewichtsstandard/S
 Monitoring/S
 Mononukleose/N
 Monopräparat/EPS
+Monotherapeutika
+Monotherapeutikum/S
 Monotherapie/N
 Morbus
 Mortalität/P
@@ -2145,6 +2185,8 @@ Motilität
 Mukolytika
 Mukolytikum/S
 Mukosa
+Mukosaschaden/S
+Mukosaschäden
 Mukus
 Mullkompresse/N
 Multifokallinse/N
@@ -2211,6 +2253,7 @@ Nephritiden
 Nephritis
 Nephrolith
 Nephropathie/N
+Nephrotoxizität/P
 Nervi
 Nervus
 Nesselsucht
@@ -2282,6 +2325,8 @@ Ophthalmologe/FN
 Ophthalmologie
 Opiat/EPS
 Opioid/EPS
+Opioidapplikation/P
+Opioideinsatz/T
 Opisthotonus
 Orchitiden
 Orchitis
@@ -2319,6 +2364,7 @@ Oxigenation/P
 Pacemaker
 Pädiater/NF
 Pädiatrie
+Palliativmedizin
 Palpation/P
 Palpitation/P
 Pankreas
@@ -2333,6 +2379,7 @@ Papille/N
 Papillenödem/EPS
 Papillitiden
 Papillitis
+Paracetamolgabe/P
 Paraffinöl/EPS
 Parakinese/N
 Paralyse/N
@@ -2411,6 +2458,7 @@ Phiole/N
 Phlebitiden
 Phlebitis
 Phlegmone/N
+Phonophobie/P
 Phosphoimager/S
 Photophobie/N
 Photosensibilisierung/P
@@ -2421,10 +2469,12 @@ Pia
 Pigmentierung/P
 Pityriasis
 Pixeleinheit/P
+Placebogabe/N
 Plasmabestandteil/EPST
 Plasmaexpander/NS
 Plasmapherese/N
 Plasmaprotein/EPS
+Plasmaspiegelkonzentration/P
 Plasmid/EPS
 Plasmidvektor/PS
 Plasminogen/S
@@ -2452,6 +2502,8 @@ Polyarthritis
 Polydipsie
 Polymerase/N
 Polymerasekettenreaktion/P
+Polymorphismen
+Polymorphismus
 Polyneuritiden
 Polyneuritis
 Polyneuropathie/N
@@ -2493,6 +2545,7 @@ Proliferation/P
 Promotor/PS
 Promotorregion/P
 Pronation
+Prophylaxemaßnahme/N
 Prostatahypertrophiesyndrom/EPS
 Prostatitiden
 Prostatitis
@@ -2642,6 +2695,7 @@ Rhythmusstörung/P
 Ribonukleinsäure/N
 Rigidität/P
 Rigor
+Risikoabwägung/P
 Risikofaktor/PS
 Risikopatient/P
 Risikoreduktion/P
@@ -2658,6 +2712,7 @@ Rötung/P
 Rubella
 rubor
 Ruhepotenzial/PS
+Ruhigstellung/P
 Ruptur/P
 Salbengemisch/EPT
 Salivation
@@ -2679,6 +2734,35 @@ Scharlach
 Scharlatanerie/N
 Schichtdicke/N
 Schlinge/N
+Schmerzattacke/N
+Schmerzäußerung/P
+Schmerzdauer/N
+Schmerzereignis
+Schmerzereignisse/NS
+Schmerzerfahrung/P
+Schmerzerfassung/P
+Schmerzerleben/S
+Schmerzform/P
+Schmerzfreiheit/P
+Schmerzgedächtnis
+Schmerzgedächtnisse/NS
+Schmerzintensität/P
+Schmerzmanagement/S
+Schmerzmessung/P
+Schmerzort/EPST
+Schmerzprävention/P
+Schmerzqualität/P
+Schmerzquantität/P
+Schmerzselbsteinschätzung/P
+Schmerzstärke/N
+Schmerzstörung/P
+Schmerztagebuch/ST
+Schmerztagebücher/N
+Schmerztherapie/N
+Schmerzwahrnehmung/P
+Schmerzwert/EPST
+Schmerzzustand/ST
+Schmerzzustände/N
 Schnittfehler/NS
 Schnittsystem/EPST
 Schrittmacheraktivität/P
@@ -2767,6 +2851,8 @@ Spondylitiden
 Spondylitis
 Spondylose/N
 Spontandepolarisation/P
+Spontanverlauf/ST
+Spontanverläufe/N
 Spray/S
 Sprue
 Spülung/P
@@ -2809,6 +2895,7 @@ Streptococcus
 Streptokokken
 Stressbewältigungstechnik/P
 Stressinkontinenz
+Stressor/PS
 Stria/E
 Stridor
 Stroma/S
@@ -2886,6 +2973,7 @@ Therapieverlaufskontrolle/N
 Thermoregulation/P
 Thorax
 Thoraxorgan/EPST
+Thoraxschmerz/P
 Thromben
 Thromboembolie/N
 Thrombolytika
@@ -2893,6 +2981,7 @@ Thrombolytikum/S
 Thrombophlebitiden
 Thrombophlebitis
 Thrombozyt/SP
+Thrombozytenaggregation/P
 Thrombozytopenie/N
 Thrombozytose/N
 Thrombus
@@ -2907,11 +2996,14 @@ Tierspezies
 Tinea
 Tinnitus
 Titer/NS
+Titration/P
 Todesursache/N
 Tonika
 Tonikum/S
+Tonsillektomie/N
 Tonsillitiden
 Tonsillitis
+Tonsillotomie/N
 Tonus
 Torsade
 Torsion/P
@@ -2965,6 +3057,7 @@ Tyrosin
 Überdosen
 Überdosierung/P
 Überdosis
+Überempfindlichkeitsreaktion/P
 Übernachtkultur/P
 Überstimulation/P
 Uhrglasnägel/N
@@ -3056,6 +3149,7 @@ Vigilanzstörung/P
 Virilisierung/P
 Visusreduktion/P
 Vitalkapazität/P
+Vitalwert/EPST
 Vitien
 Vitium/S
 Volldigitalisierung/P
@@ -3070,6 +3164,7 @@ Vorhofseptumdefekt/EPST
 Vorlaufzeit/P
 Vortexgerät/EPS
 Vorwölbung/P
+Vulnerabilität/P
 Vulva
 Vulvovaginitiden
 Vulvovaginitis
@@ -3088,6 +3183,8 @@ Wirkdauer/N
 Wirkdosen
 Wirkdosis
 Wirkeintritt/EPS
+Wirkmechanismen
+Wirkmechanismus
 Wirksamkeitsnachweis/EPT
 Wortfindung
 Wundheilung/P
@@ -3122,6 +3219,7 @@ Zusammenlagerung/P
 Zwischenwirbelabstand/S
 Zwischenwirbelabstände/N
 Zyanose/N
+Zyklooxygenase/N
 Zyklorotationsbewegung/P
 Zyklusprogramm/EPS
 Zystitiden

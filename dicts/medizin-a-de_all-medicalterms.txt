@@ -53,6 +53,7 @@ Kernspintomograph/PS
 Kernspintomographie/N
 kernspintomographisch/A
 Koronarangiographie/N
+Magnetresonanztomographie/N
 Mammographie/N
 Mikrographie/N
 Phlebographie/N

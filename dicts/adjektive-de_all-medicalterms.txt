@@ -272,6 +272,7 @@ aureus
 aurikulär/A
 aurium
 ausgekugelt/A
+ausgeschlichen/A
 auskultatorisch/A
 auskultierbar/A
 aussagekräftig/AC
@@ -286,11 +287,13 @@ axillär/A
 bakteriologisch/A
 bakteriostatisch/A
 bakterizid/A
+balanziert/A
 basal/A
 basalpleuritisch/A
 basilaris
 bathmotrop/A
 befruchtungsfähig/A
+behavioral/A
 beidseits
 beinbetont/A
 benigne/A
@@ -360,6 +363,7 @@ cutaneum
 darmpathogen/A
 deformans
 degenerativ/A
+dehydriert/A
 dekompensiert/A
 delirant/A
 denaturiert/A
@@ -428,6 +432,7 @@ epilepsiechirurgisch/A
 epilepticus
 epileptisch/A
 epiphysär/A
+episodisch/A
 epitheloidzellig/A
 equina
 ergotherapeutisch/A
@@ -461,6 +466,7 @@ fluoreszierend/A
 fokal/A
 formgleich/A
 frühkindlich/A
+frustran/A
 fünfschichtig/A
 funikulär/A
 gastrointestinal/A
@@ -563,6 +569,7 @@ intraindividuell/A
 intrakraniell/A
 intrakutan/A
 intramuskulär/A
+intranasal/A
 intraokular/A
 intrathekal/A
 intrathorakal/A
@@ -602,6 +609,8 @@ ketogen/A
 klitoridal/A
 klonisch/A
 kognitionsbezogen/A
+kognitiv/A
+kolikartig/A
 kolloid/A
 kolloidal/A
 kolorektal/A
@@ -630,10 +639,12 @@ krankheitsbezogen/A
 krebsverdächtig/A
 kristalloid/A
 kryptogen/A
+kulturabhängig/A
 kurativ/A
 kutan/A
 laborchemisch/A
 lacrimalis
+laktosefrei/A
 lamellär/A
 lanzinierend/A
 laryngoskopisch/A
@@ -699,6 +710,7 @@ mukopurulent/A
 mukoziliär/A
 multifokal/A
 multimer/A
+multimodal/A
 muskulär/A
 mutagen/A
 myelotoxisch/A
@@ -736,6 +748,7 @@ nichtmyozytär/A
 nichtpresbyop/A
 nichtselektiv/A
 nichtsteroidal/A
+nichtulzerös/A
 nodal/A
 nonparametrisch/A
 normalverteilt/A
@@ -773,6 +786,7 @@ paroxysmal/A
 pathogen/A
 pathognomonisch/A
 pathophysiologisch/A
+patientenkontrolliert/A
 pectoris
 pedis
 pepticum
@@ -784,6 +798,7 @@ perineal/A
 perioperativ/A
 perioral/A
 periorbital/A
+periumbilikal/A
 perivaskulär/A
 perkutan/A
 perniziös/A
@@ -838,6 +853,8 @@ pseudoallergenarm/A
 pseudoallergenreich/A
 pseudoallergisch/A
 pseudomembranös/A
+psychometrisch/A
+psychosozial/A
 psychotisch/AC
 psychotrop/A
 pulmonal/A
@@ -855,6 +872,7 @@ rechtsventrikulär/A
 refraktär/A
 refraktiv/A
 regeneratorisch/A
+regionalanästhesiologisch/A
 reizfrei/A
 rekombinant/A
 rekonstruktiv/A
@@ -888,21 +906,28 @@ salinisch/A
 saluretisch/A
 schizoaffektiv/A
 schlaganfallähnlich/A
+schmerzbedingt/A
+schmerzbezogen/A
 schmerzfrei/A
 schmerzgeplagt/A
+schmerzrelevant/A
+schmerzverstärkend/A
 schubweise/A
 seitenbetont/A
 seitenkonstant/A
 sense
 sensomotorisch/A
 sensoriell/A
+sensorisch/A
 serologisch/A
+serotoninerg/A
 sigmoidal/A
 simplex
 situ
 situational/A
 situativ/A
 somatisch/A
+somatoform/A
 somnolent/A
 soporös/A
 spannungsabhängig/A
@@ -928,6 +953,7 @@ subkonjunktival/A
 subkortikal/A
 subkutan/A
 sublingual/A
+suffizient/A
 suizidal/A
 suppressiv/A
 supraventrikulär/A
@@ -949,6 +975,7 @@ teratologisch/A
 terminal/A
 testikulär/A
 testpsychologisch/A
+therapiebedingt/A
 therapierefraktär/A
 therapieresistent/A
 therapiert/A
@@ -999,6 +1026,7 @@ ventral/A
 ventrikulär/A
 verdaut/AU
 vergesellschaftet/A
+verhaltenstherapeutisch/A
 verheilt/A
 verschreibungspflichtig/A
 vertebral/A

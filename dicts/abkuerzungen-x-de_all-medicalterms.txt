@@ -48,6 +48,7 @@ BMI
 bp
 BPH
 BSR
+BTM
 BWS
 Ca
 cAMP
@@ -64,6 +65,8 @@ CML
 CMV
 CNBD
 COPD
+COX-I
+COX-II
 cRNA
 CRP
 CSE
@@ -111,6 +114,7 @@ LASIK
 LDH
 LWS
 med.
+Medline
 MEDLINE
 mg
 ml
@@ -124,11 +128,13 @@ ng
 nm
 NMR
 NO
+NSAID
 NSAR
 nt
 NYHA
 OP
 pAVK
+PCM
 PCR
 PCV
 PDA
@@ -156,6 +162,7 @@ STD
 TENS
 tRNA
 UTP
+VAS
 VK
 VSD
 WHO

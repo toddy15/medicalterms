@@ -29,3 +29,9 @@ EXTRA_DIST = \
 	namen-x-de_all-medicalterms.txt \
 	verben-de_all-medicalterms.txt \
 	wirkstoffe-x-de_all-medicalterms.txt
+
+sort-all:
+	for dict in *txt; do \
+		../bin/sort_file $$dict > tmp; \
+		mv tmp $$dict; \
+	done

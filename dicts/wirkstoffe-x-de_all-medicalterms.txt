@@ -687,9 +687,10 @@ Framycetin/S
 Framycetinsulfat/S
 Frovatriptan/S
 Fulvestrant/S
+Fumarsäureester/S
 Furosemid/S
 Fusafungin/S
-Fusidinsäure/S
+Fusidinsäure
 Gabapentin/S
 Galantaminhydrobromid/S
 Gallopamil/S

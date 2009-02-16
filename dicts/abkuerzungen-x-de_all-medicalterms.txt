@@ -75,6 +75,7 @@ CT
 CTP
 dB
 DCM
+DIP
 DNA
 DNase
 DNCG
@@ -100,6 +101,7 @@ Hb
 HCN
 HEK
 HK
+HLA
 HWS
 ICM
 IgA
@@ -123,6 +125,7 @@ MR
 mRNA
 MRSA
 MRT
+MTX
 mV
 ng
 nm
@@ -147,6 +150,7 @@ PIOL
 pmol
 PRK
 PTCA
+PUVA
 QRS
 QT
 RAAS
@@ -160,8 +164,11 @@ SpA
 SSW
 STD
 TENS
+TNFα
 tRNA
 UTP
+UVA
+UVB
 VAS
 VK
 VSD

@@ -419,6 +419,7 @@ emulgiert/A
 endemisch/A
 endokrin/A
 endoskopisch/A
+endothelial/A
 endotoxisch/A
 enteral/A
 enterohepatisch/A
@@ -437,6 +438,9 @@ epitheloidzellig/A
 equina
 ergotherapeutisch/A
 erscheinungsfrei/A
+eruptiv/A
+erythrodermatisch/A
+erythrosquamös/A
 ethmoidalis
 euthyreot/A
 evidenzbasiert/A
@@ -462,6 +466,7 @@ fermentativ/A
 fibrotisch/A
 flächenhaft/A
 flächig/A
+fleckförmig/A
 fluoreszierend/A
 fokal/A
 formgleich/A
@@ -471,10 +476,12 @@ fünfschichtig/A
 funikulär/A
 gastrointestinal/A
 gastroösophageal/A
+gebärfähig/A
 gelelektrophoretisch/A
 genomisch/A
 gepoolt/A
 geschlechtsreif/A
+gesundheitsbezogen/A
 gleichsinnig/A
 gramnegativ/A
 grampositiv/A
@@ -482,6 +489,7 @@ granulomatös/A
 granulosa
 grippal/A
 grüblerisch/A
+guttata
 halbsynthetisch/A
 hämatologisch/A
 hämatopoetisch/A
@@ -561,6 +569,7 @@ intermittens
 intermittierend/A
 interna
 interstitiell/A
+intertriginosa
 intervertebral/A
 intestinal/A
 intracerebral/A
@@ -601,6 +610,7 @@ kardioselektiv/A
 kardiotoxisch/A
 kardiovaskulär/A
 karzinogen/A
+kassenärztlich/A
 katabol/A
 kaudal/A
 keratolytisch/A
@@ -630,6 +640,7 @@ körpereigen/A
 körperfremd/A
 korpuskulär/A
 kortikal/A
+kortikoidtypisch/A
 krampfartig/A
 kranial/A
 kraniosakral/A
@@ -775,6 +786,7 @@ ototoxisch/A
 ovarial/A
 pädiatrisch/A
 palliativ/A
+palmoplantaris
 palpebral/A
 papillär/A
 paramedizinisch/A
@@ -853,6 +865,7 @@ pseudoallergenarm/A
 pseudoallergenreich/A
 pseudoallergisch/A
 pseudomembranös/A
+psoriatisch/A
 psychometrisch/A
 psychosozial/A
 psychotisch/AC
@@ -896,6 +909,7 @@ revers/A
 rezessiv/A
 rezidivierend/A
 rheumatoid/A
+rheumatologisch/A
 risikoarm/A
 roborierend/A
 röntgenologisch/A
@@ -934,6 +948,7 @@ spannungsabhängig/A
 spasmolytisch/A
 spermizid/A
 spinal/A
+splitterförmig/A
 squamös/A
 stehengelassen/A
 steroidal/A
@@ -953,6 +968,7 @@ subkonjunktival/A
 subkortikal/A
 subkutan/A
 sublingual/A
+submammär/A
 suffizient/A
 suizidal/A
 suppressiv/A
@@ -1041,6 +1057,7 @@ vitro
 vivo
 vorbestehend/A
 vorgekühlt/A
+vulgaris
 walnussgroß/A
 wassergesättigt/A
 wellenfrontgeführt/A

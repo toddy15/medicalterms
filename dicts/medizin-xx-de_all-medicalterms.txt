@@ -490,6 +490,8 @@ Analgetikaregime/S
 Analgetikum/S
 Analgosedierung/P
 Analkanal/ST
+Analoga
+Analogon/S
 Analprolaps
 Analschleimhaut
 Analsphinkter/S
@@ -753,6 +755,7 @@ Aufhellung/P
 Aufmerksamkeitsstörung/P
 Aufnahmebefund/EPST
 Aufreinigung/P
+Auftreibung/P
 Aufzweigung/P
 Augapfelkontusion/P
 Augenbewegung/P
@@ -1138,6 +1141,7 @@ Dermatologie
 Dermatomykose/N
 Dermatophyt/PS
 Dermatose/N
+Dermis
 Desensibilisierung/P
 Desensibilisierungsbehandlung/P
 Desensibilisierungsberatung/P
@@ -1314,10 +1318,13 @@ Entzugssymptomatik/P
 Entzugssyndrom/EPS
 Entzündung/P
 Entzündungshemmer/NS
+Entzündungskrankheit/P
 Entzündungsmediator/PS
 Entzündungsparameter/N
+Entzündungsprozess/EPT
 Entzündungsreaktion/P
 Entzündungsschmerz/P
+Entzündungszelle/N
 Enurese
 Enuresis
 Enzephalitiden
@@ -1329,6 +1336,7 @@ Epicondylitiden
 Epicondylitis
 Epidemiologe/FN
 Epidemiologie/N
+Epidermis
 Epididymitiden
 Epididymitis
 Epigastralgie/N
@@ -1364,6 +1372,7 @@ Ergotherapie/N
 Ergotismus
 Erkennungssequenz/P
 Erkrankung/P
+Erkrankungsbeginn/S
 Erkrankungsdauer/N
 Ermüdbarkeit
 Ernährungsberatung/P
@@ -1383,6 +1392,7 @@ Erysipeloid/EPS
 Erythem/EPS
 Erythema
 Erythrasma
+Erythrodermie/N
 Erythropoese
 Erythrozyt/P
 Erythrozytopoese
@@ -1468,6 +1478,7 @@ Forschungsprozess/EPT
 Fortbildungsartikel/NS
 Fortpflanzung/P
 Fortpflanzungsreife
+Fotosensibilisator/PS
 Fragmentlänge/N
 Frontallappen/S
 Frontallappenanfall/ST
@@ -1501,6 +1512,7 @@ Gelstück/EPS
 Geltasche/N
 Gendatenbank/P
 Generalisation/P
+Genetik/P
 Genexpression/P
 Genlokus
 Genmutation/P
@@ -1686,6 +1698,7 @@ Hyperlipidämie/N
 Hypermetropie/N
 Hyperopie/N
 Hyperostose/N
+Hyperparakeratose/N
 Hyperparathyreoidismus
 Hyperplasie/N
 Hyperpolarisation/PS
@@ -1782,6 +1795,7 @@ Integument/S
 Intentionstremor/S
 Interkostalraum/STp
 Interleukin/EPS
+Interphalangealgelenk/EPST
 Intertrigo
 Interventrikularseptum/S
 Intoxikation/P
@@ -1917,6 +1931,7 @@ Koma/S
 Kombinationstherapie/N
 Komedonen
 Kommensale/N
+Komorbidität/P
 Kompartiment/EPS
 Kompartmentsyndrom/EPS
 Komplex/EPT
@@ -1955,10 +1970,13 @@ Kopfschmerzerkrankung/P
 Kopfschmerzform/P
 Kopfschmerzphase/N
 Kopfschmerzsyndrom/EPS
+Kopplungsstudie/N
 Koronarinsuffizienz/P
+Koronarsklerose/N
 Körperbehaarung
 Korrekturverfahren/S
 Kortex
+Kortikoid/EPST
 Kortikosteroid/EPST
 Kortison/S
 Kosmetikum/S
@@ -2020,6 +2038,7 @@ Lesebrille/N
 Letalität/P
 Leukämie/N
 Leukenzephalopathie/N
+Leukonychie/N
 Leukopenie/N
 Leukoplakie/N
 Leukotrien/EPS
@@ -2099,6 +2118,7 @@ Makulaödem/EPST
 Malabsorption
 Malaise/N
 Malformation/P
+Malignom/EPST
 Mamma/E
 Mangeldurchblutung/P
 Manifestationsgipfel/S
@@ -2231,6 +2251,7 @@ Nachstar/S
 Nachweisgrenze/N
 Nachweismethode/N
 Nachweisverfahren/S
+Nagelpsoriasis
 Naheinstellung/P
 Nährstoffversorgung/P
 Nahrungsmitteladditiva
@@ -2309,6 +2330,8 @@ Odor
 Öffnungsfehler/N
 Okklusion/P
 Okzipitallappen/S
+Oligoarthritiden
+Oligoarthritis
 Oligomenorrhoe/N
 Oligonukleotid/EPS
 Oligurie/N
@@ -2518,6 +2541,7 @@ Potenzialverschiebung/P
 Potenzierung/P
 Prädiktion/P
 Prädiktor/S
+Prädilektionsstelle/N
 Prädisposition/P
 Präeklampsie/N
 Präkursor/S
@@ -2531,6 +2555,7 @@ Presbyopie/N
 Presbyopiebehandlung/P
 Priapismus
 Prickhauttest/EPS
+Primäreffloreszenz/P
 Primärversorgung/P
 Primer/NS
 Primerpaar/EPS
@@ -2561,11 +2586,15 @@ Provitamin/EPS
 Provokationstechnik/P
 Provokationstest/EPST
 Provokationstestung/P
+Prozentsatz/T
+Prozentsätze/N
 Pruritus
 Pseudoallergen/EPS
 Pseudobulbärparalyse/N
 Pseudotumor/EPS
 Psoriasis
+Psoriasisläsion/P
+Psoriasistherapie/N
 Psycholeptika
 Psycholeptikum/S
 Psychopharmakon/S
@@ -2587,6 +2616,8 @@ Punktion/P
 Purkinje
 Purkinjefaser/N
 Purpura
+Pustel/N
+Pustelbildung/P
 Pyelitiden
 Pyelitis
 Pyelonephritiden
@@ -2673,6 +2704,7 @@ Restriktionsverdau/S
 Retardation/P
 Retention/P
 Retinoblastom/EPS
+Retinoid/EPST
 Retinopathie/N
 Retraktion/P
 Retransplantation/P
@@ -2697,6 +2729,7 @@ Rigidität/P
 Rigor
 Risikoabwägung/P
 Risikofaktor/PS
+Risikogen/EPST
 Risikopatient/P
 Risikoreduktion/P
 Roborans
@@ -2714,6 +2747,7 @@ rubor
 Ruhepotenzial/PS
 Ruhigstellung/P
 Ruptur/P
+Sakralregion/P
 Salbengemisch/EPT
 Salivation
 Salizylismus
@@ -2775,6 +2809,7 @@ Schrittmacherströme/N
 Schrittmacherzelle/N
 Schulmedizin
 Schulmediziner/FNS
+Schuppung/P
 Schwärzung/P
 Schwellenpotenzial/EPS
 Schweregrad/EPST
@@ -2810,6 +2845,7 @@ Serumfaktor/PS
 Serumtest/PS
 Shunt/S
 Signalintensität/P
+Signaltransduktionsweg/EPST
 Signifikanzniveau/S
 Silikonimplantat/EPS
 Singultus
@@ -2847,6 +2883,8 @@ Spinalkanal/S
 Spirometrie/N
 Spleißvariante/N
 Splenomegalie/N
+Spondylarthritiden
+Spondylarthritis
 Spondylitiden
 Spondylitis
 Spondylose/N
@@ -2914,6 +2952,7 @@ Subarachnoidea
 Subkutangewebe/N
 Subtyp/PS
 Suizid/S
+Suizidalität/P
 Suizidgefahr
 Superinfektion/P
 Supervision
@@ -2937,6 +2976,8 @@ Symptomkontrolle/N
 Synkope/N
 Synovialitiden
 Synovialitis
+Systemtherapeutika
+Systemtherapeutikum/S
 Systole/N
 Systolikum/S
 Tachyarrhythmie/N
@@ -2968,6 +3009,8 @@ Tetralogie/N
 Tetraplegie/N
 Thalamus
 Thalassämie/N
+Therapeutika
+Therapeutikum/S
 Therapiedeeskalation/P
 Therapieverlaufskontrolle/N
 Thermoregulation/P
@@ -3050,6 +3093,8 @@ Tuberkulostatika
 Tuberkulostatikum/S
 tumor
 Tumormarker/NS
+Tüpfelnagel/S
+Tüpfelnägel/N
 Turbohaler/S
 Tympanum
 Tyrosin
@@ -3132,6 +3177,7 @@ Verblödung/P
 Verdau/S
 Verdrängungsstrategie/N
 Vergleichsgruppe/N
+Verlaufsform/P
 Verlaufsmuster/NS
 Verlegenheitsbewegungen
 Verletzung/P
@@ -3186,6 +3232,7 @@ Wirkeintritt/EPS
 Wirkmechanismen
 Wirkmechanismus
 Wirksamkeitsnachweis/EPT
+Wirkstärke/N
 Wortfindung
 Wundheilung/P
 Wundheilungsstörung/P
@@ -3196,6 +3243,8 @@ Xerostomie/N
 Yersinia
 Yersinien
 Yersiniose/N
+Zehenendglied/S
+Zehenendglieder/N
 Zellauswahl/P
 Zellbestandteil/EPS
 Zelldetritus

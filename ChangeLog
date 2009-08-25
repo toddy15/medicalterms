@@ -1,3 +1,10 @@
+medicalterms TRUNK
+==================
+
+* Install hunspell dictionaries in /usr/share/hunspell instead of
+  /usr/share/myspell
+
+
 medicalterms 20090216
 =====================
 

@@ -1,5 +1,5 @@
-medicalterms TRUNK
-==================
+medicalterms 20090825
+=====================
 
 * Install hunspell dictionaries in /usr/share/hunspell instead of
   /usr/share/myspell

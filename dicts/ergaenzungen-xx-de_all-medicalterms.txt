@@ -53,6 +53,7 @@ Herzspezialist/FP
 induzieren/BDIOXY
 Insertion/P
 Kinderheilkundler/FNS
+Klagschrift/P
 Krankenwagenfahrer/FNS
 Krankheitsbild/RST
 Krankheitskeim/EPST

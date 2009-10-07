@@ -318,6 +318,7 @@ Akzessoriusaffektion/P
 Akzessoriusparese/N
 Alaktasie/N
 Alalie/N
+Alarmierung/P
 Albinismus
 Albumin/EPS
 Albuminurie/N
@@ -497,12 +498,15 @@ Analschleimhaut
 Analsphinkter/S
 Analsphinkterinsuffizienz/P
 Anämie/N
+Anamnesebogen/S
 Anamneseerhebung/P
 Anankasmus
 Anaphylaxie/N
 Anaphylaxiegefahr/P
 Anasarka
 Anästhesie/N
+Anästhesieprotokoll/EPST
+Anästhesieverfahren/S
 Anästhesiologe/FN
 Anästhesiologie
 Anästhesist/PF
@@ -1010,6 +1014,7 @@ Cholelithiasis
 Choleretika
 Choleretikum/S
 Cholestase/N
+Cholesterinspiegel/S
 Cholesterol/S
 Cholezystektomie/N
 Cholezystitiden
@@ -1457,6 +1462,7 @@ Feinnadelbiopsie/N
 Femtolaser/NS
 Femtosekundenlaser/NS
 Fernpunkt/EPST
+Fettleibigkeit
 Fibrille/N
 Fibrin/EPST
 Fibrinabbauprodukt/EPST
@@ -1792,11 +1798,13 @@ Instillation/P
 Insuffizienz/P
 Insult/EPS
 Integument/S
+Intensivmedizin/R
 Intentionstremor/S
 Interkostalraum/STp
 Interleukin/EPS
 Interphalangealgelenk/EPST
 Intertrigo
+Intervallüberschreitung/P
 Interventrikularseptum/S
 Intoxikation/P
 Intraokularlinse/N
@@ -1981,6 +1989,8 @@ Kortikosteroid/EPST
 Kortison/S
 Kosmetikum/S
 Koxalgie/N
+Krampfanfall/S
+Krampfanfälle/N
 Krampfleiden/S
 Krampfschwelle/N
 Krankengymnastik
@@ -2260,6 +2270,10 @@ Nahsehfähigkeit/P
 Nahtmaterial/S
 Nahtmaterialien
 Narbenbildung/P
+Narkosedauer
+Narkosemedikament/EPST
+Narkoseprotokoll/EPST
+Narkoseverfahren/S
 Nasopharynx
 Natriumion/PS
 Natriurie
@@ -2307,6 +2321,7 @@ Nidation/P
 Nitrosamin/EPS
 Normalisierung/P
 Normaltyp/S
+Normwert/EPST
 Northern
 Nukleinsäure/N
 Nukleotid/EPS
@@ -2747,6 +2762,7 @@ rubor
 Ruhepotenzial/PS
 Ruhigstellung/P
 Ruptur/P
+Sachverständigengutachten/S
 Sakralregion/P
 Salbengemisch/EPT
 Salivation
@@ -2934,6 +2950,7 @@ Streptokokken
 Stressbewältigungstechnik/P
 Stressinkontinenz
 Stressor/PS
+Stressreaktion/P
 Stria/E
 Stridor
 Stroma/S
@@ -3195,6 +3212,7 @@ Vigilanzstörung/P
 Virilisierung/P
 Visusreduktion/P
 Vitalkapazität/P
+Vitalparameter/A
 Vitalwert/EPST
 Vitien
 Vitium/S
@@ -3236,6 +3254,7 @@ Wirkstärke/N
 Wortfindung
 Wundheilung/P
 Wundheilungsstörung/P
+Würgreflex/EP
 Xanthom/EPS
 Xanthopsie/N
 Xerophthalmie/N

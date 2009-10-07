@@ -36,13 +36,17 @@ amol
 ANF
 ANP
 APGC
+ASA
 ASAT
 ASB
 ASD
 ASR
 ASV
 ATP
+AWR
 BCG
+BDA
+BDC
 BIPAP
 BMI
 bp
@@ -75,7 +79,9 @@ CT
 CTP
 dB
 DCM
+DGAI
 DIP
+dl
 DNA
 DNase
 DNCG
@@ -157,6 +163,7 @@ RAAS
 RNA
 RNase
 RPA
+RR
 rRNA
 SAB
 sec

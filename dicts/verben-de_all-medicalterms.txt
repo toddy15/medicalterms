@@ -48,6 +48,8 @@ deszendieren/DIOXY
 dezelerieren/DIOXY
 disseminieren/DIOXY
 dissimulieren/DIOXY
+eingruppieren/D
+einnässen/DIY
 eluieren/DIOXY
 explantieren/DIOXY
 exprimieren/DIOXY
@@ -59,6 +61,7 @@ hybridisieren/DIOXY
 infundieren/DIOXY
 inhibieren/DIOXY
 inkubieren/DIOXY
+insufflieren/DIOXY
 klonieren/DIOXY
 konfundieren/DIXY
 lamellieren/DIOXY
@@ -67,6 +70,7 @@ linearisieren/DIOXY
 lyophilisieren/DIOXY
 lysieren/DIOXY
 metastasieren/DIOXY
+nässen/DIXY
 obliterieren/DIOXY
 okkludieren/DIOXY
 pelletieren/DIOXY
@@ -89,5 +93,6 @@ sulfatieren/DIOXY
 titrieren/DIOXY
 transkribieren/DIOXY
 überschichten/DIOXY
+versterben/DI
 zentrifugieren/DIOXY
 zusammenpipettieren/DIOXY

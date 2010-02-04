@@ -1,5 +1,5 @@
-medicalterms trunk
-==================
+medicalterms 20100204
+=====================
 
 * Install hunspell dictionaries in correct path. Thanks to Rene Engelhard
   for reporting this bug. Closes Debian BTS #568329.

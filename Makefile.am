@@ -1,7 +1,7 @@
 # The Makefile for medicalterms
 ## Process this file with automake to produce Makefile.in
 #
-# Copyright © 2005-2009 Tobias Quathamer <t.quathamer@gmx.net>
+# Copyright © 2005-2010 Tobias Quathamer <t.quathamer@gmx.net>
 #
 # This file is part of Medicalterms.
 #

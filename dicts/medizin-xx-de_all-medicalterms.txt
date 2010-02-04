@@ -594,6 +594,7 @@ Antiasthmatikum/S
 Antibiogramm/EPS
 Antibiose/N
 Antibiotikabehandlung/P
+Antibiotikakombination/P
 Antibiotikatherapie/N
 Anticholinergika
 Anticholinergikum/S
@@ -657,6 +658,8 @@ Antithrombosestrümpfe/N
 Antitoxin/EPS
 Antitrypsin/S
 Antitrypsinmangel/S
+Antituberkulotika
+Antituberkulotikum/S
 Antitussiva
 Antitussivum/S
 Antriebslosigkeit/P
@@ -797,6 +800,7 @@ Badeotitiden
 Badeotitis
 Bakerzyste/N
 Bakteriämie/N
+Bakterienisolat/EPS
 Bakterienkolonie/N
 Bakterienstamm/ST
 Bakterienstämme/N
@@ -895,6 +899,7 @@ Beziehungsproblem/EPS
 Beziehungsstörung/P
 Bezoar/S
 Bezugstherapeut/FP
+Bias
 Bildgebung/P
 Bilirubin/S
 Bindehautrötung/P
@@ -1160,6 +1165,7 @@ Determinationskoeffizient/P
 Detoxikation/P
 Dextrokardie/N
 Dezentration/P
+Diagnostikverfahren/S
 Diamantmesser/NS
 Diameter/S
 Diaphorese/N
@@ -1280,6 +1286,7 @@ Emetikum/S
 Empyem/EPS
 Enanthem/EPS
 Enddarm/ST
+Endemiegebiet/EPS
 Endglied/S
 Endglieder/N
 Endgröße/N
@@ -1379,6 +1386,7 @@ Erkennungssequenz/P
 Erkrankung/P
 Erkrankungsbeginn/S
 Erkrankungsdauer/N
+Erkrankungsrisiko/S
 Ermüdbarkeit
 Ernährungsberatung/P
 Ernährungsproblem/EPS
@@ -1389,6 +1397,8 @@ Erschöpfbarkeit
 Erschöpfungssyndrom/EPS
 Erstbeschreiber/FS
 Erstbeschreibung/P
+Erstrangantituberkulotika
+Erstrangantituberkulotikum/S
 Ertrinkungstod/ES
 Ertrinkungsunfall/Sp
 Eruktation/P
@@ -1431,6 +1441,7 @@ Exotropie/N
 Expektorans
 Expektoranzien
 Explantation/P
+Expositionsrisiko/S
 Expression/P
 Expressionsmuster/NS
 Expressionsniveau/S
@@ -1646,6 +1657,7 @@ Histaminlösung/P
 Histologe/FN
 Histologie/N
 Hochlagerung/P
+Hochprävalenzregion/P
 Hockstellung/P
 Hodgkin
 Homologie/N
@@ -1764,6 +1776,7 @@ Immunosuppressiva
 Immunosuppressivum/S
 Immunsuppression/P
 Impetigo
+Impfstoff/EPS
 Impfung/P
 Implantat/EPS
 Indikationsbereich/EPST
@@ -1779,6 +1792,7 @@ Inflammation/P
 Influenza
 Infusion/P
 Ingestion/P
+Inhaftierungseinrichtung/P
 Inhalationstechnik/P
 Inhalator/PS
 Inhibition/P
@@ -1924,6 +1938,8 @@ Koagulation
 Kochsalzquaddel/N
 Kohlenhydratmalabsorption/P
 Koilonychie/N
+Koinfektion/P
+Koinfektionsrate/N
 Kolitiden
 Kolitis
 Kollagen/EPS
@@ -2150,6 +2166,7 @@ Median/EPS
 Medianwert/EPST
 Mediator/PS
 Medikamentenanamnese/N
+Medikamentenresistenz/P
 Medikation/P
 Megakolon/S
 Mehrfachgabe/N
@@ -2223,6 +2240,7 @@ Multifokallinse/N
 Multiinfarktdemenz/P
 Multimer/EPS
 Multipara
+Multiresistenz/P
 Multisystematrophie/N
 Mumps
 Muskelrelaxans
@@ -2231,6 +2249,7 @@ Muskelrelaxation
 Mutismus
 Myalgie/N
 Myasthenie/N
+Mycobacterium/S
 Mydriasis
 Mydriatika
 Mydriatikum/S
@@ -2295,6 +2314,8 @@ Nesselsucht
 Nesteln/S
 Netzhautablösung/P
 Netzhäute/N
+Neuerkrankte/N
+Neuerkrankungsrate/N
 Neugeborenenalter/S
 Neugeborenenanfall/ST
 Neugeborenenanfälle/N
@@ -2318,7 +2339,10 @@ Neurotransmitter/NS
 Neurowissenschaftler/FNS
 Neutropenie/N
 Nidation/P
+Niedriginzidenzland
+Niedriginzidenzländer/N
 Nitrosamin/EPS
+Noncompliance
 Normalisierung/P
 Normaltyp/S
 Normwert/EPST
@@ -2355,6 +2379,8 @@ Onkologie
 Oophorektomie/N
 Oophoritiden
 Oophoritis
+Operabilitätskriterien
+Operabilitätskriterium
 Operationsbedingung/P
 Operationsnarbe/N
 Operationswunde/N
@@ -2564,6 +2590,7 @@ Prämedikation/P
 Präputium/S
 Präskription/P
 Prävalenz/P
+Prävalenzrate/N
 Präzipitation/P
 Preload/S
 Presbyopie/N
@@ -2709,7 +2736,18 @@ Resektion/P
 Residuen
 Residuum/S
 Resistance
+Resistenz/P
+Resistenzentwicklung/P
+Resistenzergebnis
+Resistenzergebnisse/N
+Resistenzproblematik/P
+Resistenzrate/N
+Resistenzsituation/P
+Resistenztestergebnis
+Resistenztestergebnisse/N
+Resistenztestung/P
 Resorption/P
+Resorptionsstörung/P
 Restfehlsichtigkeit/P
 Restriktionsansatz/T
 Restriktionsansätze/N
@@ -2728,6 +2766,7 @@ Rezeptor/PS
 Rezeptorantagonist/P
 Rezidiv/EPS
 Rezidivprophylaxe/N
+Rezidivrate/N
 Rezipient/PS
 Rhabdomyosarkom/EPS
 Rhagade/N
@@ -2845,10 +2884,12 @@ Sekundärinfektion/P
 Selbstheilungskraft
 Selbstheilungskräfte/N
 Selbstheilungsprozess/EPT
+Selektionsbias
 Selektivität/P
 Selektivitätsfilter/S
 Selektivnährboden/S
 Selektivnährböden
+Sensibilitätstestung/P
 Sensitivierung/P
 Sepsis
 Septum/S
@@ -2911,6 +2952,7 @@ Spray/S
 Sprue
 Spülung/P
 Sputum/S
+Sputumkonversion/P
 Stabilisierung/P
 Stabsichtigkeit/P
 Standarddosen
@@ -3028,6 +3070,7 @@ Thalamus
 Thalassämie/N
 Therapeutika
 Therapeutikum/S
+Therapieadhärenzproblem/EPS
 Therapiedeeskalation/P
 Therapieverlaufskontrolle/N
 Thermoregulation/P
@@ -3106,6 +3149,7 @@ Trismus
 Trommelschlegelfinger/NS
 Troponin/S
 Truncus
+Tuberkulose
 Tuberkulostatika
 Tuberkulostatikum/S
 tumor
@@ -3284,6 +3328,8 @@ Zirrhose/N
 Zona
 Zugriffscode/S
 Zusammenlagerung/P
+Zweitrangantituberkulotika
+Zweitrangantituberkulotikum/S
 Zwischenwirbelabstand/S
 Zwischenwirbelabstände/N
 Zyanose/N

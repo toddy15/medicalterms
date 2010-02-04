@@ -439,6 +439,7 @@ Cyanocobalamin/S
 Cyclamen/S
 Cyclandelat/S
 Cyclopentolat/S
+Cycloserin/S
 Cyproteronacetat/S
 Cystin/S
 Cytarabin/S

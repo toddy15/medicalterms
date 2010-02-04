@@ -63,6 +63,7 @@ inhibieren/DIOXY
 inkubieren/DIOXY
 insufflieren/DIOXY
 klonieren/DIOXY
+koinfizieren/DIOXY
 konfundieren/DIXY
 lamellieren/DIOXY
 ligieren/DIOXY

@@ -121,6 +121,7 @@ LASEK
 LASIK
 LDH
 LWS
+MDR
 med.
 Medline
 MEDLINE
@@ -170,6 +171,8 @@ sec
 SpA
 SSW
 STD
+TB
+TBC
 TENS
 TNFα
 tRNA
@@ -180,5 +183,6 @@ VAS
 VK
 VSD
 WHO
+XDR
 ZEEP
 ZNS

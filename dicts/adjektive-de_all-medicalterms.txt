@@ -219,6 +219,7 @@ antiseptisch/A
 antisozial/A
 antispastisch/A
 antithrombotisch/A
+antituberkulotisch/A
 antitumorös/A
 antitussiv/A
 antivertiginös/A
@@ -265,6 +266,7 @@ atrial/A
 atrioventrikulär/A
 atrophisch/A
 attackenförmig/A
+attenuiert/A
 atypisch/A
 auditiv/A
 aufgereinigt/A
@@ -285,6 +287,8 @@ autosomal/A
 avital/A
 axial/A
 axillär/A
+bakterienarm/A
+bakterienreich/A
 bakteriologisch/A
 bakteriostatisch/A
 bakterizid/A
@@ -458,6 +462,7 @@ externa
 extradural/A
 extrakorporal/A
 extrakutan/A
+extrapulmonal/A
 extrapyramidal/A
 extrarenal/A
 extrazellulär/A
@@ -647,6 +652,7 @@ konnatal/A
 kontraindiziert/A
 konvaleszent/A
 konvulsiv/A
+konzertiert/A
 koronar/A
 körpereigen/A
 körperfremd/A
@@ -707,6 +713,9 @@ mater
 maxillar/A
 medial/A
 median/A
+medikamentenresistent/A
+medikamentensensibel
+medikamentensensible/A
 medikamentös/A
 medullär/A
 megaloblastisch/A
@@ -736,8 +745,10 @@ mukoziliär/A
 multifokal/A
 multimer/A
 multimodal/A
+multiresistent/A
 muskulär/A
 mutagen/A
+mutationsfreudig/A
 myelotoxisch/A
 mykologisch/A
 mykotisch/A
@@ -756,6 +767,7 @@ neonatal/A
 neoplastisch/A
 nephrotisch/A
 nephrotoxisch/A
+neuerkrankt/A
 neural/A
 neurodegenerativ/A
 neurohumoral/A
@@ -771,6 +783,7 @@ nichtinsuffizient/A
 nichtmedikamentös/A
 nichtmyozytär/A
 nichtpresbyop/A
+nichtresistent/A
 nichtselektiv/A
 nichtsteroidal/A
 nichtulzerös/A
@@ -866,6 +879,7 @@ prämenstruell/A
 pränatal/A
 präoperativ/A
 präsynaptisch/A
+prävalent/A
 presbyop/A
 progredient/A
 proliferativ/A
@@ -892,10 +906,12 @@ pustulös/A
 pylori
 pyogen/A
 pyrogen/A
+qualitätskontrolliert/A
 quartär/A
 racemosa
 radikulär/A
 radiogen/A
+radiometrisch/A
 rechtsventrikulär/A
 refraktär/A
 refraktiv/A
@@ -912,6 +928,7 @@ renovaskulär/A
 repetitiv/A
 residual/A
 resistent/A
+resistenzvermittelnd/A
 resorptiv/A
 respiratorisch/A
 retardiert/A
@@ -1035,6 +1052,7 @@ tumorartig/A
 übergewichtig/A
 ulzerogen/A
 unbeeinträchtigt/A
+uneinsichtig/A
 unilateral/A
 univentrikulär/A
 unprovoziert/A
@@ -1067,10 +1085,12 @@ vesikulär/A
 vestibulär/A
 vierteilig/A
 viral/A
+virulenzgeschwächt/A
 viszeral/A
 vital/A
 vitro
 vivo
+vorbehandelt/A
 vorbestehend/A
 vorgekühlt/A
 vulgaris
@@ -1089,6 +1109,7 @@ zervikal/A
 zirkadian/A
 zirkulär/A
 zoster
+zweimonatig/A
 zweiteilig/A
 zweizeitig/A
 zyanotisch/A

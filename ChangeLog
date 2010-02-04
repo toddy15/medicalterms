@@ -1,3 +1,10 @@
+medicalterms trunk
+==================
+
+* Install hunspell dictionaries in correct path. Thanks to Rene Engelhard
+  for reporting this bug. Closes Debian BTS #568329.
+
+
 medicalterms 20091008
 =====================
 

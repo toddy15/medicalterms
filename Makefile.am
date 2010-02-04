@@ -89,12 +89,12 @@ de_med.dic:
 
 .PHONY: install-de_med.dic
 install-de_med.dic: de_med.dic
-	$(INSTALL) --directory $(DESTDIR)$(datadir)/hunspell/dicts
-	$(INSTALL_DATA) de_med.dic $(DESTDIR)$(datadir)/hunspell/dicts
+	$(INSTALL) --directory $(DESTDIR)$(datadir)/hunspell
+	$(INSTALL_DATA) de_med.dic $(DESTDIR)$(datadir)/hunspell
 
 .PHONY: uninstall-de_med.dic
 uninstall-de_med.dic:
-	rm -f $(DESTDIR)$(datadir)/hunspell/dicts/de_med.dic
+	rm -f $(DESTDIR)$(datadir)/hunspell/de_med.dic
 
 
 #####################################################################

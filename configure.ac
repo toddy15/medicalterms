@@ -19,7 +19,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-AC_INIT(medicalterms, 20100204)
+AC_INIT(medicalterms, 20110608)
 AM_MAINTAINER_MODE
 AM_INIT_AUTOMAKE([foreign])
 

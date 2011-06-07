@@ -1,5 +1,5 @@
-medicalterms trunk
-==================
+medicalterms 20110608
+=====================
 
 * Fix error in perl expression which resulted in an FTBFS.
   Closes Debian BTS #628251.

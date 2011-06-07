@@ -1,7 +1,7 @@
 # Some configure options for medicalterms
 # Process this file with autoconf to produce a configure script.
 #
-# Copyright © 2005-2010 Tobias Quathamer <t.quathamer@gmx.net>
+# Copyright © 2005-2011 Tobias Quathamer <t.quathamer@gmx.net>
 #
 # This file is part of Medicalterms.
 #

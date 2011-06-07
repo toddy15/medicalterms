@@ -3,7 +3,7 @@
 # Script for sorting all dictionary words in the specified file,
 # without messing with the GNU license comment at the beginning
 #
-# Copyright © 2005-2008 Tobias Quathamer <t.quathamer@gmx.net>
+# Copyright © 2005-2011 Tobias Quathamer <t.quathamer@gmx.net>
 #
 # This file is part of Medicalterms.
 #
@@ -34,7 +34,7 @@ sub version
 {
 	my $filename = substr($0, rindex($0, "/") + 1);
 	print "$filename version 0.1\n";
-	print "Copyright © 2005-2008 Tobias Quathamer <t.quathamer\@gmx.net>\n";
+	print "Copyright © 2005-2011 Tobias Quathamer <t.quathamer\@gmx.net>\n";
 }
 
 sub usage

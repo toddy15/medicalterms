@@ -42,8 +42,8 @@ else
 	AC_MSG_CHECKING([for aspell version >= 0.60.0])
 	ac_cv_aspell_version=`$ASPELL --version | $PERL -pe "s/.+ really Aspell (.+)\)/\1/g"`
 	changequote(+)dnl
-	ac_cv_aspell_major=`$PERL -e "split /\./, '$ac_cv_aspell_version'; print @_[0]"`
-	ac_cv_aspell_minor=`$PERL -e "split /\./, '$ac_cv_aspell_version'; print @_[1]"`
+	ac_cv_aspell_major=`$PERL -e "@v = split(/\./, '$ac_cv_aspell_version'); print @v[0]"`
+	ac_cv_aspell_minor=`$PERL -e "@v = split(/\./, '$ac_cv_aspell_version'); print @v[1]"`
 	changequote([, ])dnl
 	if test $ac_cv_aspell_major -gt 0; then
 		AC_MSG_RESULT([ok, found $ac_cv_aspell_version])

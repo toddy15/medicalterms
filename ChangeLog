@@ -1,3 +1,10 @@
+medicalterms trunk
+==================
+
+* Fix error in perl expression which resulted in an FTBFS.
+  Closes Debian BTS #628251.
+
+
 medicalterms 20100204
 =====================
 

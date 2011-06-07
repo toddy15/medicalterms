@@ -108,6 +108,7 @@ alkoholtoxisch/A
 allergenspezifisch/A
 allergenunabhängig/A
 allergologisch/A
+alternativmedizinisch/A
 altersassoziiert/A
 altersatrophisch/A
 altersentsprechend/A
@@ -293,6 +294,7 @@ bakteriologisch/A
 bakteriostatisch/A
 bakterizid/A
 balanziert/A
+ballaststoffreich/A
 basal/A
 basalpleuritisch/A
 basilaris
@@ -383,6 +385,7 @@ desorientiert/AC
 dextra
 dextroponiert/A
 diastolisch/A
+diätetisch/A
 different/A
 diffusa
 digestiv/A
@@ -401,6 +404,7 @@ dosisunabhängig/A
 dreiteilig/A
 dromotrop/A
 druckbelastet/A
+druckkontrolliert/A
 drüsig/A
 duodeni
 dysontogenetisch/A
@@ -460,6 +464,7 @@ exspiratorisch/A
 exsudativ/A
 externa
 extradural/A
+extraintestinal/A
 extrakorporal/A
 extrakutan/A
 extrapulmonal/A
@@ -470,10 +475,13 @@ fachanästhesiologisch/A
 fachübergreifend/A
 facialis
 factiata
+fäkal/A
 faltbar/A
+faserreich/A
 febril/A
 fehlverheilt/A
 fermentativ/A
+fettreich/A
 fibrotisch/A
 flächenhaft/A
 flächig/A
@@ -485,15 +493,19 @@ frühkindlich/A
 frustran/A
 fünfschichtig/A
 funikulär/A
+gastral/A
+gastroenterologisch/A
 gastrointestinal/A
 gastroösophageal/A
 gebärfähig/A
+gebläht/A
 gelelektrophoretisch/A
 genomisch/A
 gepoolt/A
 geschlechtsreif/A
 gesundheitsbezogen/A
 gleichsinnig/A
+glutenfrei/A
 gramnegativ/A
 grampositiv/A
 granulomatös/A
@@ -563,11 +575,13 @@ immunsuppressiv/A
 infaust/A
 infektabhängig/A
 infektiös/A
+inflammatorisch/A
 inguinal/A
 inhalativ/A
 inhibitorisch/A
 iniectabilia
 initial/A
+inkomplett/A
 inoperabel/A
 inotrop/A
 insipidus
@@ -633,10 +647,12 @@ kaudal/A
 keratolytisch/A
 ketoazidotisch/A
 ketogen/A
+kinderpsychologisch/A
 klitoridal/A
 klonisch/A
 kognitionsbezogen/A
 kognitiv/A
+kohlensäurehaltig/A
 kolikartig/A
 kolloid/A
 kolloidal/A
@@ -644,6 +660,7 @@ kolorektal/A
 koloskopisch/A
 komatös/A
 kompensiert/A
+komplikationsarm/A
 komplikationslos/A
 kongenital/A
 konjugiert/A
@@ -673,6 +690,7 @@ kurativ/A
 kutan/A
 laborchemisch/A
 lacrimalis
+laktosearm/A
 laktosefrei/A
 lamellär/A
 lanzinierend/A
@@ -769,6 +787,7 @@ nephrotisch/A
 nephrotoxisch/A
 neuerkrankt/A
 neural/A
+neuroaktiv/A
 neurodegenerativ/A
 neurohumoral/A
 neurometabolisch/A
@@ -881,6 +900,7 @@ präoperativ/A
 präsynaptisch/A
 prävalent/A
 presbyop/A
+probatorisch/A
 progredient/A
 proliferativ/A
 prolongiert/A
@@ -931,6 +951,7 @@ resistent/A
 resistenzvermittelnd/A
 resorptiv/A
 respiratorisch/A
+ressourcenschonend/A
 retardiert/A
 retinal/A
 retrobulbär/A
@@ -956,6 +977,7 @@ schmerzbedingt/A
 schmerzbezogen/A
 schmerzfrei/A
 schmerzgeplagt/A
+schmerzinduziert/A
 schmerzrelevant/A
 schmerzverstärkend/A
 schubweise/A
@@ -1076,6 +1098,7 @@ ventral/A
 ventrikulär/A
 verdaut/AU
 vergesellschaftet/A
+verhaltensorientiert/A
 verhaltenstherapeutisch/A
 verheilt/A
 verschreibungspflichtig/A

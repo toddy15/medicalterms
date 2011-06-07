@@ -312,12 +312,14 @@ Akustikus
 Akustikusneurinom/EPS
 Akutbeschwerde/N
 Akutintervention/P
+Akutphase/N
 Akutschmerztherapie/N
 Akzentuierung/P
 Akzessoriusaffektion/P
 Akzessoriusparese/N
 Alaktasie/N
 Alalie/N
+Alanin-Aminotransferase
 Alarmierung/P
 Albinismus
 Albumin/EPS
@@ -649,6 +651,7 @@ Antipsychotika
 Antipsychotikum/S
 Antipyretika
 Antipyretikum/S
+Antirefluxverfahren/S
 Antirheumatika
 Antirheumatikum/S
 Antiseptika
@@ -717,6 +720,7 @@ Arthroskopie/N
 Aryknorpel/S
 Arzneimittelexanthem/EPS
 Asepsis
+Aspartat-Aminotransferase
 Asphyxie/N
 Aspirationsneigung/P
 Assay/S
@@ -774,6 +778,7 @@ Ausdauersport/S
 Ausheilung/P
 Auskultation/P
 Auskultationsbefund/EPST
+Auslassdiät/P
 Ausprägungsform/PS
 Ausprägungsgrad/EPS
 Ausreifung/P
@@ -885,6 +890,7 @@ Beta
 Betablocker/NS
 Betarezeptorenblocker/NS
 Bewältigungsform/P
+Bewältigungsstrategie/N
 Bewegungsdrang/S
 Bewegungseinschränkung/P
 Bewegungskontrolle/N
@@ -929,6 +935,7 @@ Blutgerinnung/P
 Blutgruppeninkompatibilität/P
 Blutkörperchen/S
 Blutplättchen/S
+Blutsenkungsgeschwindigkeit/P
 Blutungsgefahr/P
 Blutungsneigung/P
 Blutungsrisiko/S
@@ -1331,6 +1338,7 @@ Entzugssyndrom/EPS
 Entzündung/P
 Entzündungshemmer/NS
 Entzündungskrankheit/P
+Entzündungsmarker/NS
 Entzündungsmediator/PS
 Entzündungsparameter/N
 Entzündungsprozess/EPT
@@ -1378,6 +1386,7 @@ Eppendorf
 Eppendorfgefäß/EPT
 Eppendorfzentrifuge/N
 Eradikation/P
+Eradikationstherapie/N
 Erbgang/Sp
 Ergotherapeut/FP
 Ergotherapie/N
@@ -1511,6 +1520,7 @@ Ganglien
 Ganglion/S
 Gastroenteritiden
 Gastroenteritis
+Gastrointestinaltrakt/PS
 Gastrologe/FN
 Gastrologie
 Gastroskopie/N
@@ -1571,6 +1581,8 @@ Granulationsgewebe/N
 Granulozyt/PS
 Gravidität/P
 Größenbestimmung/P
+Größenperzentile/N
+Größenperzentilenentwicklung
 Größenstandard/S
 Größenunterschied/EPS
 Großpräparation/P
@@ -1587,6 +1599,7 @@ Hämatom/EPST
 Hämodynamik/P
 Hämoglobin/EPS
 Hämokkult
+Hämokkulttest/S
 Hämophilie/N
 Hämoptoe/N
 Hämorrhagie/N
@@ -1736,6 +1749,7 @@ Hyperurikämie/N
 Hyperventilation/P
 Hypervitaminose/N
 Hypervolämie/N
+Hypnoseverfahren/S
 Hypochonder/NS
 Hypochondrie/N
 Hypoglykämie/N
@@ -1958,8 +1972,8 @@ Kommensale/N
 Komorbidität/P
 Kompartiment/EPS
 Kompartmentsyndrom/EPS
+Komplementärmedizin
 Komplex/EPT
-komplikationsarm/A
 Komplikationsrate/N
 Konduktion/P
 Konduktor/PS
@@ -2036,7 +2050,10 @@ Kurzzeitgedächtnis/Q
 Kyphose/N
 Kyphosierung/P
 Ladepuffer/S
+Laktasemangel/S
 Laktation
+Längenperzentile/N
+Längenperzentilenentwicklung
 Langzeitblutdruckmessung/P
 Laryngitiden
 Laryngitis
@@ -2192,6 +2209,7 @@ Methämoglobinämie/N
 Metrorrhagie/N
 Migräneanfall/Sp
 Migräneattacke/N
+Migränekopfschmerz/P
 Migräneprävalenz/P
 Migräneprophylaxe/N
 Migränetagebuch/TS
@@ -2229,6 +2247,7 @@ Monotherapie/N
 Morbus
 Mortalität/P
 Motilität
+Motilitätstörung/P
 Mukolytika
 Mukolytikum/S
 Mukosa
@@ -2301,6 +2320,7 @@ Nebenbefund/EPST
 Negativkontrolle/N
 Nekrolyse/N
 Nekrose/N
+Neoplasie/N
 Neoplasma
 Neoplasmen
 Nephritiden
@@ -2347,6 +2367,7 @@ Normalisierung/P
 Normaltyp/S
 Normwert/EPST
 Northern
+Nüchternerbrechen/S
 Nukleinsäure/N
 Nukleotid/EPS
 Nullhypothese/N
@@ -2529,11 +2550,13 @@ Photosensibilisierung/P
 Photosensibilität
 Physiotherapeut/FP
 Physiotherapie/N
+Phytotherapie/N
 Pia
 Pigmentierung/P
 Pityriasis
 Pixeleinheit/P
 Placebogabe/N
+Placebopräparat/EPS
 Plasmabestandteil/EPST
 Plasmaexpander/NS
 Plasmapherese/N
@@ -2602,6 +2625,8 @@ Primärversorgung/P
 Primer/NS
 Primerpaar/EPS
 Prion/PS
+Probiotika
+Probiotikum/S
 Procedere
 Prodromi
 Progredienz
@@ -2622,6 +2647,7 @@ Proteinfamilie/N
 Proteinmenge/N
 Proteinspiegel/NS
 Prothrombin/S
+Protonenpumpeninhibitor/P
 Protozoon
 Protrusion
 Provitamin/EPS
@@ -2637,6 +2663,7 @@ Pseudotumor/EPS
 Psoriasis
 Psoriasisläsion/P
 Psoriasistherapie/N
+Psychoedukation
 Psycholeptika
 Psycholeptikum/S
 Psychopharmakon/S
@@ -2724,6 +2751,7 @@ Rektum/S
 Rektumkarzinom/EPS
 Relaxans
 Relaxanzien
+Relaxation
 Relaxationsinzision/P
 Reliever/SN
 Relievermedikation/P
@@ -2746,6 +2774,8 @@ Resistenzsituation/P
 Resistenztestergebnis
 Resistenztestergebnisse/N
 Resistenztestung/P
+Resistogramm/EPS
+Resistogrammbestimmung/P
 Resorption/P
 Resorptionsstörung/P
 Restfehlsichtigkeit/P
@@ -2800,6 +2830,7 @@ Rubella
 rubor
 Ruhepotenzial/PS
 Ruhigstellung/P
+Rumination
 Ruptur/P
 Sachverständigengutachten/S
 Sakralregion/P
@@ -2822,9 +2853,12 @@ Schädelhirntraumen
 Scharlach
 Scharlatanerie/N
 Schichtdicke/N
+Schleimauflagerung/P
 Schlinge/N
 Schmerzattacke/N
 Schmerzäußerung/P
+Schmerzbewältigungsprogramm/EPS
+Schmerzbewältigungsstrategie/N
 Schmerzdauer/N
 Schmerzereignis
 Schmerzereignisse/NS
@@ -2898,6 +2932,7 @@ Sequenzierung/P
 Sequester/N
 Sera
 Serokonversion/P
+Serotoninantagonist/P
 Serumfaktor/PS
 Serumtest/PS
 Shunt/S
@@ -2989,6 +3024,7 @@ Stomatitis
 Strabismus
 Streptococcus
 Streptokokken
+Stressabbau/S
 Stressbewältigungstechnik/P
 Stressinkontinenz
 Stressor/PS
@@ -3032,6 +3068,8 @@ Sympathomimetikum/S
 Symptomatologie/N
 Symptombesserung/P
 Symptomkontrolle/N
+Symptomschwere
+Symptomscore/S
 Synkope/N
 Synovialitiden
 Synovialitis
@@ -3140,6 +3178,7 @@ Tremor/S
 Trigeminusnerv
 Trigeminusneuralgie/N
 Trigger/NS
+Triggerfaktor/PS
 Triggerpunkt/EPS
 Trikuspidalatresie/N
 Trikuspidalklappe/N
@@ -3170,6 +3209,7 @@ Uhrglasnägel/N
 Ulcera
 Ulcus
 Ulkus
+Ulkusverdacht/S
 Ulzera
 Ulzeration/P
 Umstrukturierungsprozess/EPT
@@ -3188,6 +3228,7 @@ Urgeinkontinenz
 Urgenz
 Urikosurika
 Urikosurikum/S
+Urinstreifentest/S
 Urogenitalsystem/EPS
 Urologe/FN
 Urologie
@@ -3256,11 +3297,12 @@ Vigilanzstörung/P
 Virilisierung/P
 Visusreduktion/P
 Vitalkapazität/P
-Vitalparameter/A
+Vitalparameter/S
 Vitalwert/EPST
 Vitien
 Vitium/S
 Volldigitalisierung/P
+Völlegefühl/EPS
 Vollnarkose/N
 Volumenbelastung/P
 Vomitus
@@ -3325,6 +3367,7 @@ Zervikalsyndrom/EPS
 Zervix
 Zirkumzision/P
 Zirrhose/N
+Zöliakie/N
 Zona
 Zugriffscode/S
 Zusammenlagerung/P

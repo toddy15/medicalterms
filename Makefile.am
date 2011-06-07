@@ -40,7 +40,7 @@ uninstall-local: uninstall-german-medical uninstall-de_med.dic
 #####################################################################
 
 # Generates a complete wordlist without TeX ligatures in ISO-8859-1 encoding
-german-medical:
+german-medical: $(PLAIN_LISTS) $(COMPOUND_LISTS)
 	$(srcdir)/bin/get_words $(PLAIN_LISTS) $(COMPOUND_LISTS) | \
 	$(PERL) -pe 's/qq//g' | \
 	$(SORT) -u | \
@@ -63,7 +63,7 @@ uninstall-german-medical:
 # hunspell
 #####################################################################
 
-de_med.dic:
+de_med.dic: $(PLAIN_LISTS) $(COMPOUND_LISTS)
 # Get all plain list words
 	$(srcdir)/bin/get_words $(PLAIN_LISTS) | \
 	$(PERL) -pe 's/qq//g' | \

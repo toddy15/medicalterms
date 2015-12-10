@@ -12,7 +12,7 @@ unter der GNU GPL, Version 3 oder später.
 
 Fehlermeldungen und Ergänzungswünsche können unter folgender
 Adresse eingereicht werden:
-<http://bugs.launchpad.net/medicalterms>.
+<https://github.com/toddy15/medicalterms/issues>
 
 Autor des Grundwörterbuchs:
 Bjoern Jacke <bjoern@j3e.de>

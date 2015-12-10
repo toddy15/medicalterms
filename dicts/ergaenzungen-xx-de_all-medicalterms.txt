@@ -5,7 +5,7 @@
 # If Björn decides to add these suffixes to his igerman98 files, I'll
 # remove the corresponding entries from this file.
 #
-# Copyright © 2005-2011 Tobias Quathamer <t.quathamer@gmx.net>
+# Copyright © 2005-2015 Dr. Tobias Quathamer <t.quathamer@mailbox.org>
 #
 # This file is part of Medicalterms.
 #

@@ -3,7 +3,7 @@
 # Script for changing all umlauts in dictionary words from the specified
 # files
 #
-# Copyright © 2011 Tobias Quathamer <t.quathamer@gmx.net>
+# Copyright © 2011-2015 Dr. Tobias Quathamer <t.quathamer@mailbox.org>
 #
 # This file is part of Medicalterms.
 #
@@ -30,7 +30,7 @@ sub version
 {
 	my $filename = substr($0, rindex($0, "/") + 1);
 	print "$filename version 0.1\n";
-	print "Copyright © 2011 Tobias Quathamer <t.quathamer\@gmx.net>\n";
+	print "Copyright © 2011-2015 Dr. Tobias Quathamer <t.quathamer\@mailbox.org>\n";
 }
 
 sub usage

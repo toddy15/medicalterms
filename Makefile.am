@@ -47,7 +47,7 @@ german-medical: $(PLAIN_LISTS) $(COMPOUND_LISTS)
 	$(ASPELL) expand --encoding=UTF-8 --lang=de | \
 	$(PERL) -pe 's/ /\n/g' | \
 	$(ASPELL) conv UTF-8 ISO-8859-1 | \
-	LANG=de_DE $(SORT) -u > $@
+	LANG=de_DE LC_ALL=de_DE $(SORT) -u > $@
 
 .PHONY: install-german-medical
 install-german-medical: german-medical
@@ -82,7 +82,7 @@ de_med.dic: $(PLAIN_LISTS) $(COMPOUND_LISTS)
 # Create list for all words
 	cat $@.plain.tmp $@.compound.tmp $@.compound.lower.tmp | \
 	$(ASPELL) conv UTF-8 ISO-8859-1 | \
-	LANG=de_DE $(SORT) -u > $@.tmp
+	LANG=de_DE LC_ALL=de_DE $(SORT) -u > $@.tmp
 	wc -l < $@.tmp > $@
 	cat $@.tmp >> $@
 	rm -f $@.tmp $@.plain.tmp $@.compound.tmp $@.compound.lower.tmp

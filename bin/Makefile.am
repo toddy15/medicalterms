@@ -1,7 +1,7 @@
 # Makefile for the bin subdirectory
 ## Process this file with automake to produce Makefile.in
 #
-# Copyright © 2005-2015 Dr. Tobias Quathamer <t.quathamer@mailbox.org>
+# Copyright © 2005-2016 Dr. Tobias Quathamer <t.quathamer@mailbox.org>
 #
 # This file is part of Medicalterms.
 #

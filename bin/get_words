@@ -3,7 +3,7 @@
 # Script for extracting all dictionary words from the specified
 # files, stripping the GNU license comment at the beginning
 #
-# Copyright © 2005-2015 Dr. Tobias Quathamer <t.quathamer@mailbox.org>
+# Copyright © 2005-2016 Dr. Tobias Quathamer <t.quathamer@mailbox.org>
 #
 # This file is part of Medicalterms.
 #
@@ -30,7 +30,7 @@ sub version
 {
 	my $filename = substr($0, rindex($0, "/") + 1);
 	print "$filename version 0.1\n";
-	print "Copyright © 2005-2015 Dr. Tobias Quathamer <t.quathamer\@mailbox.org>\n";
+	print "Copyright © 2005-2016 Dr. Tobias Quathamer <t.quathamer\@mailbox.org>\n";
 }
 
 sub usage

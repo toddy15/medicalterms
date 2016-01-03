@@ -1,3 +1,11 @@
+medicalterms 20160103
+=====================
+
+* Do not depend on LC_ALL of build environment.
+  Closes Debian bug #793813.
+* Update copyright years
+
+
 medicalterms 20110608
 =====================
 
